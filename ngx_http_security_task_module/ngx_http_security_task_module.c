@@ -81,15 +81,17 @@ int key_words_search(ngx_str_t line)
                 {
                         case 'i':
                                 if(i_found == 0) ret_value += 1;
+                                i_found += 1;
                                 break;
                         case 'a':
                                 if(i + 1 != line.len)
-                        {
+                                {
                                 if(line.data[i + 1] == 'm' && am_found == 0)
-
+                                    {
                                         ret_value += 2;
                                         am_found += 1;
-                        }
+                                    }
+                                }
                                 break;
                         case 'h':
                                 if (line.len < i + 5 || ha_found != 0)
@@ -98,7 +100,7 @@ int key_words_search(ngx_str_t line)
                                 for(j = 1; j < 6; j++)
                                 {
                                         i++;
-                                        if(line.data[i+1] != target[j])
+                                        if(line.data[i] != target[j])
                                                 break;
                                         else j++;
                                 }
