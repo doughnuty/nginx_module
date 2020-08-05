@@ -1,0 +1,2277 @@
+2020/08/05 03:14:01 [debug] 10768#0: reopen file "/var/log/nginx/access.log", old:4 new:28
+2020/08/05 03:14:01 [debug] 10768#0: reopen file "/var/log/nginx/security.log", old:5 new:4
+2020/08/05 03:14:01 [debug] 10768#0: child: 0 10769 e:0 t:0 d:0 r:1 j:0
+2020/08/05 03:14:01 [debug] 10768#0: child: 1 10770 e:0 t:0 d:0 r:1 j:0
+2020/08/05 03:14:01 [debug] 10768#0: child: 2 10771 e:0 t:0 d:0 r:1 j:0
+2020/08/05 03:14:01 [debug] 10768#0: child: 3 10772 e:0 t:0 d:0 r:1 j:0
+2020/08/05 03:14:01 [debug] 10768#0: child: 4 10773 e:0 t:0 d:0 r:1 j:0
+2020/08/05 03:14:01 [debug] 10768#0: child: 5 10774 e:0 t:0 d:0 r:1 j:0
+2020/08/05 03:14:01 [debug] 10768#0: child: 6 10775 e:0 t:0 d:0 r:1 j:0
+2020/08/05 03:14:01 [debug] 10768#0: child: 7 10776 e:0 t:0 d:0 r:1 j:0
+2020/08/05 03:14:01 [debug] 10768#0: child: 8 10777 e:0 t:0 d:0 r:1 j:0
+2020/08/05 03:14:01 [debug] 10768#0: child: 9 10778 e:0 t:0 d:0 r:1 j:0
+2020/08/05 03:14:01 [debug] 10768#0: sigsuspend
+2020/08/05 03:14:01 [debug] 10769#0: reopen file "/var/log/nginx/access.log", old:4 new:21
+2020/08/05 03:14:01 [debug] 10769#0: reopen file "/var/log/nginx/security.log", old:5 new:4
+2020/08/05 03:14:01 [debug] 10769#0: worker cycle
+2020/08/05 03:14:01 [debug] 10769#0: epoll timer: -1
+2020/08/05 03:14:01 [debug] 10770#0: reopen file "/var/log/nginx/access.log", old:4 new:21
+2020/08/05 03:14:01 [debug] 10770#0: reopen file "/var/log/nginx/security.log", old:5 new:4
+2020/08/05 03:14:01 [debug] 10770#0: worker cycle
+2020/08/05 03:14:01 [debug] 10770#0: epoll timer: -1
+2020/08/05 03:14:01 [debug] 10771#0: reopen file "/var/log/nginx/access.log", old:4 new:21
+2020/08/05 03:14:01 [debug] 10771#0: reopen file "/var/log/nginx/security.log", old:5 new:4
+2020/08/05 03:14:01 [debug] 10771#0: worker cycle
+2020/08/05 03:14:01 [debug] 10771#0: epoll timer: -1
+2020/08/05 03:14:01 [debug] 10772#0: reopen file "/var/log/nginx/access.log", old:4 new:21
+2020/08/05 03:14:01 [debug] 10772#0: reopen file "/var/log/nginx/security.log", old:5 new:4
+2020/08/05 03:14:01 [debug] 10772#0: worker cycle
+2020/08/05 03:14:01 [debug] 10772#0: epoll timer: -1
+2020/08/05 03:14:01 [debug] 10773#0: reopen file "/var/log/nginx/access.log", old:4 new:21
+2020/08/05 03:14:01 [debug] 10773#0: reopen file "/var/log/nginx/security.log", old:5 new:4
+2020/08/05 03:14:01 [debug] 10773#0: worker cycle
+2020/08/05 03:14:01 [debug] 10773#0: epoll timer: -1
+2020/08/05 03:14:01 [debug] 10774#0: reopen file "/var/log/nginx/access.log", old:4 new:17
+2020/08/05 03:14:01 [debug] 10774#0: reopen file "/var/log/nginx/security.log", old:5 new:4
+2020/08/05 03:14:01 [debug] 10774#0: worker cycle
+2020/08/05 03:14:01 [debug] 10774#0: epoll timer: -1
+2020/08/05 03:14:01 [debug] 10775#0: reopen file "/var/log/nginx/access.log", old:4 new:15
+2020/08/05 03:14:01 [debug] 10775#0: reopen file "/var/log/nginx/security.log", old:5 new:4
+2020/08/05 03:14:01 [debug] 10775#0: worker cycle
+2020/08/05 03:14:01 [debug] 10775#0: epoll timer: -1
+2020/08/05 03:14:01 [debug] 10776#0: reopen file "/var/log/nginx/access.log", old:4 new:13
+2020/08/05 03:14:01 [debug] 10776#0: reopen file "/var/log/nginx/security.log", old:5 new:4
+2020/08/05 03:14:01 [debug] 10776#0: worker cycle
+2020/08/05 03:14:01 [debug] 10776#0: epoll timer: -1
+2020/08/05 03:14:01 [debug] 10777#0: reopen file "/var/log/nginx/access.log", old:4 new:11
+2020/08/05 03:14:01 [debug] 10777#0: reopen file "/var/log/nginx/security.log", old:5 new:4
+2020/08/05 03:14:01 [debug] 10777#0: worker cycle
+2020/08/05 03:14:01 [debug] 10777#0: epoll timer: -1
+2020/08/05 03:14:01 [debug] 10778#0: reopen file "/var/log/nginx/access.log", old:4 new:9
+2020/08/05 03:14:01 [debug] 10778#0: reopen file "/var/log/nginx/security.log", old:5 new:4
+2020/08/05 03:14:01 [debug] 10778#0: worker cycle
+2020/08/05 03:14:01 [debug] 10778#0: epoll timer: -1
+2020/08/05 03:36:30 [debug] 10778#0: epoll: fd:7 ev:0001 d:00007FDBFE25F010
+2020/08/05 03:36:30 [debug] 10778#0: accept on 0.0.0.0:80, ready: 0
+2020/08/05 03:36:30 [debug] 10778#0: posix_memalign: 000055632CFF9190:512 @16
+2020/08/05 03:36:30 [debug] 10778#0: *90 accept: 114.33.18.2:46943 fd:5
+2020/08/05 03:36:30 [debug] 10778#0: *90 event timer add: 5: 60000:1255866428
+2020/08/05 03:36:30 [debug] 10778#0: *90 reusable connection: 1
+2020/08/05 03:36:30 [debug] 10778#0: *90 epoll add event: fd:5 op:1 ev:80002001
+2020/08/05 03:36:30 [debug] 10778#0: timer delta: 1349244
+2020/08/05 03:36:30 [debug] 10778#0: worker cycle
+2020/08/05 03:36:30 [debug] 10778#0: epoll timer: 60000
+2020/08/05 03:36:30 [debug] 10778#0: epoll: fd:5 ev:0001 d:00007FDBFE25F4C1
+2020/08/05 03:36:30 [debug] 10778#0: *90 http wait request handler
+2020/08/05 03:36:30 [debug] 10778#0: *90 malloc: 000055632CF5A0B0:1024
+2020/08/05 03:36:30 [debug] 10778#0: *90 recv: eof:0, avail:1
+2020/08/05 03:36:30 [debug] 10778#0: *90 recv: fd:5 185 of 1024
+2020/08/05 03:36:30 [debug] 10778#0: *90 reusable connection: 0
+2020/08/05 03:36:30 [debug] 10778#0: *90 posix_memalign: 000055632CFB9A30:4096 @16
+2020/08/05 03:36:30 [debug] 10778#0: *90 http process request line
+2020/08/05 03:36:30 [debug] 10778#0: *90 http request line: "GET / HTTP/1.1"
+2020/08/05 03:36:30 [debug] 10778#0: *90 http uri: "/"
+2020/08/05 03:36:30 [debug] 10778#0: *90 http args: ""
+2020/08/05 03:36:30 [debug] 10778#0: *90 http exten: ""
+2020/08/05 03:36:30 [debug] 10778#0: *90 posix_memalign: 000055632CF764F0:4096 @16
+2020/08/05 03:36:30 [debug] 10778#0: *90 http process request header line
+2020/08/05 03:36:30 [debug] 10778#0: *90 http header: "Host: 209.97.190.137:80"
+2020/08/05 03:36:30 [debug] 10778#0: *90 http header: "User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+2020/08/05 03:36:30 [debug] 10778#0: *90 http header: "Content-Length: 0"
+2020/08/05 03:36:30 [debug] 10778#0: *90 http header done
+2020/08/05 03:36:30 [debug] 10778#0: *90 event timer del: 5: 1255866428
+2020/08/05 03:36:30 [debug] 10778#0: *90 generic phase: 0
+2020/08/05 03:36:30 [debug] 10778#0: *90 rewrite phase: 1
+2020/08/05 03:36:30 [debug] 10778#0: *90 test location: "/"
+2020/08/05 03:36:30 [debug] 10778#0: *90 using configuration "/"
+2020/08/05 03:36:30 [debug] 10778#0: *90 http cl:0 max:1048576
+2020/08/05 03:36:30 [debug] 10778#0: *90 rewrite phase: 3
+2020/08/05 03:36:30 [debug] 10778#0: *90 post rewrite phase: 4
+2020/08/05 03:36:30 [debug] 10778#0: *90 generic phase: 5
+2020/08/05 03:36:30 [debug] 10778#0: *90 generic phase: 6
+2020/08/05 03:36:30 [debug] 10778#0: *90 generic phase: 7
+2020/08/05 03:36:30 [debug] 10778#0: *90 generic phase: 8
+2020/08/05 03:36:30 [debug] 10778#0: *90 access phase: 9
+2020/08/05 03:36:30 [debug] 10778#0: *90 access phase: 10
+2020/08/05 03:36:30 [debug] 10778#0: *90 access phase: 11
+2020/08/05 03:36:30 [debug] 10778#0: *90 post access phase: 12
+2020/08/05 03:36:30 [debug] 10778#0: *90 generic phase: 13
+2020/08/05 03:36:30 [debug] 10778#0: *90 generic phase: 14
+2020/08/05 03:36:30 [debug] 10778#0: *90 content phase: 15
+2020/08/05 03:36:30 [debug] 10778#0: *90 http finalize request: 302, "/?" a:1, c:1
+2020/08/05 03:36:30 [debug] 10778#0: *90 http special response: 302, "/?"
+2020/08/05 03:36:30 [debug] 10778#0: *90 http set discard body
+2020/08/05 03:36:30 [debug] 10778#0: *90 xslt filter header
+2020/08/05 03:36:30 [debug] 10778#0: *90 HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.16.1
+Date: Wed, 05 Aug 2020 03:36:30 GMT
+Content-Type: text/html
+Content-Length: 145
+Connection: keep-alive
+Location: https://cybersec.kz/ru
+
+2020/08/05 03:36:30 [debug] 10778#0: *90 write new buf t:1 f:0 000055632CFBA830, pos 000055632CFBA830, size: 197 file: 0, size: 0
+2020/08/05 03:36:30 [debug] 10778#0: *90 http write filter: l:0 f:0 s:197
+2020/08/05 03:36:30 [debug] 10778#0: *90 http output filter "/?"
+2020/08/05 03:36:30 [debug] 10778#0: *90 http copy filter: "/?"
+2020/08/05 03:36:30 [debug] 10778#0: *90 image filter
+2020/08/05 03:36:30 [debug] 10778#0: *90 xslt filter body
+2020/08/05 03:36:30 [debug] 10778#0: *90 http postpone filter "/?" 000055632CF768D0
+2020/08/05 03:36:30 [debug] 10778#0: *90 write old buf t:1 f:0 000055632CFBA830, pos 000055632CFBA830, size: 197 file: 0, size: 0
+2020/08/05 03:36:30 [debug] 10778#0: *90 write new buf t:0 f:0 0000000000000000, pos 000055632B5248E0, size: 92 file: 0, size: 0
+2020/08/05 03:36:30 [debug] 10778#0: *90 write new buf t:0 f:0 0000000000000000, pos 000055632B524C40, size: 53 file: 0, size: 0
+2020/08/05 03:36:30 [debug] 10778#0: *90 http write filter: l:1 f:0 s:342
+2020/08/05 03:36:30 [debug] 10778#0: *90 http write filter limit 0
+2020/08/05 03:36:30 [debug] 10778#0: *90 writev: 342 of 342
+2020/08/05 03:36:30 [debug] 10778#0: *90 http write filter 0000000000000000
+2020/08/05 03:36:30 [debug] 10778#0: *90 http copy filter: 0 "/?"
+2020/08/05 03:36:30 [debug] 10778#0: *90 http finalize request: 0, "/?" a:1, c:1
+2020/08/05 03:36:30 [debug] 10778#0: *90 set http keepalive handler
+2020/08/05 03:36:30 [debug] 10778#0: *90 http close request
+2020/08/05 03:36:30 [debug] 10778#0: *90 http log handler
+2020/08/05 03:36:30 [debug] 10778#0: *90 free: 000055632CFB9A30, unused: 8
+2020/08/05 03:36:30 [debug] 10778#0: *90 free: 000055632CF764F0, unused: 2816
+2020/08/05 03:36:30 [debug] 10778#0: *90 free: 000055632CF5A0B0
+2020/08/05 03:36:30 [debug] 10778#0: *90 hc free: 0000000000000000
+2020/08/05 03:36:30 [debug] 10778#0: *90 hc busy: 0000000000000000 0
+2020/08/05 03:36:30 [debug] 10778#0: *90 tcp_nodelay
+2020/08/05 03:36:30 [debug] 10778#0: *90 reusable connection: 1
+2020/08/05 03:36:30 [debug] 10778#0: *90 event timer add: 5: 65000:1255871429
+2020/08/05 03:36:30 [debug] 10778#0: timer delta: 1
+2020/08/05 03:36:30 [debug] 10778#0: worker cycle
+2020/08/05 03:36:30 [debug] 10778#0: epoll timer: 65000
+2020/08/05 03:36:30 [debug] 10778#0: epoll: fd:5 ev:2001 d:00007FDBFE25F4C1
+2020/08/05 03:36:30 [debug] 10778#0: *90 http keepalive handler
+2020/08/05 03:36:30 [debug] 10778#0: *90 malloc: 000055632CF5A0B0:1024
+2020/08/05 03:36:30 [debug] 10778#0: *90 recv: eof:1, avail:1
+2020/08/05 03:36:30 [debug] 10778#0: *90 recv: fd:5 0 of 1024
+2020/08/05 03:36:30 [info] 10778#0: *90 client 114.33.18.2 closed keepalive connection
+2020/08/05 03:36:30 [debug] 10778#0: *90 close http connection: 5
+2020/08/05 03:36:30 [debug] 10778#0: *90 event timer del: 5: 1255871429
+2020/08/05 03:36:30 [debug] 10778#0: *90 reusable connection: 0
+2020/08/05 03:36:30 [debug] 10778#0: *90 free: 000055632CF5A0B0
+2020/08/05 03:36:30 [debug] 10778#0: *90 free: 000055632CFF9190, unused: 136
+2020/08/05 03:36:30 [debug] 10778#0: timer delta: 240
+2020/08/05 03:36:30 [debug] 10778#0: worker cycle
+2020/08/05 03:36:30 [debug] 10778#0: epoll timer: -1
+2020/08/05 03:39:14 [debug] 10778#0: epoll: fd:7 ev:0001 d:00007FDBFE25F010
+2020/08/05 03:39:14 [debug] 10778#0: accept on 0.0.0.0:80, ready: 0
+2020/08/05 03:39:14 [debug] 10778#0: posix_memalign: 000055632CFF9190:512 @16
+2020/08/05 03:39:14 [debug] 10778#0: *91 accept: 54.211.78.84:20751 fd:5
+2020/08/05 03:39:14 [debug] 10778#0: *91 event timer add: 5: 60000:1256030036
+2020/08/05 03:39:14 [debug] 10778#0: *91 reusable connection: 1
+2020/08/05 03:39:14 [debug] 10778#0: *91 epoll add event: fd:5 op:1 ev:80002001
+2020/08/05 03:39:14 [debug] 10778#0: timer delta: 163367
+2020/08/05 03:39:14 [debug] 10778#0: worker cycle
+2020/08/05 03:39:14 [debug] 10778#0: epoll timer: 60000
+2020/08/05 03:39:14 [debug] 10778#0: epoll: fd:5 ev:0001 d:00007FDBFE25F4C0
+2020/08/05 03:39:14 [debug] 10778#0: *91 http wait request handler
+2020/08/05 03:39:14 [debug] 10778#0: *91 malloc: 000055632CF5A0B0:1024
+2020/08/05 03:39:14 [debug] 10778#0: *91 recv: eof:0, avail:1
+2020/08/05 03:39:14 [debug] 10778#0: *91 recv: fd:5 117 of 1024
+2020/08/05 03:39:14 [debug] 10778#0: *91 reusable connection: 0
+2020/08/05 03:39:14 [debug] 10778#0: *91 posix_memalign: 000055632CFB9A30:4096 @16
+2020/08/05 03:39:14 [debug] 10778#0: *91 http process request line
+2020/08/05 03:39:14 [debug] 10778#0: *91 http request line: "GET / HTTP/1.1"
+2020/08/05 03:39:14 [debug] 10778#0: *91 http uri: "/"
+2020/08/05 03:39:14 [debug] 10778#0: *91 http args: ""
+2020/08/05 03:39:14 [debug] 10778#0: *91 http exten: ""
+2020/08/05 03:39:14 [debug] 10778#0: *91 posix_memalign: 000055632CF764F0:4096 @16
+2020/08/05 03:39:14 [debug] 10778#0: *91 http process request header line
+2020/08/05 03:39:14 [debug] 10778#0: *91 http header: "Host: 209.97.190.137:80"
+2020/08/05 03:39:14 [debug] 10778#0: *91 http header: "User-Agent: Go-http-client/1.1"
+2020/08/05 03:39:14 [debug] 10778#0: *91 http header: "Accept-Encoding: gzip"
+2020/08/05 03:39:14 [debug] 10778#0: *91 http header: "Connection: close"
+2020/08/05 03:39:14 [debug] 10778#0: *91 http header done
+2020/08/05 03:39:14 [debug] 10778#0: *91 event timer del: 5: 1256030036
+2020/08/05 03:39:14 [debug] 10778#0: *91 generic phase: 0
+2020/08/05 03:39:14 [debug] 10778#0: *91 rewrite phase: 1
+2020/08/05 03:39:14 [debug] 10778#0: *91 test location: "/"
+2020/08/05 03:39:14 [debug] 10778#0: *91 using configuration "/"
+2020/08/05 03:39:14 [debug] 10778#0: *91 http cl:-1 max:1048576
+2020/08/05 03:39:14 [debug] 10778#0: *91 rewrite phase: 3
+2020/08/05 03:39:14 [debug] 10778#0: *91 post rewrite phase: 4
+2020/08/05 03:39:14 [debug] 10778#0: *91 generic phase: 5
+2020/08/05 03:39:14 [debug] 10778#0: *91 generic phase: 6
+2020/08/05 03:39:14 [debug] 10778#0: *91 generic phase: 7
+2020/08/05 03:39:14 [debug] 10778#0: *91 generic phase: 8
+2020/08/05 03:39:14 [debug] 10778#0: *91 access phase: 9
+2020/08/05 03:39:14 [debug] 10778#0: *91 access phase: 10
+2020/08/05 03:39:14 [debug] 10778#0: *91 access phase: 11
+2020/08/05 03:39:14 [debug] 10778#0: *91 post access phase: 12
+2020/08/05 03:39:14 [debug] 10778#0: *91 generic phase: 13
+2020/08/05 03:39:14 [debug] 10778#0: *91 generic phase: 14
+2020/08/05 03:39:14 [debug] 10778#0: *91 content phase: 15
+2020/08/05 03:39:14 [debug] 10778#0: *91 http finalize request: 302, "/?" a:1, c:1
+2020/08/05 03:39:14 [debug] 10778#0: *91 http special response: 302, "/?"
+2020/08/05 03:39:14 [debug] 10778#0: *91 http set discard body
+2020/08/05 03:39:14 [debug] 10778#0: *91 xslt filter header
+2020/08/05 03:39:14 [debug] 10778#0: *91 HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.16.1
+Date: Wed, 05 Aug 2020 03:39:14 GMT
+Content-Type: text/html
+Content-Length: 145
+Connection: close
+Location: https://cybersec.kz/ru
+
+2020/08/05 03:39:14 [debug] 10778#0: *91 write new buf t:1 f:0 000055632CFBA838, pos 000055632CFBA838, size: 192 file: 0, size: 0
+2020/08/05 03:39:14 [debug] 10778#0: *91 http write filter: l:0 f:0 s:192
+2020/08/05 03:39:14 [debug] 10778#0: *91 http output filter "/?"
+2020/08/05 03:39:14 [debug] 10778#0: *91 http copy filter: "/?"
+2020/08/05 03:39:14 [debug] 10778#0: *91 image filter
+2020/08/05 03:39:14 [debug] 10778#0: *91 xslt filter body
+2020/08/05 03:39:14 [debug] 10778#0: *91 http postpone filter "/?" 000055632CF768D0
+2020/08/05 03:39:14 [debug] 10778#0: *91 write old buf t:1 f:0 000055632CFBA838, pos 000055632CFBA838, size: 192 file: 0, size: 0
+2020/08/05 03:39:14 [debug] 10778#0: *91 write new buf t:0 f:0 0000000000000000, pos 000055632B5248E0, size: 92 file: 0, size: 0
+2020/08/05 03:39:14 [debug] 10778#0: *91 write new buf t:0 f:0 0000000000000000, pos 000055632B524C40, size: 53 file: 0, size: 0
+2020/08/05 03:39:14 [debug] 10778#0: *91 http write filter: l:1 f:0 s:337
+2020/08/05 03:39:14 [debug] 10778#0: *91 http write filter limit 0
+2020/08/05 03:39:14 [debug] 10778#0: *91 writev: 337 of 337
+2020/08/05 03:39:14 [debug] 10778#0: *91 http write filter 0000000000000000
+2020/08/05 03:39:14 [debug] 10778#0: *91 http copy filter: 0 "/?"
+2020/08/05 03:39:14 [debug] 10778#0: *91 http finalize request: 0, "/?" a:1, c:1
+2020/08/05 03:39:14 [debug] 10778#0: *91 http request count:1 blk:0
+2020/08/05 03:39:14 [debug] 10778#0: *91 http close request
+2020/08/05 03:39:14 [debug] 10778#0: *91 http log handler
+2020/08/05 03:39:14 [debug] 10778#0: *91 free: 000055632CFB9A30, unused: 0
+2020/08/05 03:39:14 [debug] 10778#0: *91 free: 000055632CF764F0, unused: 2906
+2020/08/05 03:39:14 [debug] 10778#0: *91 close http connection: 5
+2020/08/05 03:39:14 [debug] 10778#0: *91 reusable connection: 0
+2020/08/05 03:39:14 [debug] 10778#0: *91 free: 000055632CF5A0B0
+2020/08/05 03:39:14 [debug] 10778#0: *91 free: 000055632CFF9190, unused: 136
+2020/08/05 03:39:14 [debug] 10778#0: timer delta: 183
+2020/08/05 03:39:14 [debug] 10778#0: worker cycle
+2020/08/05 03:39:14 [debug] 10778#0: epoll timer: -1
+2020/08/05 05:31:12 [debug] 10778#0: epoll: fd:7 ev:0001 d:00007FDBFE25F010
+2020/08/05 05:31:12 [debug] 10778#0: accept on 0.0.0.0:80, ready: 0
+2020/08/05 05:31:12 [debug] 10778#0: posix_memalign: 000055632CFF9190:512 @16
+2020/08/05 05:31:12 [debug] 10778#0: *92 accept: 88.227.111.224:46662 fd:5
+2020/08/05 05:31:12 [debug] 10778#0: *92 event timer add: 5: 60000:1262748608
+2020/08/05 05:31:12 [debug] 10778#0: *92 reusable connection: 1
+2020/08/05 05:31:12 [debug] 10778#0: *92 epoll add event: fd:5 op:1 ev:80002001
+2020/08/05 05:31:12 [debug] 10778#0: timer delta: 6718389
+2020/08/05 05:31:12 [debug] 10778#0: worker cycle
+2020/08/05 05:31:12 [debug] 10778#0: epoll timer: 60000
+2020/08/05 05:31:16 [debug] 10778#0: epoll: fd:5 ev:2001 d:00007FDBFE25F4C1
+2020/08/05 05:31:16 [debug] 10778#0: *92 http wait request handler
+2020/08/05 05:31:16 [debug] 10778#0: *92 malloc: 000055632CF5A0B0:1024
+2020/08/05 05:31:16 [debug] 10778#0: *92 recv: eof:1, avail:1
+2020/08/05 05:31:16 [debug] 10778#0: *92 recv: fd:5 0 of 1024
+2020/08/05 05:31:16 [info] 10778#0: *92 client closed connection while waiting for request, client: 88.227.111.224, server: 0.0.0.0:80
+2020/08/05 05:31:16 [debug] 10778#0: *92 close http connection: 5
+2020/08/05 05:31:16 [debug] 10778#0: *92 event timer del: 5: 1262748608
+2020/08/05 05:31:16 [debug] 10778#0: *92 reusable connection: 0
+2020/08/05 05:31:16 [debug] 10778#0: *92 free: 000055632CF5A0B0
+2020/08/05 05:31:16 [debug] 10778#0: *92 free: 000055632CFF9190, unused: 136
+2020/08/05 05:31:16 [debug] 10778#0: timer delta: 3786
+2020/08/05 05:31:16 [debug] 10778#0: worker cycle
+2020/08/05 05:31:16 [debug] 10778#0: epoll timer: -1
+2020/08/05 05:35:06 [debug] 10778#0: epoll: fd:7 ev:0001 d:00007FDBFE25F010
+2020/08/05 05:35:06 [debug] 10778#0: accept on 0.0.0.0:80, ready: 0
+2020/08/05 05:35:06 [debug] 10778#0: posix_memalign: 000055632CFF9190:512 @16
+2020/08/05 05:35:06 [debug] 10778#0: *93 accept: 61.216.3.211:36317 fd:5
+2020/08/05 05:35:06 [debug] 10778#0: *93 event timer add: 5: 60000:1262982397
+2020/08/05 05:35:06 [debug] 10778#0: *93 reusable connection: 1
+2020/08/05 05:35:06 [debug] 10778#0: *93 epoll add event: fd:5 op:1 ev:80002001
+2020/08/05 05:35:06 [debug] 10778#0: timer delta: 230003
+2020/08/05 05:35:06 [debug] 10778#0: worker cycle
+2020/08/05 05:35:06 [debug] 10778#0: epoll timer: 60000
+2020/08/05 05:35:06 [debug] 10778#0: epoll: fd:5 ev:0001 d:00007FDBFE25F4C0
+2020/08/05 05:35:06 [debug] 10778#0: *93 http wait request handler
+2020/08/05 05:35:06 [debug] 10778#0: *93 malloc: 000055632CF5A0B0:1024
+2020/08/05 05:35:06 [debug] 10778#0: *93 recv: eof:0, avail:1
+2020/08/05 05:35:06 [debug] 10778#0: *93 recv: fd:5 14 of 1024
+2020/08/05 05:35:06 [debug] 10778#0: *93 reusable connection: 0
+2020/08/05 05:35:06 [debug] 10778#0: *93 posix_memalign: 000055632CFB9A30:4096 @16
+2020/08/05 05:35:06 [debug] 10778#0: *93 http process request line
+2020/08/05 05:35:06 [debug] 10778#0: timer delta: 4
+2020/08/05 05:35:06 [debug] 10778#0: worker cycle
+2020/08/05 05:35:06 [debug] 10778#0: epoll timer: 59996
+2020/08/05 05:35:06 [debug] 10778#0: epoll: fd:5 ev:0001 d:00007FDBFE25F4C0
+2020/08/05 05:35:06 [debug] 10778#0: *93 http process request line
+2020/08/05 05:35:06 [debug] 10778#0: *93 recv: eof:0, avail:1
+2020/08/05 05:35:06 [debug] 10778#0: *93 recv: fd:5 4 of 1010
+2020/08/05 05:35:06 [debug] 10778#0: *93 http request line: "GET / HTTP/1.1"
+2020/08/05 05:35:06 [debug] 10778#0: *93 http uri: "/"
+2020/08/05 05:35:06 [debug] 10778#0: *93 http args: ""
+2020/08/05 05:35:06 [debug] 10778#0: *93 http exten: ""
+2020/08/05 05:35:06 [debug] 10778#0: *93 posix_memalign: 000055632CF764F0:4096 @16
+2020/08/05 05:35:06 [debug] 10778#0: *93 http process request header line
+2020/08/05 05:35:06 [debug] 10778#0: *93 http header done
+2020/08/05 05:35:06 [info] 10778#0: *93 client sent HTTP/1.1 request without "Host" header while reading client request headers, client: 61.216.3.211, server: _, request: "GET / HTTP/1.1"
+2020/08/05 05:35:06 [debug] 10778#0: *93 http finalize request: 400, "/?" a:1, c:1
+2020/08/05 05:35:06 [debug] 10778#0: *93 event timer del: 5: 1262982397
+2020/08/05 05:35:06 [debug] 10778#0: *93 http special response: 400, "/?"
+2020/08/05 05:35:06 [debug] 10778#0: *93 http set discard body
+2020/08/05 05:35:06 [debug] 10778#0: *93 xslt filter header
+2020/08/05 05:35:06 [debug] 10778#0: *93 HTTP/1.1 400 Bad Request
+Server: nginx/1.16.1
+Date: Wed, 05 Aug 2020 05:35:06 GMT
+Content-Type: text/html
+Content-Length: 157
+Connection: close
+
+2020/08/05 05:35:06 [debug] 10778#0: *93 write new buf t:1 f:0 000055632CFBA810, pos 000055632CFBA810, size: 152 file: 0, size: 0
+2020/08/05 05:35:06 [debug] 10778#0: *93 http write filter: l:0 f:0 s:152
+2020/08/05 05:35:06 [debug] 10778#0: *93 http output filter "/?"
+2020/08/05 05:35:06 [debug] 10778#0: *93 http copy filter: "/?"
+2020/08/05 05:35:06 [debug] 10778#0: *93 image filter
+2020/08/05 05:35:06 [debug] 10778#0: *93 xslt filter body
+2020/08/05 05:35:06 [debug] 10778#0: *93 http postpone filter "/?" 000055632CFBA9E0
+2020/08/05 05:35:06 [debug] 10778#0: *93 write old buf t:1 f:0 000055632CFBA810, pos 000055632CFBA810, size: 152 file: 0, size: 0
+2020/08/05 05:35:06 [debug] 10778#0: *93 write new buf t:0 f:0 0000000000000000, pos 000055632B5246E0, size: 104 file: 0, size: 0
+2020/08/05 05:35:06 [debug] 10778#0: *93 write new buf t:0 f:0 0000000000000000, pos 000055632B524C40, size: 53 file: 0, size: 0
+2020/08/05 05:35:06 [debug] 10778#0: *93 http write filter: l:1 f:0 s:309
+2020/08/05 05:35:06 [debug] 10778#0: *93 http write filter limit 0
+2020/08/05 05:35:06 [debug] 10778#0: *93 writev: 309 of 309
+2020/08/05 05:35:06 [debug] 10778#0: *93 http write filter 0000000000000000
+2020/08/05 05:35:06 [debug] 10778#0: *93 http copy filter: 0 "/?"
+2020/08/05 05:35:06 [debug] 10778#0: *93 http finalize request: 0, "/?" a:1, c:1
+2020/08/05 05:35:06 [debug] 10778#0: *93 http request count:1 blk:0
+2020/08/05 05:35:06 [debug] 10778#0: *93 http close request
+2020/08/05 05:35:06 [debug] 10778#0: *93 http log handler
+2020/08/05 05:35:06 [debug] 10778#0: *93 free: 000055632CFB9A30, unused: 16
+2020/08/05 05:35:06 [debug] 10778#0: *93 free: 000055632CF764F0, unused: 2987
+2020/08/05 05:35:06 [debug] 10778#0: *93 close http connection: 5
+2020/08/05 05:35:06 [debug] 10778#0: *93 reusable connection: 0
+2020/08/05 05:35:06 [debug] 10778#0: *93 free: 000055632CF5A0B0
+2020/08/05 05:35:06 [debug] 10778#0: *93 free: 000055632CFF9190, unused: 136
+2020/08/05 05:35:06 [debug] 10778#0: timer delta: 236
+2020/08/05 05:35:06 [debug] 10778#0: worker cycle
+2020/08/05 05:35:06 [debug] 10778#0: epoll timer: -1
+2020/08/05 05:47:59 [debug] 10778#0: epoll: fd:7 ev:0001 d:00007FDBFE25F010
+2020/08/05 05:47:59 [debug] 10778#0: accept on 0.0.0.0:80, ready: 0
+2020/08/05 05:47:59 [debug] 10778#0: posix_memalign: 000055632CFF9190:512 @16
+2020/08/05 05:47:59 [debug] 10778#0: *94 accept: 195.54.160.21:49178 fd:5
+2020/08/05 05:47:59 [debug] 10778#0: *94 event timer add: 5: 60000:1263755045
+2020/08/05 05:47:59 [debug] 10778#0: *94 reusable connection: 1
+2020/08/05 05:47:59 [debug] 10778#0: *94 epoll add event: fd:5 op:1 ev:80002001
+2020/08/05 05:47:59 [debug] 10778#0: timer delta: 772408
+2020/08/05 05:47:59 [debug] 10778#0: worker cycle
+2020/08/05 05:47:59 [debug] 10778#0: epoll timer: 60000
+2020/08/05 05:47:59 [debug] 10778#0: epoll: fd:5 ev:0001 d:00007FDBFE25F4C1
+2020/08/05 05:47:59 [debug] 10778#0: *94 http wait request handler
+2020/08/05 05:47:59 [debug] 10778#0: *94 malloc: 000055632CF5A0B0:1024
+2020/08/05 05:47:59 [debug] 10778#0: *94 recv: eof:0, avail:1
+2020/08/05 05:47:59 [debug] 10778#0: *94 recv: fd:5 303 of 1024
+2020/08/05 05:47:59 [debug] 10778#0: *94 reusable connection: 0
+2020/08/05 05:47:59 [debug] 10778#0: *94 posix_memalign: 000055632CFB9A30:4096 @16
+2020/08/05 05:47:59 [debug] 10778#0: *94 http process request line
+2020/08/05 05:47:59 [debug] 10778#0: *94 http request line: "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1"
+2020/08/05 05:47:59 [debug] 10778#0: *94 http uri: "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php"
+2020/08/05 05:47:59 [debug] 10778#0: *94 http args: ""
+2020/08/05 05:47:59 [debug] 10778#0: *94 http exten: "php"
+2020/08/05 05:47:59 [debug] 10778#0: *94 posix_memalign: 000055632CF764F0:4096 @16
+2020/08/05 05:47:59 [debug] 10778#0: *94 http process request header line
+2020/08/05 05:47:59 [debug] 10778#0: *94 http header: "Host: 209.97.190.137:80"
+2020/08/05 05:47:59 [debug] 10778#0: *94 http header: "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+2020/08/05 05:47:59 [debug] 10778#0: *94 http header: "Content-Length: 19"
+2020/08/05 05:47:59 [debug] 10778#0: *94 http header: "Accept-Encoding: gzip"
+2020/08/05 05:47:59 [debug] 10778#0: *94 http header: "Connection: close"
+2020/08/05 05:47:59 [debug] 10778#0: *94 http header done
+2020/08/05 05:47:59 [debug] 10778#0: *94 event timer del: 5: 1263755045
+2020/08/05 05:47:59 [debug] 10778#0: *94 generic phase: 0
+2020/08/05 05:47:59 [debug] 10778#0: *94 rewrite phase: 1
+2020/08/05 05:47:59 [debug] 10778#0: *94 test location: "/"
+2020/08/05 05:47:59 [debug] 10778#0: *94 test location: "hackers_count"
+2020/08/05 05:47:59 [debug] 10778#0: *94 test location: "security"
+2020/08/05 05:47:59 [debug] 10778#0: *94 using configuration "/"
+2020/08/05 05:47:59 [debug] 10778#0: *94 http cl:19 max:1048576
+2020/08/05 05:47:59 [debug] 10778#0: *94 rewrite phase: 3
+2020/08/05 05:47:59 [debug] 10778#0: *94 post rewrite phase: 4
+2020/08/05 05:47:59 [debug] 10778#0: *94 generic phase: 5
+2020/08/05 05:47:59 [debug] 10778#0: *94 generic phase: 6
+2020/08/05 05:47:59 [debug] 10778#0: *94 generic phase: 7
+2020/08/05 05:47:59 [debug] 10778#0: *94 generic phase: 8
+2020/08/05 05:47:59 [debug] 10778#0: *94 access phase: 9
+2020/08/05 05:47:59 [debug] 10778#0: *94 access phase: 10
+2020/08/05 05:47:59 [debug] 10778#0: *94 access phase: 11
+2020/08/05 05:47:59 [debug] 10778#0: *94 post access phase: 12
+2020/08/05 05:47:59 [debug] 10778#0: *94 generic phase: 13
+2020/08/05 05:47:59 [debug] 10778#0: *94 generic phase: 14
+2020/08/05 05:47:59 [debug] 10778#0: *94 content phase: 15
+2020/08/05 05:47:59 [debug] 10778#0: *94 http finalize request: 302, "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php?" a:1, c:1
+2020/08/05 05:47:59 [debug] 10778#0: *94 http special response: 302, "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php?"
+2020/08/05 05:47:59 [debug] 10778#0: *94 http set discard body
+2020/08/05 05:47:59 [debug] 10778#0: *94 xslt filter header
+2020/08/05 05:47:59 [debug] 10778#0: *94 HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.16.1
+Date: Wed, 05 Aug 2020 05:47:59 GMT
+Content-Type: text/html
+Content-Length: 145
+Connection: close
+Location: https://cybersec.kz/ru
+
+2020/08/05 05:47:59 [debug] 10778#0: *94 write new buf t:1 f:0 000055632CFBA848, pos 000055632CFBA848, size: 192 file: 0, size: 0
+2020/08/05 05:47:59 [debug] 10778#0: *94 http write filter: l:0 f:0 s:192
+2020/08/05 05:47:59 [debug] 10778#0: *94 http output filter "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php?"
+2020/08/05 05:47:59 [debug] 10778#0: *94 http copy filter: "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php?"
+2020/08/05 05:47:59 [debug] 10778#0: *94 image filter
+2020/08/05 05:47:59 [debug] 10778#0: *94 xslt filter body
+2020/08/05 05:47:59 [debug] 10778#0: *94 http postpone filter "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php?" 000055632CFBA9D0
+2020/08/05 05:47:59 [debug] 10778#0: *94 write old buf t:1 f:0 000055632CFBA848, pos 000055632CFBA848, size: 192 file: 0, size: 0
+2020/08/05 05:47:59 [debug] 10778#0: *94 write new buf t:0 f:0 0000000000000000, pos 000055632B5248E0, size: 92 file: 0, size: 0
+2020/08/05 05:47:59 [debug] 10778#0: *94 write new buf t:0 f:0 0000000000000000, pos 000055632B524C40, size: 53 file: 0, size: 0
+2020/08/05 05:47:59 [debug] 10778#0: *94 http write filter: l:1 f:0 s:337
+2020/08/05 05:47:59 [debug] 10778#0: *94 http write filter limit 0
+2020/08/05 05:47:59 [debug] 10778#0: *94 writev: 337 of 337
+2020/08/05 05:47:59 [debug] 10778#0: *94 http write filter 0000000000000000
+2020/08/05 05:47:59 [debug] 10778#0: *94 http copy filter: 0 "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php?"
+2020/08/05 05:47:59 [debug] 10778#0: *94 http finalize request: 0, "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php?" a:1, c:1
+2020/08/05 05:47:59 [debug] 10778#0: *94 event timer add: 5: 5000:1263700045
+2020/08/05 05:47:59 [debug] 10778#0: timer delta: 0
+2020/08/05 05:47:59 [debug] 10778#0: worker cycle
+2020/08/05 05:47:59 [debug] 10778#0: epoll timer: 5000
+2020/08/05 05:47:59 [debug] 10778#0: epoll: fd:5 ev:2011 d:00007FDBFE25F4C1
+2020/08/05 05:47:59 [debug] 10778#0: epoll_wait() error on fd:5 ev:2011
+2020/08/05 05:47:59 [debug] 10778#0: *94 http lingering close handler
+2020/08/05 05:47:59 [debug] 10778#0: *94 recv: eof:1, avail:1
+2020/08/05 05:47:59 [debug] 10778#0: *94 recv: fd:5 0 of 4096
+2020/08/05 05:47:59 [debug] 10778#0: *94 lingering read: 0
+2020/08/05 05:47:59 [debug] 10778#0: *94 http request count:1 blk:0
+2020/08/05 05:47:59 [debug] 10778#0: *94 http close request
+2020/08/05 05:47:59 [debug] 10778#0: *94 http log handler
+2020/08/05 05:47:59 [debug] 10778#0: *94 free: 000055632CFB9A30, unused: 32
+2020/08/05 05:47:59 [debug] 10778#0: *94 free: 000055632CF764F0, unused: 2710
+2020/08/05 05:47:59 [debug] 10778#0: *94 close http connection: 5
+2020/08/05 05:47:59 [debug] 10778#0: *94 event timer del: 5: 1263700045
+2020/08/05 05:47:59 [debug] 10778#0: *94 reusable connection: 0
+2020/08/05 05:47:59 [debug] 10778#0: *94 free: 000055632CF5A0B0
+2020/08/05 05:47:59 [debug] 10778#0: *94 free: 000055632CFF9190, unused: 136
+2020/08/05 05:47:59 [debug] 10778#0: timer delta: 43
+2020/08/05 05:47:59 [debug] 10778#0: worker cycle
+2020/08/05 05:47:59 [debug] 10778#0: epoll timer: -1
+2020/08/05 07:14:47 [debug] 10778#0: epoll: fd:7 ev:0001 d:00007FDBFE25F010
+2020/08/05 07:14:47 [debug] 10778#0: accept on 0.0.0.0:80, ready: 0
+2020/08/05 07:14:47 [debug] 10778#0: posix_memalign: 000055632CFF9190:512 @16
+2020/08/05 07:14:47 [debug] 10778#0: *95 accept: 156.96.117.57:56756 fd:5
+2020/08/05 07:14:47 [debug] 10778#0: *95 event timer add: 5: 60000:1268963705
+2020/08/05 07:14:47 [debug] 10778#0: *95 reusable connection: 1
+2020/08/05 07:14:47 [debug] 10778#0: *95 epoll add event: fd:5 op:1 ev:80002001
+2020/08/05 07:14:47 [debug] 10778#0: timer delta: 5208617
+2020/08/05 07:14:47 [debug] 10778#0: worker cycle
+2020/08/05 07:14:47 [debug] 10778#0: epoll timer: 60000
+2020/08/05 07:14:47 [debug] 10778#0: epoll: fd:5 ev:0001 d:00007FDBFE25F4C0
+2020/08/05 07:14:47 [debug] 10778#0: *95 http wait request handler
+2020/08/05 07:14:47 [debug] 10778#0: *95 malloc: 000055632CF5A0B0:1024
+2020/08/05 07:14:47 [debug] 10778#0: *95 recv: eof:0, avail:1
+2020/08/05 07:14:47 [debug] 10778#0: *95 recv: fd:5 120 of 1024
+2020/08/05 07:14:47 [debug] 10778#0: *95 reusable connection: 0
+2020/08/05 07:14:47 [debug] 10778#0: *95 posix_memalign: 000055632CFB9A30:4096 @16
+2020/08/05 07:14:47 [debug] 10778#0: *95 http process request line
+2020/08/05 07:14:47 [debug] 10778#0: *95 http request line: "GET / HTTP/1.1"
+2020/08/05 07:14:47 [debug] 10778#0: *95 http uri: "/"
+2020/08/05 07:14:47 [debug] 10778#0: *95 http args: ""
+2020/08/05 07:14:47 [debug] 10778#0: *95 http exten: ""
+2020/08/05 07:14:47 [debug] 10778#0: *95 posix_memalign: 000055632CF764F0:4096 @16
+2020/08/05 07:14:47 [debug] 10778#0: *95 http process request header line
+2020/08/05 07:14:47 [debug] 10778#0: *95 http header: "TE: deflate,gzip;q=0.3"
+2020/08/05 07:14:47 [debug] 10778#0: *95 http header: "Connection: TE, close"
+2020/08/05 07:14:47 [debug] 10778#0: *95 http header: "Host: 209.97.190.137:80"
+2020/08/05 07:14:47 [debug] 10778#0: *95 http header: "User-Agent: libwww-perl/6.05"
+2020/08/05 07:14:47 [debug] 10778#0: *95 http header done
+2020/08/05 07:14:47 [debug] 10778#0: *95 event timer del: 5: 1268963705
+2020/08/05 07:14:47 [debug] 10778#0: *95 generic phase: 0
+2020/08/05 07:14:47 [debug] 10778#0: *95 rewrite phase: 1
+2020/08/05 07:14:47 [debug] 10778#0: *95 test location: "/"
+2020/08/05 07:14:47 [debug] 10778#0: *95 using configuration "/"
+2020/08/05 07:14:47 [debug] 10778#0: *95 http cl:-1 max:1048576
+2020/08/05 07:14:47 [debug] 10778#0: *95 rewrite phase: 3
+2020/08/05 07:14:47 [debug] 10778#0: *95 post rewrite phase: 4
+2020/08/05 07:14:47 [debug] 10778#0: *95 generic phase: 5
+2020/08/05 07:14:47 [debug] 10778#0: *95 generic phase: 6
+2020/08/05 07:14:47 [debug] 10778#0: *95 generic phase: 7
+2020/08/05 07:14:47 [debug] 10778#0: *95 generic phase: 8
+2020/08/05 07:14:47 [debug] 10778#0: *95 access phase: 9
+2020/08/05 07:14:47 [debug] 10778#0: *95 access phase: 10
+2020/08/05 07:14:47 [debug] 10778#0: *95 access phase: 11
+2020/08/05 07:14:47 [debug] 10778#0: *95 post access phase: 12
+2020/08/05 07:14:47 [debug] 10778#0: *95 generic phase: 13
+2020/08/05 07:14:47 [debug] 10778#0: *95 generic phase: 14
+2020/08/05 07:14:47 [debug] 10778#0: *95 content phase: 15
+2020/08/05 07:14:47 [debug] 10778#0: *95 http finalize request: 302, "/?" a:1, c:1
+2020/08/05 07:14:47 [debug] 10778#0: *95 http special response: 302, "/?"
+2020/08/05 07:14:47 [debug] 10778#0: *95 http set discard body
+2020/08/05 07:14:47 [debug] 10778#0: *95 xslt filter header
+2020/08/05 07:14:47 [debug] 10778#0: *95 HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.16.1
+Date: Wed, 05 Aug 2020 07:14:47 GMT
+Content-Type: text/html
+Content-Length: 145
+Connection: close
+Location: https://cybersec.kz/ru
+
+2020/08/05 07:14:47 [debug] 10778#0: *95 write new buf t:1 f:0 000055632CFBA830, pos 000055632CFBA830, size: 192 file: 0, size: 0
+2020/08/05 07:14:47 [debug] 10778#0: *95 http write filter: l:0 f:0 s:192
+2020/08/05 07:14:47 [debug] 10778#0: *95 http output filter "/?"
+2020/08/05 07:14:47 [debug] 10778#0: *95 http copy filter: "/?"
+2020/08/05 07:14:47 [debug] 10778#0: *95 image filter
+2020/08/05 07:14:47 [debug] 10778#0: *95 xslt filter body
+2020/08/05 07:14:47 [debug] 10778#0: *95 http postpone filter "/?" 000055632CF768D0
+2020/08/05 07:14:47 [debug] 10778#0: *95 write old buf t:1 f:0 000055632CFBA830, pos 000055632CFBA830, size: 192 file: 0, size: 0
+2020/08/05 07:14:47 [debug] 10778#0: *95 write new buf t:0 f:0 0000000000000000, pos 000055632B5248E0, size: 92 file: 0, size: 0
+2020/08/05 07:14:47 [debug] 10778#0: *95 write new buf t:0 f:0 0000000000000000, pos 000055632B524C40, size: 53 file: 0, size: 0
+2020/08/05 07:14:47 [debug] 10778#0: *95 http write filter: l:1 f:0 s:337
+2020/08/05 07:14:47 [debug] 10778#0: *95 http write filter limit 0
+2020/08/05 07:14:47 [debug] 10778#0: *95 writev: 337 of 337
+2020/08/05 07:14:47 [debug] 10778#0: *95 http write filter 0000000000000000
+2020/08/05 07:14:47 [debug] 10778#0: *95 http copy filter: 0 "/?"
+2020/08/05 07:14:47 [debug] 10778#0: *95 http finalize request: 0, "/?" a:1, c:1
+2020/08/05 07:14:47 [debug] 10778#0: *95 http request count:1 blk:0
+2020/08/05 07:14:47 [debug] 10778#0: *95 http close request
+2020/08/05 07:14:47 [debug] 10778#0: *95 http log handler
+2020/08/05 07:14:47 [debug] 10778#0: *95 free: 000055632CFB9A30, unused: 8
+2020/08/05 07:14:47 [debug] 10778#0: *95 free: 000055632CF764F0, unused: 2907
+2020/08/05 07:14:47 [debug] 10778#0: *95 close http connection: 5
+2020/08/05 07:14:47 [debug] 10778#0: *95 reusable connection: 0
+2020/08/05 07:14:47 [debug] 10778#0: *95 free: 000055632CF5A0B0
+2020/08/05 07:14:47 [debug] 10778#0: *95 free: 000055632CFF9190, unused: 136
+2020/08/05 07:14:47 [debug] 10778#0: timer delta: 34
+2020/08/05 07:14:47 [debug] 10778#0: worker cycle
+2020/08/05 07:14:47 [debug] 10778#0: epoll timer: -1
+2020/08/05 08:19:16 [debug] 10778#0: epoll: fd:7 ev:0001 d:00007FDBFE25F010
+2020/08/05 08:19:16 [debug] 10778#0: accept on 0.0.0.0:80, ready: 0
+2020/08/05 08:19:16 [debug] 10778#0: posix_memalign: 000055632CFF9190:512 @16
+2020/08/05 08:19:16 [debug] 10778#0: *96 accept: 195.54.160.21:54732 fd:5
+2020/08/05 08:19:16 [debug] 10778#0: *96 event timer add: 5: 60000:1272831889
+2020/08/05 08:19:16 [debug] 10778#0: *96 reusable connection: 1
+2020/08/05 08:19:16 [debug] 10778#0: *96 epoll add event: fd:5 op:1 ev:80002001
+2020/08/05 08:19:16 [debug] 10778#0: timer delta: 3868150
+2020/08/05 08:19:16 [debug] 10778#0: worker cycle
+2020/08/05 08:19:16 [debug] 10778#0: epoll timer: 60000
+2020/08/05 08:19:16 [debug] 10778#0: epoll: fd:5 ev:0001 d:00007FDBFE25F4C1
+2020/08/05 08:19:16 [debug] 10778#0: *96 http wait request handler
+2020/08/05 08:19:16 [debug] 10778#0: *96 malloc: 000055632CF5A0B0:1024
+2020/08/05 08:19:16 [debug] 10778#0: *96 recv: eof:0, avail:1
+2020/08/05 08:19:16 [debug] 10778#0: *96 recv: fd:5 244 of 1024
+2020/08/05 08:19:16 [debug] 10778#0: *96 reusable connection: 0
+2020/08/05 08:19:16 [debug] 10778#0: *96 posix_memalign: 000055632CFB9A30:4096 @16
+2020/08/05 08:19:16 [debug] 10778#0: *96 http process request line
+2020/08/05 08:19:16 [debug] 10778#0: *96 http request line: "GET /solr/admin/info/system?wt=json HTTP/1.1"
+2020/08/05 08:19:16 [debug] 10778#0: *96 http uri: "/solr/admin/info/system"
+2020/08/05 08:19:16 [debug] 10778#0: *96 http args: "wt=json"
+2020/08/05 08:19:16 [debug] 10778#0: *96 http exten: ""
+2020/08/05 08:19:16 [debug] 10778#0: *96 posix_memalign: 000055632CF764F0:4096 @16
+2020/08/05 08:19:16 [debug] 10778#0: *96 http process request header line
+2020/08/05 08:19:16 [debug] 10778#0: *96 http header: "Host: 209.97.190.137:80"
+2020/08/05 08:19:16 [debug] 10778#0: *96 http header: "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+2020/08/05 08:19:16 [debug] 10778#0: *96 http header: "Accept-Encoding: gzip"
+2020/08/05 08:19:16 [debug] 10778#0: *96 http header: "Connection: close"
+2020/08/05 08:19:16 [debug] 10778#0: *96 http header done
+2020/08/05 08:19:16 [debug] 10778#0: *96 event timer del: 5: 1272831889
+2020/08/05 08:19:16 [debug] 10778#0: *96 generic phase: 0
+2020/08/05 08:19:16 [debug] 10778#0: *96 rewrite phase: 1
+2020/08/05 08:19:16 [debug] 10778#0: *96 test location: "/"
+2020/08/05 08:19:16 [debug] 10778#0: *96 test location: "hackers_count"
+2020/08/05 08:19:16 [debug] 10778#0: *96 test location: "security"
+2020/08/05 08:19:16 [debug] 10778#0: *96 using configuration "/"
+2020/08/05 08:19:16 [debug] 10778#0: *96 http cl:-1 max:1048576
+2020/08/05 08:19:16 [debug] 10778#0: *96 rewrite phase: 3
+2020/08/05 08:19:16 [debug] 10778#0: *96 post rewrite phase: 4
+2020/08/05 08:19:16 [debug] 10778#0: *96 generic phase: 5
+2020/08/05 08:19:16 [debug] 10778#0: *96 generic phase: 6
+2020/08/05 08:19:16 [debug] 10778#0: *96 generic phase: 7
+2020/08/05 08:19:16 [debug] 10778#0: *96 generic phase: 8
+2020/08/05 08:19:16 [debug] 10778#0: *96 access phase: 9
+2020/08/05 08:19:16 [debug] 10778#0: *96 access phase: 10
+2020/08/05 08:19:16 [debug] 10778#0: *96 access phase: 11
+2020/08/05 08:19:16 [debug] 10778#0: *96 post access phase: 12
+2020/08/05 08:19:16 [debug] 10778#0: *96 generic phase: 13
+2020/08/05 08:19:16 [debug] 10778#0: *96 generic phase: 14
+2020/08/05 08:19:16 [debug] 10778#0: *96 content phase: 15
+2020/08/05 08:19:16 [debug] 10778#0: *96 http finalize request: 302, "/solr/admin/info/system?wt=json" a:1, c:1
+2020/08/05 08:19:16 [debug] 10778#0: *96 http special response: 302, "/solr/admin/info/system?wt=json"
+2020/08/05 08:19:16 [debug] 10778#0: *96 http set discard body
+2020/08/05 08:19:16 [debug] 10778#0: *96 xslt filter header
+2020/08/05 08:19:16 [debug] 10778#0: *96 HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.16.1
+Date: Wed, 05 Aug 2020 08:19:16 GMT
+Content-Type: text/html
+Content-Length: 145
+Connection: close
+Location: https://cybersec.kz/ru
+
+2020/08/05 08:19:16 [debug] 10778#0: *96 write new buf t:1 f:0 000055632CFBA838, pos 000055632CFBA838, size: 192 file: 0, size: 0
+2020/08/05 08:19:16 [debug] 10778#0: *96 http write filter: l:0 f:0 s:192
+2020/08/05 08:19:16 [debug] 10778#0: *96 http output filter "/solr/admin/info/system?wt=json"
+2020/08/05 08:19:16 [debug] 10778#0: *96 http copy filter: "/solr/admin/info/system?wt=json"
+2020/08/05 08:19:16 [debug] 10778#0: *96 image filter
+2020/08/05 08:19:16 [debug] 10778#0: *96 xslt filter body
+2020/08/05 08:19:16 [debug] 10778#0: *96 http postpone filter "/solr/admin/info/system?wt=json" 000055632CF768D0
+2020/08/05 08:19:16 [debug] 10778#0: *96 write old buf t:1 f:0 000055632CFBA838, pos 000055632CFBA838, size: 192 file: 0, size: 0
+2020/08/05 08:19:16 [debug] 10778#0: *96 write new buf t:0 f:0 0000000000000000, pos 000055632B5248E0, size: 92 file: 0, size: 0
+2020/08/05 08:19:16 [debug] 10778#0: *96 write new buf t:0 f:0 0000000000000000, pos 000055632B524C40, size: 53 file: 0, size: 0
+2020/08/05 08:19:16 [debug] 10778#0: *96 http write filter: l:1 f:0 s:337
+2020/08/05 08:19:16 [debug] 10778#0: *96 http write filter limit 0
+2020/08/05 08:19:16 [debug] 10778#0: *96 writev: 337 of 337
+2020/08/05 08:19:16 [debug] 10778#0: *96 http write filter 0000000000000000
+2020/08/05 08:19:16 [debug] 10778#0: *96 http copy filter: 0 "/solr/admin/info/system?wt=json"
+2020/08/05 08:19:16 [debug] 10778#0: *96 http finalize request: 0, "/solr/admin/info/system?wt=json" a:1, c:1
+2020/08/05 08:19:16 [debug] 10778#0: *96 http request count:1 blk:0
+2020/08/05 08:19:16 [debug] 10778#0: *96 http close request
+2020/08/05 08:19:16 [debug] 10778#0: *96 http log handler
+2020/08/05 08:19:16 [debug] 10778#0: *96 free: 000055632CFB9A30, unused: 0
+2020/08/05 08:19:16 [debug] 10778#0: *96 free: 000055632CF764F0, unused: 2778
+2020/08/05 08:19:16 [debug] 10778#0: *96 close http connection: 5
+2020/08/05 08:19:16 [debug] 10778#0: *96 reusable connection: 0
+2020/08/05 08:19:16 [debug] 10778#0: *96 free: 000055632CF5A0B0
+2020/08/05 08:19:16 [debug] 10778#0: *96 free: 000055632CFF9190, unused: 136
+2020/08/05 08:19:16 [debug] 10778#0: timer delta: 0
+2020/08/05 08:19:16 [debug] 10778#0: worker cycle
+2020/08/05 08:19:16 [debug] 10778#0: epoll timer: -1
+2020/08/05 08:23:29 [debug] 10778#0: epoll: fd:7 ev:0001 d:00007FDBFE25F010
+2020/08/05 08:23:29 [debug] 10778#0: accept on 0.0.0.0:80, ready: 0
+2020/08/05 08:23:29 [debug] 10778#0: posix_memalign: 000055632CFF9190:512 @16
+2020/08/05 08:23:29 [debug] 10778#0: *97 accept: 195.54.160.21:57872 fd:5
+2020/08/05 08:23:29 [debug] 10778#0: *97 event timer add: 5: 60000:1273085359
+2020/08/05 08:23:29 [debug] 10778#0: *97 reusable connection: 1
+2020/08/05 08:23:29 [debug] 10778#0: *97 epoll add event: fd:5 op:1 ev:80002001
+2020/08/05 08:23:29 [debug] 10778#0: timer delta: 253470
+2020/08/05 08:23:29 [debug] 10778#0: worker cycle
+2020/08/05 08:23:29 [debug] 10778#0: epoll timer: 60000
+2020/08/05 08:23:29 [debug] 10778#0: epoll: fd:5 ev:0001 d:00007FDBFE25F4C0
+2020/08/05 08:23:29 [debug] 10778#0: *97 http wait request handler
+2020/08/05 08:23:29 [debug] 10778#0: *97 malloc: 000055632CF5A0B0:1024
+2020/08/05 08:23:29 [debug] 10778#0: *97 recv: eof:0, avail:1
+2020/08/05 08:23:29 [debug] 10778#0: *97 recv: fd:5 244 of 1024
+2020/08/05 08:23:29 [debug] 10778#0: *97 reusable connection: 0
+2020/08/05 08:23:29 [debug] 10778#0: *97 posix_memalign: 000055632CFB9A30:4096 @16
+2020/08/05 08:23:29 [debug] 10778#0: *97 http process request line
+2020/08/05 08:23:29 [debug] 10778#0: *97 http request line: "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1"
+2020/08/05 08:23:29 [debug] 10778#0: *97 http uri: "/"
+2020/08/05 08:23:29 [debug] 10778#0: *97 http args: "XDEBUG_SESSION_START=phpstorm"
+2020/08/05 08:23:29 [debug] 10778#0: *97 http exten: ""
+2020/08/05 08:23:29 [debug] 10778#0: *97 posix_memalign: 000055632CF764F0:4096 @16
+2020/08/05 08:23:29 [debug] 10778#0: *97 http process request header line
+2020/08/05 08:23:29 [debug] 10778#0: *97 http header: "Host: 209.97.190.137:80"
+2020/08/05 08:23:29 [debug] 10778#0: *97 http header: "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+2020/08/05 08:23:29 [debug] 10778#0: *97 http header: "Accept-Encoding: gzip"
+2020/08/05 08:23:29 [debug] 10778#0: *97 http header: "Connection: close"
+2020/08/05 08:23:29 [debug] 10778#0: *97 http header done
+2020/08/05 08:23:29 [debug] 10778#0: *97 event timer del: 5: 1273085359
+2020/08/05 08:23:29 [debug] 10778#0: *97 generic phase: 0
+2020/08/05 08:23:29 [debug] 10778#0: *97 rewrite phase: 1
+2020/08/05 08:23:29 [debug] 10778#0: *97 test location: "/"
+2020/08/05 08:23:29 [debug] 10778#0: *97 using configuration "/"
+2020/08/05 08:23:29 [debug] 10778#0: *97 http cl:-1 max:1048576
+2020/08/05 08:23:29 [debug] 10778#0: *97 rewrite phase: 3
+2020/08/05 08:23:29 [debug] 10778#0: *97 post rewrite phase: 4
+2020/08/05 08:23:29 [debug] 10778#0: *97 generic phase: 5
+2020/08/05 08:23:29 [debug] 10778#0: *97 generic phase: 6
+2020/08/05 08:23:29 [debug] 10778#0: *97 generic phase: 7
+2020/08/05 08:23:29 [debug] 10778#0: *97 generic phase: 8
+2020/08/05 08:23:29 [debug] 10778#0: *97 access phase: 9
+2020/08/05 08:23:29 [debug] 10778#0: *97 access phase: 10
+2020/08/05 08:23:29 [debug] 10778#0: *97 access phase: 11
+2020/08/05 08:23:29 [debug] 10778#0: *97 post access phase: 12
+2020/08/05 08:23:29 [debug] 10778#0: *97 generic phase: 13
+2020/08/05 08:23:29 [debug] 10778#0: *97 generic phase: 14
+2020/08/05 08:23:29 [debug] 10778#0: *97 content phase: 15
+2020/08/05 08:23:29 [debug] 10778#0: *97 http finalize request: 302, "/?XDEBUG_SESSION_START=phpstorm" a:1, c:1
+2020/08/05 08:23:29 [debug] 10778#0: *97 http special response: 302, "/?XDEBUG_SESSION_START=phpstorm"
+2020/08/05 08:23:29 [debug] 10778#0: *97 http set discard body
+2020/08/05 08:23:29 [debug] 10778#0: *97 xslt filter header
+2020/08/05 08:23:29 [debug] 10778#0: *97 HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.16.1
+Date: Wed, 05 Aug 2020 08:23:29 GMT
+Content-Type: text/html
+Content-Length: 145
+Connection: close
+Location: https://cybersec.kz/ru
+
+2020/08/05 08:23:29 [debug] 10778#0: *97 write new buf t:1 f:0 000055632CFBA838, pos 000055632CFBA838, size: 192 file: 0, size: 0
+2020/08/05 08:23:29 [debug] 10778#0: *97 http write filter: l:0 f:0 s:192
+2020/08/05 08:23:29 [debug] 10778#0: *97 http output filter "/?XDEBUG_SESSION_START=phpstorm"
+2020/08/05 08:23:29 [debug] 10778#0: *97 http copy filter: "/?XDEBUG_SESSION_START=phpstorm"
+2020/08/05 08:23:29 [debug] 10778#0: *97 image filter
+2020/08/05 08:23:29 [debug] 10778#0: *97 xslt filter body
+2020/08/05 08:23:29 [debug] 10778#0: *97 http postpone filter "/?XDEBUG_SESSION_START=phpstorm" 000055632CF768D0
+2020/08/05 08:23:29 [debug] 10778#0: *97 write old buf t:1 f:0 000055632CFBA838, pos 000055632CFBA838, size: 192 file: 0, size: 0
+2020/08/05 08:23:29 [debug] 10778#0: *97 write new buf t:0 f:0 0000000000000000, pos 000055632B5248E0, size: 92 file: 0, size: 0
+2020/08/05 08:23:29 [debug] 10778#0: *97 write new buf t:0 f:0 0000000000000000, pos 000055632B524C40, size: 53 file: 0, size: 0
+2020/08/05 08:23:29 [debug] 10778#0: *97 http write filter: l:1 f:0 s:337
+2020/08/05 08:23:29 [debug] 10778#0: *97 http write filter limit 0
+2020/08/05 08:23:29 [debug] 10778#0: *97 writev: 337 of 337
+2020/08/05 08:23:29 [debug] 10778#0: *97 http write filter 0000000000000000
+2020/08/05 08:23:29 [debug] 10778#0: *97 http copy filter: 0 "/?XDEBUG_SESSION_START=phpstorm"
+2020/08/05 08:23:29 [debug] 10778#0: *97 http finalize request: 0, "/?XDEBUG_SESSION_START=phpstorm" a:1, c:1
+2020/08/05 08:23:29 [debug] 10778#0: *97 http request count:1 blk:0
+2020/08/05 08:23:29 [debug] 10778#0: *97 http close request
+2020/08/05 08:23:29 [debug] 10778#0: *97 http log handler
+2020/08/05 08:23:29 [debug] 10778#0: *97 free: 000055632CFB9A30, unused: 0
+2020/08/05 08:23:29 [debug] 10778#0: *97 free: 000055632CF764F0, unused: 2778
+2020/08/05 08:23:29 [debug] 10778#0: *97 close http connection: 5
+2020/08/05 08:23:29 [debug] 10778#0: *97 reusable connection: 0
+2020/08/05 08:23:29 [debug] 10778#0: *97 free: 000055632CF5A0B0
+2020/08/05 08:23:29 [debug] 10778#0: *97 free: 000055632CFF9190, unused: 136
+2020/08/05 08:23:29 [debug] 10778#0: timer delta: 0
+2020/08/05 08:23:29 [debug] 10778#0: worker cycle
+2020/08/05 08:23:29 [debug] 10778#0: epoll timer: -1
+2020/08/05 08:27:03 [debug] 10778#0: epoll: fd:7 ev:0001 d:00007FDBFE25F010
+2020/08/05 08:27:03 [debug] 10778#0: accept on 0.0.0.0:80, ready: 0
+2020/08/05 08:27:03 [debug] 10778#0: posix_memalign: 000055632CFF9190:512 @16
+2020/08/05 08:27:03 [debug] 10778#0: *98 accept: 203.223.34.198:34055 fd:5
+2020/08/05 08:27:03 [debug] 10778#0: *98 event timer add: 5: 60000:1273298877
+2020/08/05 08:27:03 [debug] 10778#0: *98 reusable connection: 1
+2020/08/05 08:27:03 [debug] 10778#0: *98 epoll add event: fd:5 op:1 ev:80002001
+2020/08/05 08:27:03 [debug] 10778#0: timer delta: 213518
+2020/08/05 08:27:03 [debug] 10778#0: worker cycle
+2020/08/05 08:27:03 [debug] 10778#0: epoll timer: 60000
+2020/08/05 08:27:03 [debug] 10778#0: epoll: fd:5 ev:0001 d:00007FDBFE25F4C1
+2020/08/05 08:27:03 [debug] 10778#0: *98 http wait request handler
+2020/08/05 08:27:03 [debug] 10778#0: *98 malloc: 000055632CF5A0B0:1024
+2020/08/05 08:27:03 [debug] 10778#0: *98 recv: eof:0, avail:1
+2020/08/05 08:27:03 [debug] 10778#0: *98 recv: fd:5 185 of 1024
+2020/08/05 08:27:03 [debug] 10778#0: *98 reusable connection: 0
+2020/08/05 08:27:03 [debug] 10778#0: *98 posix_memalign: 000055632CFB9A30:4096 @16
+2020/08/05 08:27:03 [debug] 10778#0: *98 http process request line
+2020/08/05 08:27:03 [debug] 10778#0: *98 http request line: "GET / HTTP/1.1"
+2020/08/05 08:27:03 [debug] 10778#0: *98 http uri: "/"
+2020/08/05 08:27:03 [debug] 10778#0: *98 http args: ""
+2020/08/05 08:27:03 [debug] 10778#0: *98 http exten: ""
+2020/08/05 08:27:03 [debug] 10778#0: *98 posix_memalign: 000055632CF764F0:4096 @16
+2020/08/05 08:27:03 [debug] 10778#0: *98 http process request header line
+2020/08/05 08:27:03 [debug] 10778#0: *98 http header: "Host: 209.97.190.137:80"
+2020/08/05 08:27:03 [debug] 10778#0: *98 http header: "User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+2020/08/05 08:27:03 [debug] 10778#0: *98 http header: "Content-Length: 0"
+2020/08/05 08:27:03 [debug] 10778#0: *98 http header done
+2020/08/05 08:27:03 [debug] 10778#0: *98 event timer del: 5: 1273298877
+2020/08/05 08:27:03 [debug] 10778#0: *98 generic phase: 0
+2020/08/05 08:27:03 [debug] 10778#0: *98 rewrite phase: 1
+2020/08/05 08:27:03 [debug] 10778#0: *98 test location: "/"
+2020/08/05 08:27:03 [debug] 10778#0: *98 using configuration "/"
+2020/08/05 08:27:03 [debug] 10778#0: *98 http cl:0 max:1048576
+2020/08/05 08:27:03 [debug] 10778#0: *98 rewrite phase: 3
+2020/08/05 08:27:03 [debug] 10778#0: *98 post rewrite phase: 4
+2020/08/05 08:27:03 [debug] 10778#0: *98 generic phase: 5
+2020/08/05 08:27:03 [debug] 10778#0: *98 generic phase: 6
+2020/08/05 08:27:03 [debug] 10778#0: *98 generic phase: 7
+2020/08/05 08:27:03 [debug] 10778#0: *98 generic phase: 8
+2020/08/05 08:27:03 [debug] 10778#0: *98 access phase: 9
+2020/08/05 08:27:03 [debug] 10778#0: *98 access phase: 10
+2020/08/05 08:27:03 [debug] 10778#0: *98 access phase: 11
+2020/08/05 08:27:03 [debug] 10778#0: *98 post access phase: 12
+2020/08/05 08:27:03 [debug] 10778#0: *98 generic phase: 13
+2020/08/05 08:27:03 [debug] 10778#0: *98 generic phase: 14
+2020/08/05 08:27:03 [debug] 10778#0: *98 content phase: 15
+2020/08/05 08:27:03 [debug] 10778#0: *98 http finalize request: 302, "/?" a:1, c:1
+2020/08/05 08:27:03 [debug] 10778#0: *98 http special response: 302, "/?"
+2020/08/05 08:27:03 [debug] 10778#0: *98 http set discard body
+2020/08/05 08:27:03 [debug] 10778#0: *98 xslt filter header
+2020/08/05 08:27:03 [debug] 10778#0: *98 HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.16.1
+Date: Wed, 05 Aug 2020 08:27:03 GMT
+Content-Type: text/html
+Content-Length: 145
+Connection: keep-alive
+Location: https://cybersec.kz/ru
+
+2020/08/05 08:27:03 [debug] 10778#0: *98 write new buf t:1 f:0 000055632CFBA830, pos 000055632CFBA830, size: 197 file: 0, size: 0
+2020/08/05 08:27:03 [debug] 10778#0: *98 http write filter: l:0 f:0 s:197
+2020/08/05 08:27:03 [debug] 10778#0: *98 http output filter "/?"
+2020/08/05 08:27:03 [debug] 10778#0: *98 http copy filter: "/?"
+2020/08/05 08:27:03 [debug] 10778#0: *98 image filter
+2020/08/05 08:27:03 [debug] 10778#0: *98 xslt filter body
+2020/08/05 08:27:03 [debug] 10778#0: *98 http postpone filter "/?" 000055632CF768D0
+2020/08/05 08:27:03 [debug] 10778#0: *98 write old buf t:1 f:0 000055632CFBA830, pos 000055632CFBA830, size: 197 file: 0, size: 0
+2020/08/05 08:27:03 [debug] 10778#0: *98 write new buf t:0 f:0 0000000000000000, pos 000055632B5248E0, size: 92 file: 0, size: 0
+2020/08/05 08:27:03 [debug] 10778#0: *98 write new buf t:0 f:0 0000000000000000, pos 000055632B524C40, size: 53 file: 0, size: 0
+2020/08/05 08:27:03 [debug] 10778#0: *98 http write filter: l:1 f:0 s:342
+2020/08/05 08:27:03 [debug] 10778#0: *98 http write filter limit 0
+2020/08/05 08:27:03 [debug] 10778#0: *98 writev: 342 of 342
+2020/08/05 08:27:03 [debug] 10778#0: *98 http write filter 0000000000000000
+2020/08/05 08:27:03 [debug] 10778#0: *98 http copy filter: 0 "/?"
+2020/08/05 08:27:03 [debug] 10778#0: *98 http finalize request: 0, "/?" a:1, c:1
+2020/08/05 08:27:03 [debug] 10778#0: *98 set http keepalive handler
+2020/08/05 08:27:03 [debug] 10778#0: *98 http close request
+2020/08/05 08:27:03 [debug] 10778#0: *98 http log handler
+2020/08/05 08:27:03 [debug] 10778#0: *98 free: 000055632CFB9A30, unused: 8
+2020/08/05 08:27:03 [debug] 10778#0: *98 free: 000055632CF764F0, unused: 2813
+2020/08/05 08:27:03 [debug] 10778#0: *98 free: 000055632CF5A0B0
+2020/08/05 08:27:03 [debug] 10778#0: *98 hc free: 0000000000000000
+2020/08/05 08:27:03 [debug] 10778#0: *98 hc busy: 0000000000000000 0
+2020/08/05 08:27:03 [debug] 10778#0: *98 tcp_nodelay
+2020/08/05 08:27:03 [debug] 10778#0: *98 reusable connection: 1
+2020/08/05 08:27:03 [debug] 10778#0: *98 event timer add: 5: 65000:1273303877
+2020/08/05 08:27:03 [debug] 10778#0: timer delta: 0
+2020/08/05 08:27:03 [debug] 10778#0: worker cycle
+2020/08/05 08:27:03 [debug] 10778#0: epoll timer: 65000
+2020/08/05 08:27:03 [debug] 10778#0: epoll: fd:5 ev:2001 d:00007FDBFE25F4C1
+2020/08/05 08:27:03 [debug] 10778#0: *98 http keepalive handler
+2020/08/05 08:27:03 [debug] 10778#0: *98 malloc: 000055632CF5A0B0:1024
+2020/08/05 08:27:03 [debug] 10778#0: *98 recv: eof:1, avail:1
+2020/08/05 08:27:03 [debug] 10778#0: *98 recv: fd:5 0 of 1024
+2020/08/05 08:27:03 [info] 10778#0: *98 client 203.223.34.198 closed keepalive connection
+2020/08/05 08:27:03 [debug] 10778#0: *98 close http connection: 5
+2020/08/05 08:27:03 [debug] 10778#0: *98 event timer del: 5: 1273303877
+2020/08/05 08:27:03 [debug] 10778#0: *98 reusable connection: 0
+2020/08/05 08:27:03 [debug] 10778#0: *98 free: 000055632CF5A0B0
+2020/08/05 08:27:03 [debug] 10778#0: *98 free: 000055632CFF9190, unused: 136
+2020/08/05 08:27:03 [debug] 10778#0: timer delta: 241
+2020/08/05 08:27:03 [debug] 10778#0: worker cycle
+2020/08/05 08:27:03 [debug] 10778#0: epoll timer: -1
+2020/08/05 08:32:13 [debug] 10778#0: epoll: fd:7 ev:0001 d:00007FDBFE25F010
+2020/08/05 08:32:13 [debug] 10778#0: accept on 0.0.0.0:80, ready: 0
+2020/08/05 08:32:13 [debug] 10778#0: posix_memalign: 000055632CFF9190:512 @16
+2020/08/05 08:32:13 [debug] 10778#0: *99 accept: 195.54.160.21:54070 fd:5
+2020/08/05 08:32:13 [debug] 10778#0: *99 event timer add: 5: 60000:1273609482
+2020/08/05 08:32:13 [debug] 10778#0: *99 reusable connection: 1
+2020/08/05 08:32:13 [debug] 10778#0: *99 epoll add event: fd:5 op:1 ev:80002001
+2020/08/05 08:32:13 [debug] 10778#0: timer delta: 310364
+2020/08/05 08:32:13 [debug] 10778#0: worker cycle
+2020/08/05 08:32:13 [debug] 10778#0: epoll timer: 60000
+2020/08/05 08:32:13 [debug] 10778#0: epoll: fd:5 ev:0001 d:00007FDBFE25F4C0
+2020/08/05 08:32:13 [debug] 10778#0: *99 http wait request handler
+2020/08/05 08:32:13 [debug] 10778#0: *99 malloc: 000055632CF5A0B0:1024
+2020/08/05 08:32:13 [debug] 10778#0: *99 recv: eof:0, avail:1
+2020/08/05 08:32:13 [debug] 10778#0: *99 recv: fd:5 298 of 1024
+2020/08/05 08:32:13 [debug] 10778#0: *99 reusable connection: 0
+2020/08/05 08:32:13 [debug] 10778#0: *99 posix_memalign: 000055632CFB9A30:4096 @16
+2020/08/05 08:32:13 [debug] 10778#0: *99 http process request line
+2020/08/05 08:32:13 [debug] 10778#0: *99 http request line: "GET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> HTTP/1.1"
+2020/08/05 08:32:13 [debug] 10778#0: *99 http uri: "/"
+2020/08/05 08:32:13 [debug] 10778#0: *99 http args: "a=fetch&content=<php>die(@md5(HelloThinkCMF))</php>"
+2020/08/05 08:32:13 [debug] 10778#0: *99 http exten: ""
+2020/08/05 08:32:13 [debug] 10778#0: *99 posix_memalign: 000055632CF764F0:4096 @16
+2020/08/05 08:32:13 [debug] 10778#0: *99 http process request header line
+2020/08/05 08:32:13 [debug] 10778#0: *99 http header: "Host: 209.97.190.137:80"
+2020/08/05 08:32:13 [debug] 10778#0: *99 http header: "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+2020/08/05 08:32:13 [debug] 10778#0: *99 http header: "Content-Type: application/json"
+2020/08/05 08:32:13 [debug] 10778#0: *99 http header: "Accept-Encoding: gzip"
+2020/08/05 08:32:13 [debug] 10778#0: *99 http header: "Connection: close"
+2020/08/05 08:32:13 [debug] 10778#0: *99 http header done
+2020/08/05 08:32:13 [debug] 10778#0: *99 event timer del: 5: 1273609482
+2020/08/05 08:32:13 [debug] 10778#0: *99 generic phase: 0
+2020/08/05 08:32:13 [debug] 10778#0: *99 rewrite phase: 1
+2020/08/05 08:32:13 [debug] 10778#0: *99 test location: "/"
+2020/08/05 08:32:13 [debug] 10778#0: *99 using configuration "/"
+2020/08/05 08:32:13 [debug] 10778#0: *99 http cl:-1 max:1048576
+2020/08/05 08:32:13 [debug] 10778#0: *99 rewrite phase: 3
+2020/08/05 08:32:13 [debug] 10778#0: *99 post rewrite phase: 4
+2020/08/05 08:32:13 [debug] 10778#0: *99 generic phase: 5
+2020/08/05 08:32:13 [debug] 10778#0: *99 generic phase: 6
+2020/08/05 08:32:13 [debug] 10778#0: *99 generic phase: 7
+2020/08/05 08:32:13 [debug] 10778#0: *99 generic phase: 8
+2020/08/05 08:32:13 [debug] 10778#0: *99 access phase: 9
+2020/08/05 08:32:13 [debug] 10778#0: *99 access phase: 10
+2020/08/05 08:32:13 [debug] 10778#0: *99 access phase: 11
+2020/08/05 08:32:13 [debug] 10778#0: *99 post access phase: 12
+2020/08/05 08:32:13 [debug] 10778#0: *99 generic phase: 13
+2020/08/05 08:32:13 [debug] 10778#0: *99 generic phase: 14
+2020/08/05 08:32:13 [debug] 10778#0: *99 content phase: 15
+2020/08/05 08:32:13 [debug] 10778#0: *99 http finalize request: 302, "/?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php>" a:1, c:1
+2020/08/05 08:32:13 [debug] 10778#0: *99 http special response: 302, "/?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php>"
+2020/08/05 08:32:13 [debug] 10778#0: *99 http set discard body
+2020/08/05 08:32:13 [debug] 10778#0: *99 xslt filter header
+2020/08/05 08:32:13 [debug] 10778#0: *99 HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.16.1
+Date: Wed, 05 Aug 2020 08:32:13 GMT
+Content-Type: text/html
+Content-Length: 145
+Connection: close
+Location: https://cybersec.kz/ru
+
+2020/08/05 08:32:13 [debug] 10778#0: *99 write new buf t:1 f:0 000055632CFBA848, pos 000055632CFBA848, size: 192 file: 0, size: 0
+2020/08/05 08:32:13 [debug] 10778#0: *99 http write filter: l:0 f:0 s:192
+2020/08/05 08:32:13 [debug] 10778#0: *99 http output filter "/?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php>"
+2020/08/05 08:32:13 [debug] 10778#0: *99 http copy filter: "/?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php>"
+2020/08/05 08:32:13 [debug] 10778#0: *99 image filter
+2020/08/05 08:32:13 [debug] 10778#0: *99 xslt filter body
+2020/08/05 08:32:13 [debug] 10778#0: *99 http postpone filter "/?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php>" 000055632CFBA9D0
+2020/08/05 08:32:13 [debug] 10778#0: *99 write old buf t:1 f:0 000055632CFBA848, pos 000055632CFBA848, size: 192 file: 0, size: 0
+2020/08/05 08:32:13 [debug] 10778#0: *99 write new buf t:0 f:0 0000000000000000, pos 000055632B5248E0, size: 92 file: 0, size: 0
+2020/08/05 08:32:13 [debug] 10778#0: *99 write new buf t:0 f:0 0000000000000000, pos 000055632B524C40, size: 53 file: 0, size: 0
+2020/08/05 08:32:13 [debug] 10778#0: *99 http write filter: l:1 f:0 s:337
+2020/08/05 08:32:13 [debug] 10778#0: *99 http write filter limit 0
+2020/08/05 08:32:13 [debug] 10778#0: *99 writev: 337 of 337
+2020/08/05 08:32:13 [debug] 10778#0: *99 http write filter 0000000000000000
+2020/08/05 08:32:13 [debug] 10778#0: *99 http copy filter: 0 "/?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php>"
+2020/08/05 08:32:13 [debug] 10778#0: *99 http finalize request: 0, "/?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php>" a:1, c:1
+2020/08/05 08:32:13 [debug] 10778#0: *99 http request count:1 blk:0
+2020/08/05 08:32:13 [debug] 10778#0: *99 http close request
+2020/08/05 08:32:13 [debug] 10778#0: *99 http log handler
+2020/08/05 08:32:13 [debug] 10778#0: *99 free: 000055632CFB9A30, unused: 32
+2020/08/05 08:32:13 [debug] 10778#0: *99 free: 000055632CF764F0, unused: 2708
+2020/08/05 08:32:13 [debug] 10778#0: *99 close http connection: 5
+2020/08/05 08:32:13 [debug] 10778#0: *99 reusable connection: 0
+2020/08/05 08:32:13 [debug] 10778#0: *99 free: 000055632CF5A0B0
+2020/08/05 08:32:13 [debug] 10778#0: *99 free: 000055632CFF9190, unused: 136
+2020/08/05 08:32:13 [debug] 10778#0: timer delta: 0
+2020/08/05 08:32:13 [debug] 10778#0: worker cycle
+2020/08/05 08:32:13 [debug] 10778#0: epoll timer: -1
+2020/08/05 08:35:15 [debug] 10778#0: epoll: fd:7 ev:0001 d:00007FDBFE25F010
+2020/08/05 08:35:15 [debug] 10778#0: accept on 0.0.0.0:80, ready: 0
+2020/08/05 08:35:15 [debug] 10778#0: posix_memalign: 000055632CFF9190:512 @16
+2020/08/05 08:35:15 [debug] 10778#0: *100 accept: 195.54.160.21:39066 fd:5
+2020/08/05 08:35:15 [debug] 10778#0: *100 event timer add: 5: 60000:1273790901
+2020/08/05 08:35:15 [debug] 10778#0: *100 reusable connection: 1
+2020/08/05 08:35:15 [debug] 10778#0: *100 epoll add event: fd:5 op:1 ev:80002001
+2020/08/05 08:35:15 [debug] 10778#0: timer delta: 181419
+2020/08/05 08:35:15 [debug] 10778#0: worker cycle
+2020/08/05 08:35:15 [debug] 10778#0: epoll timer: 60000
+2020/08/05 08:35:15 [debug] 10778#0: epoll: fd:5 ev:0001 d:00007FDBFE25F4C1
+2020/08/05 08:35:15 [debug] 10778#0: *100 http wait request handler
+2020/08/05 08:35:15 [debug] 10778#0: *100 malloc: 000055632CF5A0B0:1024
+2020/08/05 08:35:15 [debug] 10778#0: *100 recv: eof:0, avail:1
+2020/08/05 08:35:15 [debug] 10778#0: *100 recv: fd:5 324 of 1024
+2020/08/05 08:35:15 [debug] 10778#0: *100 reusable connection: 0
+2020/08/05 08:35:15 [debug] 10778#0: *100 posix_memalign: 000055632CFB9A30:4096 @16
+2020/08/05 08:35:15 [debug] 10778#0: *100 http process request line
+2020/08/05 08:35:15 [debug] 10778#0: *100 http request line: "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP HTTP/1.1"
+2020/08/05 08:35:15 [debug] 10778#0: *100 http uri: "/index.php"
+2020/08/05 08:35:15 [debug] 10778#0: *100 http args: "s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP"
+2020/08/05 08:35:15 [debug] 10778#0: *100 http exten: "php"
+2020/08/05 08:35:15 [debug] 10778#0: *100 posix_memalign: 000055632CF764F0:4096 @16
+2020/08/05 08:35:15 [debug] 10778#0: *100 http process request header line
+2020/08/05 08:35:15 [debug] 10778#0: *100 http header: "Host: 209.97.190.137:80"
+2020/08/05 08:35:15 [debug] 10778#0: *100 http header: "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+2020/08/05 08:35:15 [debug] 10778#0: *100 http header: "Accept-Encoding: gzip"
+2020/08/05 08:35:15 [debug] 10778#0: *100 http header: "Connection: close"
+2020/08/05 08:35:15 [debug] 10778#0: *100 http header done
+2020/08/05 08:35:15 [debug] 10778#0: *100 event timer del: 5: 1273790901
+2020/08/05 08:35:15 [debug] 10778#0: *100 generic phase: 0
+2020/08/05 08:35:15 [debug] 10778#0: *100 rewrite phase: 1
+2020/08/05 08:35:15 [debug] 10778#0: *100 test location: "/"
+2020/08/05 08:35:15 [debug] 10778#0: *100 test location: "hackers_count"
+2020/08/05 08:35:15 [debug] 10778#0: *100 test location: "security"
+2020/08/05 08:35:15 [debug] 10778#0: *100 using configuration "/"
+2020/08/05 08:35:15 [debug] 10778#0: *100 http cl:-1 max:1048576
+2020/08/05 08:35:15 [debug] 10778#0: *100 rewrite phase: 3
+2020/08/05 08:35:15 [debug] 10778#0: *100 post rewrite phase: 4
+2020/08/05 08:35:15 [debug] 10778#0: *100 generic phase: 5
+2020/08/05 08:35:15 [debug] 10778#0: *100 generic phase: 6
+2020/08/05 08:35:15 [debug] 10778#0: *100 generic phase: 7
+2020/08/05 08:35:15 [debug] 10778#0: *100 generic phase: 8
+2020/08/05 08:35:15 [debug] 10778#0: *100 access phase: 9
+2020/08/05 08:35:15 [debug] 10778#0: *100 access phase: 10
+2020/08/05 08:35:15 [debug] 10778#0: *100 access phase: 11
+2020/08/05 08:35:15 [debug] 10778#0: *100 post access phase: 12
+2020/08/05 08:35:15 [debug] 10778#0: *100 generic phase: 13
+2020/08/05 08:35:15 [debug] 10778#0: *100 generic phase: 14
+2020/08/05 08:35:15 [debug] 10778#0: *100 content phase: 15
+2020/08/05 08:35:15 [debug] 10778#0: *100 http finalize request: 302, "/index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP" a:1, c:1
+2020/08/05 08:35:15 [debug] 10778#0: *100 http special response: 302, "/index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP"
+2020/08/05 08:35:15 [debug] 10778#0: *100 http set discard body
+2020/08/05 08:35:15 [debug] 10778#0: *100 xslt filter header
+2020/08/05 08:35:15 [debug] 10778#0: *100 HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.16.1
+Date: Wed, 05 Aug 2020 08:35:15 GMT
+Content-Type: text/html
+Content-Length: 145
+Connection: close
+Location: https://cybersec.kz/ru
+
+2020/08/05 08:35:15 [debug] 10778#0: *100 write new buf t:1 f:0 000055632CFBA838, pos 000055632CFBA838, size: 192 file: 0, size: 0
+2020/08/05 08:35:15 [debug] 10778#0: *100 http write filter: l:0 f:0 s:192
+2020/08/05 08:35:15 [debug] 10778#0: *100 http output filter "/index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP"
+2020/08/05 08:35:15 [debug] 10778#0: *100 http copy filter: "/index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP"
+2020/08/05 08:35:15 [debug] 10778#0: *100 image filter
+2020/08/05 08:35:15 [debug] 10778#0: *100 xslt filter body
+2020/08/05 08:35:15 [debug] 10778#0: *100 http postpone filter "/index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP" 000055632CF768D0
+2020/08/05 08:35:15 [debug] 10778#0: *100 write old buf t:1 f:0 000055632CFBA838, pos 000055632CFBA838, size: 192 file: 0, size: 0
+2020/08/05 08:35:15 [debug] 10778#0: *100 write new buf t:0 f:0 0000000000000000, pos 000055632B5248E0, size: 92 file: 0, size: 0
+2020/08/05 08:35:15 [debug] 10778#0: *100 write new buf t:0 f:0 0000000000000000, pos 000055632B524C40, size: 53 file: 0, size: 0
+2020/08/05 08:35:15 [debug] 10778#0: *100 http write filter: l:1 f:0 s:337
+2020/08/05 08:35:15 [debug] 10778#0: *100 http write filter limit 0
+2020/08/05 08:35:15 [debug] 10778#0: *100 writev: 337 of 337
+2020/08/05 08:35:15 [debug] 10778#0: *100 http write filter 0000000000000000
+2020/08/05 08:35:15 [debug] 10778#0: *100 http copy filter: 0 "/index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP"
+2020/08/05 08:35:15 [debug] 10778#0: *100 http finalize request: 0, "/index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP" a:1, c:1
+2020/08/05 08:35:15 [debug] 10778#0: *100 http request count:1 blk:0
+2020/08/05 08:35:15 [debug] 10778#0: *100 http close request
+2020/08/05 08:35:15 [debug] 10778#0: *100 http log handler
+2020/08/05 08:35:15 [debug] 10778#0: *100 free: 000055632CFB9A30, unused: 0
+2020/08/05 08:35:15 [debug] 10778#0: *100 free: 000055632CF764F0, unused: 2692
+2020/08/05 08:35:15 [debug] 10778#0: *100 close http connection: 5
+2020/08/05 08:35:15 [debug] 10778#0: *100 reusable connection: 0
+2020/08/05 08:35:15 [debug] 10778#0: *100 free: 000055632CF5A0B0
+2020/08/05 08:35:15 [debug] 10778#0: *100 free: 000055632CFF9190, unused: 136
+2020/08/05 08:35:15 [debug] 10778#0: timer delta: 4
+2020/08/05 08:35:15 [debug] 10778#0: worker cycle
+2020/08/05 08:35:15 [debug] 10778#0: epoll timer: -1
+2020/08/05 09:13:49 [notice] 10768#0: signal 1 (SIGHUP) received from 24672, reconfiguring
+2020/08/05 09:13:49 [debug] 10768#0: wake up, sigio 0
+2020/08/05 09:13:49 [notice] 10768#0: reconfiguring
+2020/08/05 09:13:49 [debug] 10768#0: posix_memalign: 000055632CF5E560:16384 @16
+2020/08/05 09:13:49 [debug] 10768#0: posix_memalign: 000055632D02E590:16384 @16
+2020/08/05 09:13:49 [debug] 10768#0: malloc: 000055632CF62570:4096
+2020/08/05 09:13:49 [debug] 10768#0: read: 5, 000055632CF62570, 2792, 0
+2020/08/05 09:13:49 [debug] 10768#0: include /usr/share/nginx/modules/*.conf
+2020/08/05 09:13:49 [debug] 10768#0: include /usr/share/nginx/modules/mod-http-image-filter.conf
+2020/08/05 09:13:49 [debug] 10768#0: malloc: 000055632CFB9A30:4096
+2020/08/05 09:13:49 [debug] 10768#0: read: 29, 000055632CFB9A30, 72, 0
+2020/08/05 09:13:49 [debug] 10768#0: add cleanup: 000055632CF60838
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_http_image_filter_module before ngx_http_sub_filter_module:61
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_http_image_filter_module i:71
+2020/08/05 09:13:49 [debug] 10768#0: include /usr/share/nginx/modules/mod-http-perl.conf
+2020/08/05 09:13:49 [debug] 10768#0: malloc: 000055632CFB9A30:4096
+2020/08/05 09:13:49 [debug] 10768#0: read: 29, 000055632CFB9A30, 64, 0
+2020/08/05 09:13:49 [debug] 10768#0: add cleanup: 000055632CF609D8
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_http_perl_module i:72
+2020/08/05 09:13:49 [debug] 10768#0: include /usr/share/nginx/modules/mod-http-xslt-filter.conf
+2020/08/05 09:13:49 [debug] 10768#0: malloc: 000055632CFB9A30:4096
+2020/08/05 09:13:49 [debug] 10768#0: read: 29, 000055632CFB9A30, 71, 0
+2020/08/05 09:13:49 [debug] 10768#0: add cleanup: 000055632CF60B38
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_http_xslt_filter_module before ngx_http_image_filter_module:61
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_http_xslt_filter_module i:73
+2020/08/05 09:13:49 [debug] 10768#0: include /usr/share/nginx/modules/mod-mail.conf
+2020/08/05 09:13:49 [debug] 10768#0: malloc: 000055632CFB9A30:4096
+2020/08/05 09:13:49 [debug] 10768#0: read: 29, 000055632CFB9A30, 59, 0
+2020/08/05 09:13:49 [debug] 10768#0: add cleanup: 000055632CF60D28
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_mail_module i:74
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_mail_core_module i:75
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_mail_ssl_module i:76
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_mail_pop3_module i:77
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_mail_imap_module i:78
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_mail_smtp_module i:79
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_mail_auth_http_module i:80
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_mail_proxy_module i:81
+2020/08/05 09:13:49 [debug] 10768#0: include /usr/share/nginx/modules/mod-stream.conf
+2020/08/05 09:13:49 [debug] 10768#0: malloc: 000055632CFB9A30:4096
+2020/08/05 09:13:49 [debug] 10768#0: read: 29, 000055632CFB9A30, 61, 0
+2020/08/05 09:13:49 [debug] 10768#0: add cleanup: 000055632CF60E60
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_stream_module i:82
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_stream_core_module i:83
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_stream_log_module i:84
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_stream_proxy_module i:85
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_stream_upstream_module i:86
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_stream_write_filter_module i:87
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_stream_ssl_module i:88
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_stream_limit_conn_module i:89
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_stream_access_module i:90
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_stream_geo_module i:91
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_stream_map_module i:92
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_stream_split_clients_module i:93
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_stream_return_module i:94
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_stream_upstream_hash_module i:95
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_stream_upstream_least_conn_module i:96
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_stream_upstream_random_module i:97
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_stream_upstream_zone_module i:98
+2020/08/05 09:13:49 [debug] 10768#0: module: ngx_stream_ssl_preread_module i:99
+2020/08/05 09:13:49 [debug] 10768#0: add cleanup: 000055632CF60EE8
+2020/08/05 09:14:10 [notice] 24686#0: create loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24686#0: create loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24686#0: create loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24686#0: create loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24686#0: create loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24686#0: create loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24686#0: create loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24686#0: create loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24686#0: create loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24686#0: create loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24686#0: create loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24686#0: create loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24686#0: create loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24686#0: create loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24686#0: merge loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24686#0: merge loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24686#0: merge loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24686#0: merge loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24686#0: merge loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24686#0: merge loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24686#0: merge loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24686#0: merge loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24686#0: merge loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24686#0: merge loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24686#0: merge loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24686#0: merge loc conf 2nd redirectall
+2020/08/05 09:14:10 [debug] 24686#0: bind() 0.0.0.0:80 #7 
+2020/08/05 09:14:10 [debug] 24686#0: bind() [::]:80 #7 
+2020/08/05 09:14:10 [debug] 24686#0: counter: 00007FAA37D14080, 1
+2020/08/05 09:14:10 [notice] 24688#0: create loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24688#0: create loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24688#0: create loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24688#0: create loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24688#0: create loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24688#0: create loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24688#0: create loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24688#0: create loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24688#0: create loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24688#0: create loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24688#0: create loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24688#0: create loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24688#0: create loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24688#0: create loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24688#0: merge loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24688#0: merge loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24688#0: merge loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24688#0: merge loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24688#0: merge loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24688#0: merge loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24688#0: merge loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24688#0: merge loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24688#0: merge loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24688#0: merge loc conf 2nd redirectall
+2020/08/05 09:14:10 [notice] 24688#0: merge loc conf 1st redirectall
+2020/08/05 09:14:10 [notice] 24688#0: merge loc conf 2nd redirectall
+2020/08/05 09:14:10 [debug] 24688#0: bind() 0.0.0.0:80 #7 
+2020/08/05 09:14:10 [emerg] 24688#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/08/05 09:14:10 [debug] 24688#0: bind() [::]:80 #7 
+2020/08/05 09:14:10 [emerg] 24688#0: bind() to [::]:80 failed (98: Address already in use)
+2020/08/05 09:14:10 [notice] 24688#0: try again to bind() after 500ms
+2020/08/05 09:14:10 [debug] 24688#0: bind() 0.0.0.0:80 #7 
+2020/08/05 09:14:10 [emerg] 24688#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/08/05 09:14:10 [debug] 24688#0: bind() [::]:80 #7 
+2020/08/05 09:14:10 [emerg] 24688#0: bind() to [::]:80 failed (98: Address already in use)
+2020/08/05 09:14:10 [notice] 24688#0: try again to bind() after 500ms
+2020/08/05 09:14:10 [debug] 24688#0: bind() 0.0.0.0:80 #7 
+2020/08/05 09:14:10 [emerg] 24688#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/08/05 09:14:10 [debug] 24688#0: bind() [::]:80 #7 
+2020/08/05 09:14:10 [emerg] 24688#0: bind() to [::]:80 failed (98: Address already in use)
+2020/08/05 09:14:10 [notice] 24688#0: try again to bind() after 500ms
+2020/08/05 09:14:10 [debug] 24688#0: bind() 0.0.0.0:80 #7 
+2020/08/05 09:14:10 [emerg] 24688#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/08/05 09:14:10 [debug] 24688#0: bind() [::]:80 #7 
+2020/08/05 09:14:10 [emerg] 24688#0: bind() to [::]:80 failed (98: Address already in use)
+2020/08/05 09:14:10 [notice] 24688#0: try again to bind() after 500ms
+2020/08/05 09:14:10 [debug] 24688#0: bind() 0.0.0.0:80 #7 
+2020/08/05 09:14:10 [emerg] 24688#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/08/05 09:14:10 [debug] 24688#0: bind() [::]:80 #7 
+2020/08/05 09:14:10 [emerg] 24688#0: bind() to [::]:80 failed (98: Address already in use)
+2020/08/05 09:14:10 [notice] 24688#0: try again to bind() after 500ms
+2020/08/05 09:14:10 [emerg] 24688#0: still could not bind()
+2020/08/05 09:14:33 [notice] 24696#0: create loc conf 1st redirectall
+2020/08/05 09:14:33 [notice] 24696#0: create loc conf 2nd redirectall
+2020/08/05 09:14:33 [notice] 24696#0: create loc conf 1st redirectall
+2020/08/05 09:14:33 [notice] 24696#0: create loc conf 2nd redirectall
+2020/08/05 09:14:33 [notice] 24696#0: create loc conf 1st redirectall
+2020/08/05 09:14:33 [notice] 24696#0: create loc conf 2nd redirectall
+2020/08/05 09:14:33 [notice] 24696#0: create loc conf 1st redirectall
+2020/08/05 09:14:33 [notice] 24696#0: create loc conf 2nd redirectall
+2020/08/05 09:14:33 [notice] 24696#0: create loc conf 1st redirectall
+2020/08/05 09:14:33 [notice] 24696#0: create loc conf 2nd redirectall
+2020/08/05 09:14:33 [notice] 24696#0: create loc conf 1st redirectall
+2020/08/05 09:14:33 [notice] 24696#0: create loc conf 2nd redirectall
+2020/08/05 09:14:33 [notice] 24696#0: create loc conf 1st redirectall
+2020/08/05 09:14:33 [notice] 24696#0: create loc conf 2nd redirectall
+2020/08/05 09:14:33 [notice] 24696#0: merge loc conf 1st redirectall
+2020/08/05 09:14:33 [notice] 24696#0: merge loc conf 2nd redirectall
+2020/08/05 09:14:33 [notice] 24696#0: merge loc conf 1st redirectall
+2020/08/05 09:14:33 [notice] 24696#0: merge loc conf 2nd redirectall
+2020/08/05 09:14:33 [notice] 24696#0: merge loc conf 1st redirectall
+2020/08/05 09:14:33 [notice] 24696#0: merge loc conf 2nd redirectall
+2020/08/05 09:14:33 [notice] 24696#0: merge loc conf 1st redirectall
+2020/08/05 09:14:33 [notice] 24696#0: merge loc conf 2nd redirectall
+2020/08/05 09:14:33 [notice] 24696#0: merge loc conf 1st redirectall
+2020/08/05 09:14:33 [notice] 24696#0: merge loc conf 2nd redirectall
+2020/08/05 09:14:33 [notice] 24696#0: merge loc conf 1st redirectall
+2020/08/05 09:14:33 [notice] 24696#0: merge loc conf 2nd redirectall
+2020/08/05 09:14:33 [debug] 24696#0: bind() 0.0.0.0:80 #7 
+2020/08/05 09:14:33 [debug] 24696#0: bind() [::]:80 #7 
+2020/08/05 09:14:33 [debug] 24696#0: counter: 00007FDEB48A5080, 1
+2020/08/05 09:15:19 [notice] 10769#0: signal 15 (SIGTERM) received from 24699, exiting
+2020/08/05 09:15:19 [info] 10769#0: epoll_wait() failed (4: Interrupted system call)
+2020/08/05 09:15:19 [debug] 10769#0: timer delta: 21678467
+2020/08/05 09:15:19 [notice] 10769#0: exiting
+2020/08/05 09:15:19 [debug] 10769#0: flush files
+2020/08/05 09:15:19 [debug] 10769#0: run cleanup: 000055632CF94E90
+2020/08/05 09:15:19 [debug] 10769#0: run cleanup: 000055632CF94E78
+2020/08/05 09:15:19 [debug] 10769#0: run cleanup: 000055632CF925E8
+2020/08/05 09:15:19 [debug] 10769#0: cleanup resolver
+2020/08/05 09:15:19 [debug] 10769#0: run cleanup: 000055632CF5DB28
+2020/08/05 09:15:19 [notice] 10770#0: signal 15 (SIGTERM) received from 24699, exiting
+2020/08/05 09:15:19 [info] 10770#0: epoll_wait() failed (4: Interrupted system call)
+2020/08/05 09:15:19 [debug] 10770#0: timer delta: 21678479
+2020/08/05 09:15:19 [notice] 10770#0: exiting
+2020/08/05 09:15:19 [debug] 10770#0: flush files
+2020/08/05 09:15:19 [debug] 10770#0: run cleanup: 000055632CF94E90
+2020/08/05 09:15:19 [debug] 10770#0: run cleanup: 000055632CF94E78
+2020/08/05 09:15:19 [debug] 10770#0: run cleanup: 000055632CF925E8
+2020/08/05 09:15:19 [debug] 10770#0: cleanup resolver
+2020/08/05 09:15:19 [debug] 10770#0: run cleanup: 000055632CF5DB28
+2020/08/05 09:15:19 [notice] 10771#0: signal 15 (SIGTERM) received from 24699, exiting
+2020/08/05 09:15:19 [info] 10771#0: epoll_wait() failed (4: Interrupted system call)
+2020/08/05 09:15:19 [debug] 10771#0: timer delta: 21678491
+2020/08/05 09:15:19 [notice] 10771#0: exiting
+2020/08/05 09:15:19 [debug] 10771#0: flush files
+2020/08/05 09:15:19 [debug] 10771#0: run cleanup: 000055632CF94E90
+2020/08/05 09:15:19 [debug] 10771#0: run cleanup: 000055632CF94E78
+2020/08/05 09:15:19 [debug] 10771#0: run cleanup: 000055632CF925E8
+2020/08/05 09:15:19 [debug] 10771#0: cleanup resolver
+2020/08/05 09:15:19 [debug] 10771#0: run cleanup: 000055632CF5DB28
+2020/08/05 09:15:19 [notice] 10772#0: signal 15 (SIGTERM) received from 24699, exiting
+2020/08/05 09:15:19 [info] 10772#0: epoll_wait() failed (4: Interrupted system call)
+2020/08/05 09:15:19 [debug] 10772#0: timer delta: 21678502
+2020/08/05 09:15:19 [notice] 10772#0: exiting
+2020/08/05 09:15:19 [debug] 10772#0: flush files
+2020/08/05 09:15:19 [debug] 10772#0: run cleanup: 000055632CF94E90
+2020/08/05 09:15:19 [debug] 10772#0: run cleanup: 000055632CF94E78
+2020/08/05 09:15:19 [debug] 10772#0: run cleanup: 000055632CF925E8
+2020/08/05 09:15:19 [debug] 10772#0: cleanup resolver
+2020/08/05 09:15:19 [debug] 10772#0: run cleanup: 000055632CF5DB28
+2020/08/05 09:15:19 [notice] 10773#0: signal 15 (SIGTERM) received from 24699, exiting
+2020/08/05 09:15:19 [info] 10773#0: epoll_wait() failed (4: Interrupted system call)
+2020/08/05 09:15:19 [debug] 10773#0: timer delta: 21678513
+2020/08/05 09:15:19 [notice] 10773#0: exiting
+2020/08/05 09:15:19 [debug] 10773#0: flush files
+2020/08/05 09:15:19 [debug] 10773#0: run cleanup: 000055632CF94E90
+2020/08/05 09:15:19 [debug] 10773#0: run cleanup: 000055632CF94E78
+2020/08/05 09:15:19 [debug] 10773#0: run cleanup: 000055632CF925E8
+2020/08/05 09:15:19 [debug] 10773#0: cleanup resolver
+2020/08/05 09:15:19 [debug] 10773#0: run cleanup: 000055632CF5DB28
+2020/08/05 09:15:19 [notice] 10774#0: signal 15 (SIGTERM) received from 24699, exiting
+2020/08/05 09:15:19 [info] 10774#0: epoll_wait() failed (4: Interrupted system call)
+2020/08/05 09:15:19 [debug] 10774#0: timer delta: 21678524
+2020/08/05 09:15:19 [notice] 10774#0: exiting
+2020/08/05 09:15:19 [debug] 10774#0: flush files
+2020/08/05 09:15:19 [debug] 10774#0: run cleanup: 000055632CF94E90
+2020/08/05 09:15:19 [debug] 10774#0: run cleanup: 000055632CF94E78
+2020/08/05 09:15:19 [debug] 10774#0: run cleanup: 000055632CF925E8
+2020/08/05 09:15:19 [debug] 10774#0: cleanup resolver
+2020/08/05 09:15:19 [debug] 10774#0: run cleanup: 000055632CF5DB28
+2020/08/05 09:15:19 [notice] 10775#0: signal 15 (SIGTERM) received from 24699, exiting
+2020/08/05 09:15:19 [info] 10775#0: epoll_wait() failed (4: Interrupted system call)
+2020/08/05 09:15:19 [debug] 10775#0: timer delta: 21678536
+2020/08/05 09:15:19 [notice] 10775#0: exiting
+2020/08/05 09:15:19 [debug] 10775#0: flush files
+2020/08/05 09:15:19 [debug] 10775#0: run cleanup: 000055632CF94E90
+2020/08/05 09:15:19 [debug] 10775#0: run cleanup: 000055632CF94E78
+2020/08/05 09:15:19 [debug] 10775#0: run cleanup: 000055632CF925E8
+2020/08/05 09:15:19 [debug] 10775#0: cleanup resolver
+2020/08/05 09:15:19 [debug] 10775#0: run cleanup: 000055632CF5DB28
+2020/08/05 09:15:19 [notice] 10776#0: signal 15 (SIGTERM) received from 24699, exiting
+2020/08/05 09:15:19 [info] 10776#0: epoll_wait() failed (4: Interrupted system call)
+2020/08/05 09:15:19 [debug] 10776#0: timer delta: 21678547
+2020/08/05 09:15:19 [notice] 10776#0: exiting
+2020/08/05 09:15:19 [debug] 10776#0: flush files
+2020/08/05 09:15:19 [debug] 10776#0: run cleanup: 000055632CF94E90
+2020/08/05 09:15:19 [debug] 10776#0: run cleanup: 000055632CF94E78
+2020/08/05 09:15:19 [debug] 10776#0: run cleanup: 000055632CF925E8
+2020/08/05 09:15:19 [debug] 10776#0: cleanup resolver
+2020/08/05 09:15:19 [debug] 10776#0: run cleanup: 000055632CF5DB28
+2020/08/05 09:15:19 [notice] 10777#0: signal 15 (SIGTERM) received from 24699, exiting
+2020/08/05 09:15:19 [info] 10777#0: epoll_wait() failed (4: Interrupted system call)
+2020/08/05 09:15:19 [debug] 10777#0: timer delta: 21678558
+2020/08/05 09:15:19 [notice] 10777#0: exiting
+2020/08/05 09:15:19 [debug] 10777#0: flush files
+2020/08/05 09:15:19 [debug] 10777#0: run cleanup: 000055632CF94E90
+2020/08/05 09:15:19 [debug] 10777#0: run cleanup: 000055632CF94E78
+2020/08/05 09:15:19 [debug] 10777#0: run cleanup: 000055632CF925E8
+2020/08/05 09:15:19 [debug] 10777#0: cleanup resolver
+2020/08/05 09:15:19 [debug] 10777#0: run cleanup: 000055632CF5DB28
+2020/08/05 09:15:19 [notice] 10778#0: signal 15 (SIGTERM) received from 24699, exiting
+2020/08/05 09:15:19 [info] 10778#0: epoll_wait() failed (4: Interrupted system call)
+2020/08/05 09:15:19 [debug] 10778#0: timer delta: 2404847
+2020/08/05 09:15:19 [notice] 10778#0: exiting
+2020/08/05 09:15:19 [debug] 10778#0: flush files
+2020/08/05 09:15:19 [debug] 10778#0: run cleanup: 000055632CF94E90
+2020/08/05 09:15:19 [debug] 10778#0: run cleanup: 000055632CF94E78
+2020/08/05 09:15:19 [debug] 10778#0: run cleanup: 000055632CF925E8
+2020/08/05 09:15:19 [debug] 10778#0: cleanup resolver
+2020/08/05 09:15:19 [debug] 10778#0: run cleanup: 000055632CF5DB28
+2020/08/05 09:15:27 [notice] 24710#0: create loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24710#0: create loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24710#0: create loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24710#0: create loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24710#0: create loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24710#0: create loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24710#0: create loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24710#0: create loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24710#0: create loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24710#0: create loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24710#0: create loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24710#0: create loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24710#0: create loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24710#0: create loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24710#0: merge loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24710#0: merge loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24710#0: merge loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24710#0: merge loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24710#0: merge loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24710#0: merge loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24710#0: merge loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24710#0: merge loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24710#0: merge loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24710#0: merge loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24710#0: merge loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24710#0: merge loc conf 2nd redirectall
+2020/08/05 09:15:27 [debug] 24710#0: bind() 0.0.0.0:80 #7 
+2020/08/05 09:15:27 [debug] 24710#0: bind() [::]:80 #8 
+2020/08/05 09:15:27 [debug] 24710#0: counter: 00007FD0168AB080, 1
+2020/08/05 09:15:27 [notice] 24713#0: create loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24713#0: create loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24713#0: create loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24713#0: create loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24713#0: create loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24713#0: create loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24713#0: create loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24713#0: create loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24713#0: create loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24713#0: create loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24713#0: create loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24713#0: create loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24713#0: create loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24713#0: create loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24713#0: merge loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24713#0: merge loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24713#0: merge loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24713#0: merge loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24713#0: merge loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24713#0: merge loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24713#0: merge loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24713#0: merge loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24713#0: merge loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24713#0: merge loc conf 2nd redirectall
+2020/08/05 09:15:27 [notice] 24713#0: merge loc conf 1st redirectall
+2020/08/05 09:15:27 [notice] 24713#0: merge loc conf 2nd redirectall
+2020/08/05 09:15:27 [debug] 24713#0: bind() 0.0.0.0:80 #7 
+2020/08/05 09:15:27 [debug] 24713#0: bind() [::]:80 #8 
+2020/08/05 09:15:27 [notice] 24713#0: using the "epoll" event method
+2020/08/05 09:15:27 [debug] 24713#0: counter: 00007F4346F24080, 1
+2020/08/05 09:15:27 [notice] 24713#0: nginx/1.16.1
+2020/08/05 09:15:27 [notice] 24713#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) 
+2020/08/05 09:15:27 [notice] 24713#0: OS: Linux 3.10.0-957.27.2.el7.x86_64
+2020/08/05 09:15:27 [notice] 24713#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2020/08/05 09:15:27 [debug] 24715#0: write: 9, 00007FFD114B33A0, 6, 0
+2020/08/05 09:15:27 [debug] 24715#0: setproctitle: "nginx: master process /usr/sbin/nginx"
+2020/08/05 09:15:27 [notice] 24715#0: start worker processes
+2020/08/05 09:15:27 [debug] 24715#0: channel 3:9
+2020/08/05 09:15:27 [notice] 24715#0: start worker process 24716
+2020/08/05 09:15:27 [debug] 24715#0: channel 10:11
+2020/08/05 09:15:27 [notice] 24715#0: start worker process 24717
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:1 pid:24717 fd:10 to s:0 pid:24716 fd:3
+2020/08/05 09:15:27 [debug] 24715#0: channel 12:13
+2020/08/05 09:15:27 [notice] 24715#0: start worker process 24718
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:2 pid:24718 fd:12 to s:0 pid:24716 fd:3
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:2 pid:24718 fd:12 to s:1 pid:24717 fd:10
+2020/08/05 09:15:27 [debug] 24715#0: channel 14:15
+2020/08/05 09:15:27 [notice] 24715#0: start worker process 24719
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:3 pid:24719 fd:14 to s:0 pid:24716 fd:3
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:3 pid:24719 fd:14 to s:1 pid:24717 fd:10
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:3 pid:24719 fd:14 to s:2 pid:24718 fd:12
+2020/08/05 09:15:27 [debug] 24715#0: channel 16:17
+2020/08/05 09:15:27 [notice] 24715#0: start worker process 24720
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:4 pid:24720 fd:16 to s:0 pid:24716 fd:3
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:4 pid:24720 fd:16 to s:1 pid:24717 fd:10
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:4 pid:24720 fd:16 to s:2 pid:24718 fd:12
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:4 pid:24720 fd:16 to s:3 pid:24719 fd:14
+2020/08/05 09:15:27 [debug] 24715#0: channel 18:19
+2020/08/05 09:15:27 [notice] 24715#0: start worker process 24721
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:5 pid:24721 fd:18 to s:0 pid:24716 fd:3
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:5 pid:24721 fd:18 to s:1 pid:24717 fd:10
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:5 pid:24721 fd:18 to s:2 pid:24718 fd:12
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:5 pid:24721 fd:18 to s:3 pid:24719 fd:14
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:5 pid:24721 fd:18 to s:4 pid:24720 fd:16
+2020/08/05 09:15:27 [debug] 24715#0: channel 20:21
+2020/08/05 09:15:27 [notice] 24715#0: start worker process 24722
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:6 pid:24722 fd:20 to s:0 pid:24716 fd:3
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:6 pid:24722 fd:20 to s:1 pid:24717 fd:10
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:6 pid:24722 fd:20 to s:2 pid:24718 fd:12
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:6 pid:24722 fd:20 to s:3 pid:24719 fd:14
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:6 pid:24722 fd:20 to s:4 pid:24720 fd:16
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:6 pid:24722 fd:20 to s:5 pid:24721 fd:18
+2020/08/05 09:15:27 [debug] 24715#0: channel 22:23
+2020/08/05 09:15:27 [notice] 24715#0: start worker process 24723
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:7 pid:24723 fd:22 to s:0 pid:24716 fd:3
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:7 pid:24723 fd:22 to s:1 pid:24717 fd:10
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:7 pid:24723 fd:22 to s:2 pid:24718 fd:12
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:7 pid:24723 fd:22 to s:3 pid:24719 fd:14
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:7 pid:24723 fd:22 to s:4 pid:24720 fd:16
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:7 pid:24723 fd:22 to s:5 pid:24721 fd:18
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:7 pid:24723 fd:22 to s:6 pid:24722 fd:20
+2020/08/05 09:15:27 [debug] 24715#0: channel 24:25
+2020/08/05 09:15:27 [notice] 24715#0: start worker process 24724
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:8 pid:24724 fd:24 to s:0 pid:24716 fd:3
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:8 pid:24724 fd:24 to s:1 pid:24717 fd:10
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:8 pid:24724 fd:24 to s:2 pid:24718 fd:12
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:8 pid:24724 fd:24 to s:3 pid:24719 fd:14
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:8 pid:24724 fd:24 to s:4 pid:24720 fd:16
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:8 pid:24724 fd:24 to s:5 pid:24721 fd:18
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:8 pid:24724 fd:24 to s:6 pid:24722 fd:20
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:8 pid:24724 fd:24 to s:7 pid:24723 fd:22
+2020/08/05 09:15:27 [debug] 24715#0: channel 26:27
+2020/08/05 09:15:27 [notice] 24715#0: start worker process 24725
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:9 pid:24725 fd:26 to s:0 pid:24716 fd:3
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:9 pid:24725 fd:26 to s:1 pid:24717 fd:10
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:9 pid:24725 fd:26 to s:2 pid:24718 fd:12
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:9 pid:24725 fd:26 to s:3 pid:24719 fd:14
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:9 pid:24725 fd:26 to s:4 pid:24720 fd:16
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:9 pid:24725 fd:26 to s:5 pid:24721 fd:18
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:9 pid:24725 fd:26 to s:6 pid:24722 fd:20
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:9 pid:24725 fd:26 to s:7 pid:24723 fd:22
+2020/08/05 09:15:27 [debug] 24715#0: pass channel s:9 pid:24725 fd:26 to s:8 pid:24724 fd:24
+2020/08/05 09:15:27 [debug] 24715#0: sigsuspend
+2020/08/05 09:15:27 [debug] 24724#0: notify eventfd: 27
+2020/08/05 09:15:27 [debug] 24724#0: eventfd: 28
+2020/08/05 09:15:27 [debug] 24724#0: testing the EPOLLRDHUP flag: success
+2020/08/05 09:15:27 [debug] 24724#0: malloc: 00005644E1C03CE0:6144
+2020/08/05 09:15:27 [debug] 24724#0: malloc: 00007F4346ED2010:245760
+2020/08/05 09:15:27 [debug] 24724#0: malloc: 00005644E1CBD550:98304
+2020/08/05 09:15:27 [debug] 24724#0: malloc: 00005644E1CD5560:98304
+2020/08/05 09:15:27 [debug] 24724#0: epoll add event: fd:7 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24724#0: epoll add event: fd:8 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24724#0: epoll add event: fd:25 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24724#0: setproctitle: "nginx: worker process"
+2020/08/05 09:15:27 [debug] 24724#0: worker cycle
+2020/08/05 09:15:27 [debug] 24724#0: epoll timer: -1
+2020/08/05 09:15:27 [debug] 24724#0: epoll: fd:25 ev:0001 d:00007F4346ED21F0
+2020/08/05 09:15:27 [debug] 24724#0: channel handler
+2020/08/05 09:15:27 [debug] 24724#0: channel: 32
+2020/08/05 09:15:27 [debug] 24724#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24724#0: get channel s:9 pid:24725 fd:9
+2020/08/05 09:15:27 [debug] 24724#0: channel: -2
+2020/08/05 09:15:27 [debug] 24724#0: timer delta: 32
+2020/08/05 09:15:27 [debug] 24724#0: worker cycle
+2020/08/05 09:15:27 [debug] 24724#0: epoll timer: -1
+2020/08/05 09:15:27 [debug] 24719#0: notify eventfd: 17
+2020/08/05 09:15:27 [debug] 24719#0: eventfd: 18
+2020/08/05 09:15:27 [debug] 24719#0: testing the EPOLLRDHUP flag: success
+2020/08/05 09:15:27 [debug] 24719#0: malloc: 00005644E1C03CE0:6144
+2020/08/05 09:15:27 [debug] 24719#0: malloc: 00007F4346ED2010:245760
+2020/08/05 09:15:27 [debug] 24719#0: malloc: 00005644E1CBD550:98304
+2020/08/05 09:15:27 [debug] 24719#0: malloc: 00005644E1CD5560:98304
+2020/08/05 09:15:27 [debug] 24719#0: epoll add event: fd:7 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24719#0: epoll add event: fd:8 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24719#0: epoll add event: fd:15 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24719#0: setproctitle: "nginx: worker process"
+2020/08/05 09:15:27 [debug] 24719#0: worker cycle
+2020/08/05 09:15:27 [debug] 24719#0: epoll timer: -1
+2020/08/05 09:15:27 [debug] 24719#0: epoll: fd:15 ev:0001 d:00007F4346ED21F0
+2020/08/05 09:15:27 [debug] 24719#0: channel handler
+2020/08/05 09:15:27 [debug] 24719#0: channel: 32
+2020/08/05 09:15:27 [debug] 24719#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24719#0: get channel s:4 pid:24720 fd:9
+2020/08/05 09:15:27 [debug] 24719#0: channel: 32
+2020/08/05 09:15:27 [debug] 24719#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24719#0: get channel s:5 pid:24721 fd:11
+2020/08/05 09:15:27 [debug] 24719#0: channel: 32
+2020/08/05 09:15:27 [debug] 24719#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24719#0: get channel s:6 pid:24722 fd:13
+2020/08/05 09:15:27 [debug] 24719#0: channel: 32
+2020/08/05 09:15:27 [debug] 24719#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24719#0: get channel s:7 pid:24723 fd:14
+2020/08/05 09:15:27 [debug] 24719#0: channel: 32
+2020/08/05 09:15:27 [debug] 24719#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24719#0: get channel s:8 pid:24724 fd:19
+2020/08/05 09:15:27 [debug] 24719#0: channel: 32
+2020/08/05 09:15:27 [debug] 24719#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24719#0: get channel s:9 pid:24725 fd:20
+2020/08/05 09:15:27 [debug] 24719#0: channel: -2
+2020/08/05 09:15:27 [debug] 24719#0: timer delta: 33
+2020/08/05 09:15:27 [debug] 24719#0: worker cycle
+2020/08/05 09:15:27 [debug] 24719#0: epoll timer: -1
+2020/08/05 09:15:27 [debug] 24720#0: notify eventfd: 19
+2020/08/05 09:15:27 [debug] 24720#0: eventfd: 20
+2020/08/05 09:15:27 [debug] 24720#0: testing the EPOLLRDHUP flag: success
+2020/08/05 09:15:27 [debug] 24720#0: malloc: 00005644E1C03CE0:6144
+2020/08/05 09:15:27 [debug] 24720#0: malloc: 00007F4346ED2010:245760
+2020/08/05 09:15:27 [debug] 24720#0: malloc: 00005644E1CBD550:98304
+2020/08/05 09:15:27 [debug] 24720#0: malloc: 00005644E1CD5560:98304
+2020/08/05 09:15:27 [debug] 24720#0: epoll add event: fd:7 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24720#0: epoll add event: fd:8 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24720#0: epoll add event: fd:17 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24720#0: setproctitle: "nginx: worker process"
+2020/08/05 09:15:27 [debug] 24720#0: worker cycle
+2020/08/05 09:15:27 [debug] 24720#0: epoll timer: -1
+2020/08/05 09:15:27 [debug] 24720#0: epoll: fd:17 ev:0001 d:00007F4346ED21F0
+2020/08/05 09:15:27 [debug] 24720#0: channel handler
+2020/08/05 09:15:27 [debug] 24720#0: channel: 32
+2020/08/05 09:15:27 [debug] 24720#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24720#0: get channel s:5 pid:24721 fd:9
+2020/08/05 09:15:27 [debug] 24720#0: channel: 32
+2020/08/05 09:15:27 [debug] 24720#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24720#0: get channel s:6 pid:24722 fd:11
+2020/08/05 09:15:27 [debug] 24720#0: channel: 32
+2020/08/05 09:15:27 [debug] 24720#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24720#0: get channel s:7 pid:24723 fd:13
+2020/08/05 09:15:27 [debug] 24720#0: channel: 32
+2020/08/05 09:15:27 [debug] 24720#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24720#0: get channel s:8 pid:24724 fd:15
+2020/08/05 09:15:27 [debug] 24720#0: channel: 32
+2020/08/05 09:15:27 [debug] 24720#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24720#0: get channel s:9 pid:24725 fd:16
+2020/08/05 09:15:27 [debug] 24720#0: channel: -2
+2020/08/05 09:15:27 [debug] 24720#0: timer delta: 34
+2020/08/05 09:15:27 [debug] 24720#0: worker cycle
+2020/08/05 09:15:27 [debug] 24720#0: epoll timer: -1
+2020/08/05 09:15:27 [debug] 24716#0: notify eventfd: 11
+2020/08/05 09:15:27 [debug] 24716#0: eventfd: 12
+2020/08/05 09:15:27 [debug] 24716#0: testing the EPOLLRDHUP flag: success
+2020/08/05 09:15:27 [debug] 24716#0: malloc: 00005644E1C03CE0:6144
+2020/08/05 09:15:27 [debug] 24716#0: malloc: 00007F4346ED2010:245760
+2020/08/05 09:15:27 [debug] 24716#0: malloc: 00005644E1CBD550:98304
+2020/08/05 09:15:27 [debug] 24716#0: malloc: 00005644E1CD5560:98304
+2020/08/05 09:15:27 [debug] 24716#0: epoll add event: fd:7 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24716#0: epoll add event: fd:8 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24716#0: epoll add event: fd:9 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24716#0: setproctitle: "nginx: worker process"
+2020/08/05 09:15:27 [debug] 24716#0: worker cycle
+2020/08/05 09:15:27 [debug] 24716#0: epoll timer: -1
+2020/08/05 09:15:27 [debug] 24716#0: epoll: fd:9 ev:0001 d:00007F4346ED21F0
+2020/08/05 09:15:27 [debug] 24716#0: channel handler
+2020/08/05 09:15:27 [debug] 24716#0: channel: 32
+2020/08/05 09:15:27 [debug] 24716#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24716#0: get channel s:1 pid:24717 fd:3
+2020/08/05 09:15:27 [debug] 24716#0: channel: 32
+2020/08/05 09:15:27 [debug] 24716#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24716#0: get channel s:2 pid:24718 fd:13
+2020/08/05 09:15:27 [debug] 24716#0: channel: 32
+2020/08/05 09:15:27 [debug] 24716#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24716#0: get channel s:3 pid:24719 fd:14
+2020/08/05 09:15:27 [debug] 24716#0: channel: 32
+2020/08/05 09:15:27 [debug] 24716#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24716#0: get channel s:4 pid:24720 fd:15
+2020/08/05 09:15:27 [debug] 24716#0: channel: 32
+2020/08/05 09:15:27 [debug] 24716#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24716#0: get channel s:5 pid:24721 fd:16
+2020/08/05 09:15:27 [debug] 24716#0: channel: 32
+2020/08/05 09:15:27 [debug] 24716#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24716#0: get channel s:6 pid:24722 fd:17
+2020/08/05 09:15:27 [debug] 24716#0: channel: 32
+2020/08/05 09:15:27 [debug] 24716#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24716#0: get channel s:7 pid:24723 fd:18
+2020/08/05 09:15:27 [debug] 24716#0: channel: 32
+2020/08/05 09:15:27 [debug] 24716#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24716#0: get channel s:8 pid:24724 fd:19
+2020/08/05 09:15:27 [debug] 24716#0: channel: 32
+2020/08/05 09:15:27 [debug] 24716#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24716#0: get channel s:9 pid:24725 fd:20
+2020/08/05 09:15:27 [debug] 24716#0: channel: -2
+2020/08/05 09:15:27 [debug] 24716#0: timer delta: 36
+2020/08/05 09:15:27 [debug] 24716#0: worker cycle
+2020/08/05 09:15:27 [debug] 24716#0: epoll timer: -1
+2020/08/05 09:15:27 [debug] 24717#0: notify eventfd: 13
+2020/08/05 09:15:27 [debug] 24717#0: eventfd: 14
+2020/08/05 09:15:27 [debug] 24717#0: testing the EPOLLRDHUP flag: success
+2020/08/05 09:15:27 [debug] 24717#0: malloc: 00005644E1C03CE0:6144
+2020/08/05 09:15:27 [debug] 24717#0: malloc: 00007F4346ED2010:245760
+2020/08/05 09:15:27 [debug] 24717#0: malloc: 00005644E1CBD550:98304
+2020/08/05 09:15:27 [debug] 24717#0: malloc: 00005644E1CD5560:98304
+2020/08/05 09:15:27 [debug] 24717#0: epoll add event: fd:7 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24717#0: epoll add event: fd:8 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24717#0: epoll add event: fd:11 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24717#0: setproctitle: "nginx: worker process"
+2020/08/05 09:15:27 [debug] 24717#0: worker cycle
+2020/08/05 09:15:27 [debug] 24717#0: epoll timer: -1
+2020/08/05 09:15:27 [debug] 24717#0: epoll: fd:11 ev:0001 d:00007F4346ED21F0
+2020/08/05 09:15:27 [debug] 24717#0: channel handler
+2020/08/05 09:15:27 [debug] 24717#0: channel: 32
+2020/08/05 09:15:27 [debug] 24717#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24717#0: get channel s:2 pid:24718 fd:9
+2020/08/05 09:15:27 [debug] 24717#0: channel: 32
+2020/08/05 09:15:27 [debug] 24717#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24717#0: get channel s:3 pid:24719 fd:10
+2020/08/05 09:15:27 [debug] 24717#0: channel: 32
+2020/08/05 09:15:27 [debug] 24717#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24717#0: get channel s:4 pid:24720 fd:15
+2020/08/05 09:15:27 [debug] 24717#0: channel: 32
+2020/08/05 09:15:27 [debug] 24717#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24717#0: get channel s:5 pid:24721 fd:16
+2020/08/05 09:15:27 [debug] 24717#0: channel: 32
+2020/08/05 09:15:27 [debug] 24717#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24717#0: get channel s:6 pid:24722 fd:17
+2020/08/05 09:15:27 [debug] 24717#0: channel: 32
+2020/08/05 09:15:27 [debug] 24717#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24717#0: get channel s:7 pid:24723 fd:18
+2020/08/05 09:15:27 [debug] 24717#0: channel: 32
+2020/08/05 09:15:27 [debug] 24717#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24717#0: get channel s:8 pid:24724 fd:19
+2020/08/05 09:15:27 [debug] 24717#0: channel: 32
+2020/08/05 09:15:27 [debug] 24717#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24717#0: get channel s:9 pid:24725 fd:20
+2020/08/05 09:15:27 [debug] 24717#0: channel: -2
+2020/08/05 09:15:27 [debug] 24717#0: timer delta: 37
+2020/08/05 09:15:27 [debug] 24717#0: worker cycle
+2020/08/05 09:15:27 [debug] 24717#0: epoll timer: -1
+2020/08/05 09:15:27 [debug] 24721#0: notify eventfd: 21
+2020/08/05 09:15:27 [debug] 24721#0: eventfd: 22
+2020/08/05 09:15:27 [debug] 24721#0: testing the EPOLLRDHUP flag: success
+2020/08/05 09:15:27 [debug] 24721#0: malloc: 00005644E1C03CE0:6144
+2020/08/05 09:15:27 [debug] 24721#0: malloc: 00007F4346ED2010:245760
+2020/08/05 09:15:27 [debug] 24721#0: malloc: 00005644E1CBD550:98304
+2020/08/05 09:15:27 [debug] 24721#0: malloc: 00005644E1CD5560:98304
+2020/08/05 09:15:27 [debug] 24721#0: epoll add event: fd:7 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24721#0: epoll add event: fd:8 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24721#0: epoll add event: fd:19 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24721#0: setproctitle: "nginx: worker process"
+2020/08/05 09:15:27 [debug] 24721#0: worker cycle
+2020/08/05 09:15:27 [debug] 24721#0: epoll timer: -1
+2020/08/05 09:15:27 [debug] 24721#0: epoll: fd:19 ev:0001 d:00007F4346ED21F0
+2020/08/05 09:15:27 [debug] 24721#0: channel handler
+2020/08/05 09:15:27 [debug] 24721#0: channel: 32
+2020/08/05 09:15:27 [debug] 24721#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24721#0: get channel s:6 pid:24722 fd:9
+2020/08/05 09:15:27 [debug] 24721#0: channel: 32
+2020/08/05 09:15:27 [debug] 24721#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24721#0: get channel s:7 pid:24723 fd:11
+2020/08/05 09:15:27 [debug] 24721#0: channel: 32
+2020/08/05 09:15:27 [debug] 24721#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24721#0: get channel s:8 pid:24724 fd:13
+2020/08/05 09:15:27 [debug] 24721#0: channel: 32
+2020/08/05 09:15:27 [debug] 24721#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24721#0: get channel s:9 pid:24725 fd:15
+2020/08/05 09:15:27 [debug] 24721#0: channel: -2
+2020/08/05 09:15:27 [debug] 24721#0: timer delta: 38
+2020/08/05 09:15:27 [debug] 24721#0: worker cycle
+2020/08/05 09:15:27 [debug] 24721#0: epoll timer: -1
+2020/08/05 09:15:27 [debug] 24722#0: notify eventfd: 23
+2020/08/05 09:15:27 [debug] 24722#0: eventfd: 24
+2020/08/05 09:15:27 [debug] 24722#0: testing the EPOLLRDHUP flag: success
+2020/08/05 09:15:27 [debug] 24722#0: malloc: 00005644E1C03CE0:6144
+2020/08/05 09:15:27 [debug] 24722#0: malloc: 00007F4346ED2010:245760
+2020/08/05 09:15:27 [debug] 24722#0: malloc: 00005644E1CBD550:98304
+2020/08/05 09:15:27 [debug] 24722#0: malloc: 00005644E1CD5560:98304
+2020/08/05 09:15:27 [debug] 24722#0: epoll add event: fd:7 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24722#0: epoll add event: fd:8 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24722#0: epoll add event: fd:21 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24722#0: setproctitle: "nginx: worker process"
+2020/08/05 09:15:27 [debug] 24722#0: worker cycle
+2020/08/05 09:15:27 [debug] 24722#0: epoll timer: -1
+2020/08/05 09:15:27 [debug] 24722#0: epoll: fd:21 ev:0001 d:00007F4346ED21F0
+2020/08/05 09:15:27 [debug] 24722#0: channel handler
+2020/08/05 09:15:27 [debug] 24722#0: channel: 32
+2020/08/05 09:15:27 [debug] 24722#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24722#0: get channel s:7 pid:24723 fd:9
+2020/08/05 09:15:27 [debug] 24722#0: channel: 32
+2020/08/05 09:15:27 [debug] 24722#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24722#0: get channel s:8 pid:24724 fd:11
+2020/08/05 09:15:27 [debug] 24722#0: channel: 32
+2020/08/05 09:15:27 [debug] 24722#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24722#0: get channel s:9 pid:24725 fd:13
+2020/08/05 09:15:27 [debug] 24722#0: channel: -2
+2020/08/05 09:15:27 [debug] 24722#0: timer delta: 40
+2020/08/05 09:15:27 [debug] 24722#0: worker cycle
+2020/08/05 09:15:27 [debug] 24722#0: epoll timer: -1
+2020/08/05 09:15:27 [debug] 24723#0: notify eventfd: 25
+2020/08/05 09:15:27 [debug] 24723#0: eventfd: 26
+2020/08/05 09:15:27 [debug] 24723#0: testing the EPOLLRDHUP flag: success
+2020/08/05 09:15:27 [debug] 24723#0: malloc: 00005644E1C03CE0:6144
+2020/08/05 09:15:27 [debug] 24723#0: malloc: 00007F4346ED2010:245760
+2020/08/05 09:15:27 [debug] 24723#0: malloc: 00005644E1CBD550:98304
+2020/08/05 09:15:27 [debug] 24723#0: malloc: 00005644E1CD5560:98304
+2020/08/05 09:15:27 [debug] 24723#0: epoll add event: fd:7 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24723#0: epoll add event: fd:8 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24723#0: epoll add event: fd:23 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24723#0: setproctitle: "nginx: worker process"
+2020/08/05 09:15:27 [debug] 24723#0: worker cycle
+2020/08/05 09:15:27 [debug] 24723#0: epoll timer: -1
+2020/08/05 09:15:27 [debug] 24723#0: epoll: fd:23 ev:0001 d:00007F4346ED21F0
+2020/08/05 09:15:27 [debug] 24723#0: channel handler
+2020/08/05 09:15:27 [debug] 24723#0: channel: 32
+2020/08/05 09:15:27 [debug] 24723#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24723#0: get channel s:8 pid:24724 fd:9
+2020/08/05 09:15:27 [debug] 24723#0: channel: 32
+2020/08/05 09:15:27 [debug] 24723#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24723#0: get channel s:9 pid:24725 fd:11
+2020/08/05 09:15:27 [debug] 24723#0: channel: -2
+2020/08/05 09:15:27 [debug] 24723#0: timer delta: 41
+2020/08/05 09:15:27 [debug] 24723#0: worker cycle
+2020/08/05 09:15:27 [debug] 24723#0: epoll timer: -1
+2020/08/05 09:15:27 [debug] 24718#0: notify eventfd: 15
+2020/08/05 09:15:27 [debug] 24718#0: eventfd: 16
+2020/08/05 09:15:27 [debug] 24718#0: testing the EPOLLRDHUP flag: success
+2020/08/05 09:15:27 [debug] 24718#0: malloc: 00005644E1C03CE0:6144
+2020/08/05 09:15:27 [debug] 24718#0: malloc: 00007F4346ED2010:245760
+2020/08/05 09:15:27 [debug] 24718#0: malloc: 00005644E1CBD550:98304
+2020/08/05 09:15:27 [debug] 24718#0: malloc: 00005644E1CD5560:98304
+2020/08/05 09:15:27 [debug] 24718#0: epoll add event: fd:7 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24718#0: epoll add event: fd:8 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24718#0: epoll add event: fd:13 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24718#0: setproctitle: "nginx: worker process"
+2020/08/05 09:15:27 [debug] 24718#0: worker cycle
+2020/08/05 09:15:27 [debug] 24718#0: epoll timer: -1
+2020/08/05 09:15:27 [debug] 24718#0: epoll: fd:13 ev:0001 d:00007F4346ED21F0
+2020/08/05 09:15:27 [debug] 24718#0: channel handler
+2020/08/05 09:15:27 [debug] 24718#0: channel: 32
+2020/08/05 09:15:27 [debug] 24718#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24718#0: get channel s:3 pid:24719 fd:9
+2020/08/05 09:15:27 [debug] 24718#0: channel: 32
+2020/08/05 09:15:27 [debug] 24718#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24718#0: get channel s:4 pid:24720 fd:11
+2020/08/05 09:15:27 [debug] 24718#0: channel: 32
+2020/08/05 09:15:27 [debug] 24718#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24718#0: get channel s:5 pid:24721 fd:12
+2020/08/05 09:15:27 [debug] 24718#0: channel: 32
+2020/08/05 09:15:27 [debug] 24718#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24718#0: get channel s:6 pid:24722 fd:17
+2020/08/05 09:15:27 [debug] 24718#0: channel: 32
+2020/08/05 09:15:27 [debug] 24718#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24718#0: get channel s:7 pid:24723 fd:18
+2020/08/05 09:15:27 [debug] 24718#0: channel: 32
+2020/08/05 09:15:27 [debug] 24718#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24718#0: get channel s:8 pid:24724 fd:19
+2020/08/05 09:15:27 [debug] 24718#0: channel: 32
+2020/08/05 09:15:27 [debug] 24718#0: channel command: 1
+2020/08/05 09:15:27 [debug] 24718#0: get channel s:9 pid:24725 fd:20
+2020/08/05 09:15:27 [debug] 24718#0: channel: -2
+2020/08/05 09:15:27 [debug] 24718#0: timer delta: 43
+2020/08/05 09:15:27 [debug] 24718#0: worker cycle
+2020/08/05 09:15:27 [debug] 24718#0: epoll timer: -1
+2020/08/05 09:15:27 [debug] 24725#0: notify eventfd: 29
+2020/08/05 09:15:27 [debug] 24725#0: eventfd: 30
+2020/08/05 09:15:27 [debug] 24725#0: testing the EPOLLRDHUP flag: success
+2020/08/05 09:15:27 [debug] 24725#0: malloc: 00005644E1C03CE0:6144
+2020/08/05 09:15:27 [debug] 24725#0: malloc: 00007F4346ED2010:245760
+2020/08/05 09:15:27 [debug] 24725#0: malloc: 00005644E1CBD550:98304
+2020/08/05 09:15:27 [debug] 24725#0: malloc: 00005644E1CD5560:98304
+2020/08/05 09:15:27 [debug] 24725#0: epoll add event: fd:7 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24725#0: epoll add event: fd:8 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24725#0: epoll add event: fd:27 op:1 ev:00002001
+2020/08/05 09:15:27 [debug] 24725#0: setproctitle: "nginx: worker process"
+2020/08/05 09:15:27 [debug] 24725#0: worker cycle
+2020/08/05 09:15:27 [debug] 24725#0: epoll timer: -1
+2020/08/05 09:15:44 [debug] 24725#0: epoll: fd:7 ev:0001 d:00007F4346ED2010
+2020/08/05 09:15:44 [debug] 24725#0: accept on 0.0.0.0:80, ready: 0
+2020/08/05 09:15:44 [debug] 24725#0: posix_memalign: 00005644E1C88150:512 @16
+2020/08/05 09:15:44 [debug] 24725#0: *1 accept: 37.150.10.218:54758 fd:9
+2020/08/05 09:15:44 [debug] 24725#0: *1 event timer add: 9: 60000:1276220695
+2020/08/05 09:15:44 [debug] 24725#0: *1 reusable connection: 1
+2020/08/05 09:15:44 [debug] 24725#0: *1 epoll add event: fd:9 op:1 ev:80002001
+2020/08/05 09:15:44 [debug] 24725#0: timer delta: 17086
+2020/08/05 09:15:44 [debug] 24725#0: worker cycle
+2020/08/05 09:15:44 [debug] 24725#0: epoll timer: 60000
+2020/08/05 09:15:44 [debug] 24725#0: epoll: fd:9 ev:0001 d:00007F4346ED22E0
+2020/08/05 09:15:44 [debug] 24725#0: *1 http wait request handler
+2020/08/05 09:15:44 [debug] 24725#0: *1 malloc: 00005644E1BE90B0:1024
+2020/08/05 09:15:44 [debug] 24725#0: *1 recv: eof:0, avail:1
+2020/08/05 09:15:44 [debug] 24725#0: *1 recv: fd:9 380 of 1024
+2020/08/05 09:15:44 [debug] 24725#0: *1 reusable connection: 0
+2020/08/05 09:15:44 [debug] 24725#0: *1 posix_memalign: 00005644E1C489F0:4096 @16
+2020/08/05 09:15:44 [debug] 24725#0: *1 http process request line
+2020/08/05 09:15:44 [debug] 24725#0: *1 http request line: "GET /favicon.ico HTTP/1.1"
+2020/08/05 09:15:44 [debug] 24725#0: *1 http uri: "/favicon.ico"
+2020/08/05 09:15:44 [debug] 24725#0: *1 http args: ""
+2020/08/05 09:15:44 [debug] 24725#0: *1 http exten: "ico"
+2020/08/05 09:15:44 [debug] 24725#0: *1 posix_memalign: 00005644E1C054F0:4096 @16
+2020/08/05 09:15:44 [debug] 24725#0: *1 http process request header line
+2020/08/05 09:15:44 [debug] 24725#0: *1 http header: "Host: 209.97.190.137"
+2020/08/05 09:15:44 [debug] 24725#0: *1 http header: "Connection: keep-alive"
+2020/08/05 09:15:44 [debug] 24725#0: *1 http header: "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+2020/08/05 09:15:44 [debug] 24725#0: *1 http header: "DNT: 1"
+2020/08/05 09:15:44 [debug] 24725#0: *1 http header: "Accept: image/webp,image/apng,image/*,*/*;q=0.8"
+2020/08/05 09:15:44 [debug] 24725#0: *1 http header: "Referer: http://209.97.190.137/"
+2020/08/05 09:15:44 [debug] 24725#0: *1 http header: "Accept-Encoding: gzip, deflate"
+2020/08/05 09:15:44 [debug] 24725#0: *1 http header: "Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,ru;q=0.7"
+2020/08/05 09:15:44 [debug] 24725#0: *1 http header done
+2020/08/05 09:15:44 [debug] 24725#0: *1 event timer del: 9: 1276220695
+2020/08/05 09:15:44 [debug] 24725#0: *1 generic phase: 0
+2020/08/05 09:15:44 [debug] 24725#0: *1 rewrite phase: 1
+2020/08/05 09:15:44 [debug] 24725#0: *1 test location: "/"
+2020/08/05 09:15:44 [debug] 24725#0: *1 test location: "hackers_count"
+2020/08/05 09:15:44 [debug] 24725#0: *1 test location: "50x.html"
+2020/08/05 09:15:44 [debug] 24725#0: *1 using configuration "/"
+2020/08/05 09:15:44 [debug] 24725#0: *1 http cl:-1 max:1048576
+2020/08/05 09:15:44 [debug] 24725#0: *1 rewrite phase: 3
+2020/08/05 09:15:44 [debug] 24725#0: *1 post rewrite phase: 4
+2020/08/05 09:15:44 [debug] 24725#0: *1 generic phase: 5
+2020/08/05 09:15:44 [debug] 24725#0: *1 generic phase: 6
+2020/08/05 09:15:44 [debug] 24725#0: *1 generic phase: 7
+2020/08/05 09:15:44 [debug] 24725#0: *1 generic phase: 8
+2020/08/05 09:15:44 [debug] 24725#0: *1 access phase: 9
+2020/08/05 09:15:44 [debug] 24725#0: *1 access phase: 10
+2020/08/05 09:15:44 [debug] 24725#0: *1 access phase: 11
+2020/08/05 09:15:44 [debug] 24725#0: *1 post access phase: 12
+2020/08/05 09:15:44 [debug] 24725#0: *1 generic phase: 13
+2020/08/05 09:15:44 [debug] 24725#0: *1 generic phase: 14
+2020/08/05 09:15:44 [debug] 24725#0: *1 content phase: 15
+2020/08/05 09:15:44 [debug] 24725#0: *1 http finalize request: 302, "/favicon.ico?" a:1, c:1
+2020/08/05 09:15:44 [debug] 24725#0: *1 http special response: 302, "/favicon.ico?"
+2020/08/05 09:15:44 [debug] 24725#0: *1 http set discard body
+2020/08/05 09:15:44 [debug] 24725#0: *1 xslt filter header
+2020/08/05 09:15:44 [debug] 24725#0: *1 HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.16.1
+Date: Wed, 05 Aug 2020 09:15:44 GMT
+Content-Type: text/html
+Content-Length: 145
+Connection: keep-alive
+Location: https://cybersec.kz/ru
+
+2020/08/05 09:15:44 [debug] 24725#0: *1 write new buf t:1 f:0 00005644E1C49818, pos 00005644E1C49818, size: 197 file: 0, size: 0
+2020/08/05 09:15:44 [debug] 24725#0: *1 http write filter: l:0 f:0 s:197
+2020/08/05 09:15:44 [debug] 24725#0: *1 http output filter "/favicon.ico?"
+2020/08/05 09:15:44 [debug] 24725#0: *1 http copy filter: "/favicon.ico?"
+2020/08/05 09:15:44 [debug] 24725#0: *1 image filter
+2020/08/05 09:15:44 [debug] 24725#0: *1 xslt filter body
+2020/08/05 09:15:44 [debug] 24725#0: *1 http postpone filter "/favicon.ico?" 00005644E1C499A0
+2020/08/05 09:15:44 [debug] 24725#0: *1 write old buf t:1 f:0 00005644E1C49818, pos 00005644E1C49818, size: 197 file: 0, size: 0
+2020/08/05 09:15:44 [debug] 24725#0: *1 write new buf t:0 f:0 0000000000000000, pos 00005644E00C28E0, size: 92 file: 0, size: 0
+2020/08/05 09:15:44 [debug] 24725#0: *1 write new buf t:0 f:0 0000000000000000, pos 00005644E00C2C40, size: 53 file: 0, size: 0
+2020/08/05 09:15:44 [debug] 24725#0: *1 http write filter: l:1 f:0 s:342
+2020/08/05 09:15:44 [debug] 24725#0: *1 http write filter limit 0
+2020/08/05 09:15:44 [debug] 24725#0: *1 writev: 342 of 342
+2020/08/05 09:15:44 [debug] 24725#0: *1 http write filter 0000000000000000
+2020/08/05 09:15:44 [debug] 24725#0: *1 http copy filter: 0 "/favicon.ico?"
+2020/08/05 09:15:44 [debug] 24725#0: *1 http finalize request: 0, "/favicon.ico?" a:1, c:1
+2020/08/05 09:15:44 [debug] 24725#0: *1 set http keepalive handler
+2020/08/05 09:15:44 [debug] 24725#0: *1 http close request
+2020/08/05 09:15:44 [debug] 24725#0: *1 http log handler
+2020/08/05 09:15:44 [debug] 24725#0: *1 free: 00005644E1C489F0, unused: 16
+2020/08/05 09:15:44 [debug] 24725#0: *1 free: 00005644E1C054F0, unused: 2728
+2020/08/05 09:15:44 [debug] 24725#0: *1 free: 00005644E1BE90B0
+2020/08/05 09:15:44 [debug] 24725#0: *1 hc free: 0000000000000000
+2020/08/05 09:15:44 [debug] 24725#0: *1 hc busy: 0000000000000000 0
+2020/08/05 09:15:44 [debug] 24725#0: *1 tcp_nodelay
+2020/08/05 09:15:44 [debug] 24725#0: *1 reusable connection: 1
+2020/08/05 09:15:44 [debug] 24725#0: *1 event timer add: 9: 65000:1276225695
+2020/08/05 09:15:44 [debug] 24725#0: timer delta: 0
+2020/08/05 09:15:44 [debug] 24725#0: worker cycle
+2020/08/05 09:15:44 [debug] 24725#0: epoll timer: 65000
+2020/08/05 09:15:48 [debug] 24725#0: epoll: fd:9 ev:0001 d:00007F4346ED22E0
+2020/08/05 09:15:48 [debug] 24725#0: *1 http keepalive handler
+2020/08/05 09:15:48 [debug] 24725#0: *1 malloc: 00005644E1BE90B0:1024
+2020/08/05 09:15:48 [debug] 24725#0: *1 recv: eof:0, avail:1
+2020/08/05 09:15:48 [debug] 24725#0: *1 recv: fd:9 559 of 1024
+2020/08/05 09:15:48 [debug] 24725#0: *1 reusable connection: 0
+2020/08/05 09:15:48 [debug] 24725#0: *1 posix_memalign: 00005644E1C489F0:4096 @16
+2020/08/05 09:15:48 [debug] 24725#0: *1 event timer del: 9: 1276225695
+2020/08/05 09:15:48 [debug] 24725#0: *1 http process request line
+2020/08/05 09:15:48 [debug] 24725#0: *1 http request line: "GET / HTTP/1.1"
+2020/08/05 09:15:48 [debug] 24725#0: *1 http uri: "/"
+2020/08/05 09:15:48 [debug] 24725#0: *1 http args: ""
+2020/08/05 09:15:48 [debug] 24725#0: *1 http exten: ""
+2020/08/05 09:15:48 [debug] 24725#0: *1 posix_memalign: 00005644E1C054F0:4096 @16
+2020/08/05 09:15:48 [debug] 24725#0: *1 http process request header line
+2020/08/05 09:15:48 [debug] 24725#0: *1 http header: "Host: 209.97.190.137"
+2020/08/05 09:15:48 [debug] 24725#0: *1 http header: "Connection: keep-alive"
+2020/08/05 09:15:48 [debug] 24725#0: *1 http header: "Cache-Control: max-age=0"
+2020/08/05 09:15:48 [debug] 24725#0: *1 http header: "DNT: 1"
+2020/08/05 09:15:48 [debug] 24725#0: *1 http header: "Upgrade-Insecure-Requests: 1"
+2020/08/05 09:15:48 [debug] 24725#0: *1 http header: "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+2020/08/05 09:15:48 [debug] 24725#0: *1 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+2020/08/05 09:15:48 [debug] 24725#0: *1 http header: "Accept-Encoding: gzip, deflate"
+2020/08/05 09:15:48 [debug] 24725#0: *1 http header: "Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,ru;q=0.7"
+2020/08/05 09:15:48 [debug] 24725#0: *1 http header: "If-None-Match: "53762af0-12e1""
+2020/08/05 09:15:48 [debug] 24725#0: *1 http header: "If-Modified-Since: Fri, 16 May 2014 15:12:48 GMT"
+2020/08/05 09:15:48 [debug] 24725#0: *1 http header done
+2020/08/05 09:15:48 [debug] 24725#0: *1 generic phase: 0
+2020/08/05 09:15:48 [debug] 24725#0: *1 rewrite phase: 1
+2020/08/05 09:15:48 [debug] 24725#0: *1 test location: "/"
+2020/08/05 09:15:48 [debug] 24725#0: *1 using configuration "/"
+2020/08/05 09:15:48 [debug] 24725#0: *1 http cl:-1 max:1048576
+2020/08/05 09:15:48 [debug] 24725#0: *1 rewrite phase: 3
+2020/08/05 09:15:48 [debug] 24725#0: *1 post rewrite phase: 4
+2020/08/05 09:15:48 [debug] 24725#0: *1 generic phase: 5
+2020/08/05 09:15:48 [debug] 24725#0: *1 generic phase: 6
+2020/08/05 09:15:48 [debug] 24725#0: *1 generic phase: 7
+2020/08/05 09:15:48 [debug] 24725#0: *1 generic phase: 8
+2020/08/05 09:15:48 [debug] 24725#0: *1 access phase: 9
+2020/08/05 09:15:48 [debug] 24725#0: *1 access phase: 10
+2020/08/05 09:15:48 [debug] 24725#0: *1 access phase: 11
+2020/08/05 09:15:48 [debug] 24725#0: *1 post access phase: 12
+2020/08/05 09:15:48 [debug] 24725#0: *1 generic phase: 13
+2020/08/05 09:15:48 [debug] 24725#0: *1 generic phase: 14
+2020/08/05 09:15:48 [debug] 24725#0: *1 content phase: 15
+2020/08/05 09:15:48 [debug] 24725#0: *1 http finalize request: 302, "/?" a:1, c:1
+2020/08/05 09:15:48 [debug] 24725#0: *1 http special response: 302, "/?"
+2020/08/05 09:15:48 [debug] 24725#0: *1 http set discard body
+2020/08/05 09:15:48 [debug] 24725#0: *1 xslt filter header
+2020/08/05 09:15:48 [debug] 24725#0: *1 HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.16.1
+Date: Wed, 05 Aug 2020 09:15:48 GMT
+Content-Type: text/html
+Content-Length: 145
+Connection: keep-alive
+Location: https://cybersec.kz/ru
+
+2020/08/05 09:15:48 [debug] 24725#0: *1 write new buf t:1 f:0 00005644E1C49858, pos 00005644E1C49858, size: 197 file: 0, size: 0
+2020/08/05 09:15:48 [debug] 24725#0: *1 http write filter: l:0 f:0 s:197
+2020/08/05 09:15:48 [debug] 24725#0: *1 http output filter "/?"
+2020/08/05 09:15:48 [debug] 24725#0: *1 http copy filter: "/?"
+2020/08/05 09:15:48 [debug] 24725#0: *1 image filter
+2020/08/05 09:15:48 [debug] 24725#0: *1 xslt filter body
+2020/08/05 09:15:48 [debug] 24725#0: *1 http postpone filter "/?" 00005644E1C499E0
+2020/08/05 09:15:48 [debug] 24725#0: *1 write old buf t:1 f:0 00005644E1C49858, pos 00005644E1C49858, size: 197 file: 0, size: 0
+2020/08/05 09:15:48 [debug] 24725#0: *1 write new buf t:0 f:0 0000000000000000, pos 00005644E00C28E0, size: 92 file: 0, size: 0
+2020/08/05 09:15:48 [debug] 24725#0: *1 write new buf t:0 f:0 0000000000000000, pos 00005644E00C2C40, size: 53 file: 0, size: 0
+2020/08/05 09:15:48 [debug] 24725#0: *1 http write filter: l:1 f:0 s:342
+2020/08/05 09:15:48 [debug] 24725#0: *1 http write filter limit 0
+2020/08/05 09:15:48 [debug] 24725#0: *1 writev: 342 of 342
+2020/08/05 09:15:48 [debug] 24725#0: *1 http write filter 0000000000000000
+2020/08/05 09:15:48 [debug] 24725#0: *1 http copy filter: 0 "/?"
+2020/08/05 09:15:48 [debug] 24725#0: *1 http finalize request: 0, "/?" a:1, c:1
+2020/08/05 09:15:48 [debug] 24725#0: *1 set http keepalive handler
+2020/08/05 09:15:48 [debug] 24725#0: *1 http close request
+2020/08/05 09:15:48 [debug] 24725#0: *1 http log handler
+2020/08/05 09:15:48 [debug] 24725#0: *1 free: 00005644E1C489F0, unused: 0
+2020/08/05 09:15:48 [debug] 24725#0: *1 free: 00005644E1C054F0, unused: 2712
+2020/08/05 09:15:48 [debug] 24725#0: *1 free: 00005644E1BE90B0
+2020/08/05 09:15:48 [debug] 24725#0: *1 hc free: 0000000000000000
+2020/08/05 09:15:48 [debug] 24725#0: *1 hc busy: 0000000000000000 0
+2020/08/05 09:15:48 [debug] 24725#0: *1 reusable connection: 1
+2020/08/05 09:15:48 [debug] 24725#0: *1 event timer add: 9: 65000:1276229253
+2020/08/05 09:15:48 [debug] 24725#0: timer delta: 3558
+2020/08/05 09:15:48 [debug] 24725#0: worker cycle
+2020/08/05 09:15:48 [debug] 24725#0: epoll timer: 65000
+2020/08/05 09:15:52 [debug] 24725#0: epoll: fd:9 ev:0001 d:00007F4346ED22E0
+2020/08/05 09:15:52 [debug] 24725#0: *1 http keepalive handler
+2020/08/05 09:15:52 [debug] 24725#0: *1 malloc: 00005644E1BE90B0:1024
+2020/08/05 09:15:52 [debug] 24725#0: *1 recv: eof:0, avail:1
+2020/08/05 09:15:52 [debug] 24725#0: *1 recv: fd:9 451 of 1024
+2020/08/05 09:15:52 [debug] 24725#0: *1 reusable connection: 0
+2020/08/05 09:15:52 [debug] 24725#0: *1 posix_memalign: 00005644E1C489F0:4096 @16
+2020/08/05 09:15:52 [debug] 24725#0: *1 event timer del: 9: 1276229253
+2020/08/05 09:15:52 [debug] 24725#0: *1 http process request line
+2020/08/05 09:15:52 [debug] 24725#0: *1 http request line: "GET / HTTP/1.1"
+2020/08/05 09:15:52 [debug] 24725#0: *1 http uri: "/"
+2020/08/05 09:15:52 [debug] 24725#0: *1 http args: ""
+2020/08/05 09:15:52 [debug] 24725#0: *1 http exten: ""
+2020/08/05 09:15:52 [debug] 24725#0: *1 posix_memalign: 00005644E1C054F0:4096 @16
+2020/08/05 09:15:52 [debug] 24725#0: *1 http process request header line
+2020/08/05 09:15:52 [debug] 24725#0: *1 http header: "Host: 209.97.190.137"
+2020/08/05 09:15:52 [debug] 24725#0: *1 http header: "Connection: keep-alive"
+2020/08/05 09:15:52 [debug] 24725#0: *1 http header: "DNT: 1"
+2020/08/05 09:15:52 [debug] 24725#0: *1 http header: "Upgrade-Insecure-Requests: 1"
+2020/08/05 09:15:52 [debug] 24725#0: *1 http header: "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+2020/08/05 09:15:52 [debug] 24725#0: *1 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+2020/08/05 09:15:52 [debug] 24725#0: *1 http header: "Accept-Encoding: gzip, deflate"
+2020/08/05 09:15:52 [debug] 24725#0: *1 http header: "Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,ru;q=0.7"
+2020/08/05 09:15:52 [debug] 24725#0: *1 http header done
+2020/08/05 09:15:52 [debug] 24725#0: *1 generic phase: 0
+2020/08/05 09:15:52 [debug] 24725#0: *1 rewrite phase: 1
+2020/08/05 09:15:52 [debug] 24725#0: *1 test location: "/"
+2020/08/05 09:15:52 [debug] 24725#0: *1 using configuration "/"
+2020/08/05 09:15:52 [debug] 24725#0: *1 http cl:-1 max:1048576
+2020/08/05 09:15:52 [debug] 24725#0: *1 rewrite phase: 3
+2020/08/05 09:15:52 [debug] 24725#0: *1 post rewrite phase: 4
+2020/08/05 09:15:52 [debug] 24725#0: *1 generic phase: 5
+2020/08/05 09:15:52 [debug] 24725#0: *1 generic phase: 6
+2020/08/05 09:15:52 [debug] 24725#0: *1 generic phase: 7
+2020/08/05 09:15:52 [debug] 24725#0: *1 generic phase: 8
+2020/08/05 09:15:52 [debug] 24725#0: *1 access phase: 9
+2020/08/05 09:15:52 [debug] 24725#0: *1 access phase: 10
+2020/08/05 09:15:52 [debug] 24725#0: *1 access phase: 11
+2020/08/05 09:15:52 [debug] 24725#0: *1 post access phase: 12
+2020/08/05 09:15:52 [debug] 24725#0: *1 generic phase: 13
+2020/08/05 09:15:52 [debug] 24725#0: *1 generic phase: 14
+2020/08/05 09:15:52 [debug] 24725#0: *1 content phase: 15
+2020/08/05 09:15:52 [debug] 24725#0: *1 http finalize request: 302, "/?" a:1, c:1
+2020/08/05 09:15:52 [debug] 24725#0: *1 http special response: 302, "/?"
+2020/08/05 09:15:52 [debug] 24725#0: *1 http set discard body
+2020/08/05 09:15:52 [debug] 24725#0: *1 xslt filter header
+2020/08/05 09:15:52 [debug] 24725#0: *1 HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.16.1
+Date: Wed, 05 Aug 2020 09:15:52 GMT
+Content-Type: text/html
+Content-Length: 145
+Connection: keep-alive
+Location: https://cybersec.kz/ru
+
+2020/08/05 09:15:52 [debug] 24725#0: *1 write new buf t:1 f:0 00005644E1C49828, pos 00005644E1C49828, size: 197 file: 0, size: 0
+2020/08/05 09:15:52 [debug] 24725#0: *1 http write filter: l:0 f:0 s:197
+2020/08/05 09:15:52 [debug] 24725#0: *1 http output filter "/?"
+2020/08/05 09:15:52 [debug] 24725#0: *1 http copy filter: "/?"
+2020/08/05 09:15:52 [debug] 24725#0: *1 image filter
+2020/08/05 09:15:52 [debug] 24725#0: *1 xslt filter body
+2020/08/05 09:15:52 [debug] 24725#0: *1 http postpone filter "/?" 00005644E1C499B0
+2020/08/05 09:15:52 [debug] 24725#0: *1 write old buf t:1 f:0 00005644E1C49828, pos 00005644E1C49828, size: 197 file: 0, size: 0
+2020/08/05 09:15:52 [debug] 24725#0: *1 write new buf t:0 f:0 0000000000000000, pos 00005644E00C28E0, size: 92 file: 0, size: 0
+2020/08/05 09:15:52 [debug] 24725#0: *1 write new buf t:0 f:0 0000000000000000, pos 00005644E00C2C40, size: 53 file: 0, size: 0
+2020/08/05 09:15:52 [debug] 24725#0: *1 http write filter: l:1 f:0 s:342
+2020/08/05 09:15:52 [debug] 24725#0: *1 http write filter limit 0
+2020/08/05 09:15:52 [debug] 24725#0: *1 writev: 342 of 342
+2020/08/05 09:15:52 [debug] 24725#0: *1 http write filter 0000000000000000
+2020/08/05 09:15:52 [debug] 24725#0: *1 http copy filter: 0 "/?"
+2020/08/05 09:15:52 [debug] 24725#0: *1 http finalize request: 0, "/?" a:1, c:1
+2020/08/05 09:15:52 [debug] 24725#0: *1 set http keepalive handler
+2020/08/05 09:15:52 [debug] 24725#0: *1 http close request
+2020/08/05 09:15:52 [debug] 24725#0: *1 http log handler
+2020/08/05 09:15:52 [debug] 24725#0: *1 free: 00005644E1C489F0, unused: 0
+2020/08/05 09:15:52 [debug] 24725#0: *1 free: 00005644E1C054F0, unused: 2760
+2020/08/05 09:15:52 [debug] 24725#0: *1 free: 00005644E1BE90B0
+2020/08/05 09:15:52 [debug] 24725#0: *1 hc free: 0000000000000000
+2020/08/05 09:15:52 [debug] 24725#0: *1 hc busy: 0000000000000000 0
+2020/08/05 09:15:52 [debug] 24725#0: *1 reusable connection: 1
+2020/08/05 09:15:52 [debug] 24725#0: *1 event timer add: 9: 65000:1276233415
+2020/08/05 09:15:52 [debug] 24725#0: timer delta: 4162
+2020/08/05 09:15:52 [debug] 24725#0: worker cycle
+2020/08/05 09:15:52 [debug] 24725#0: epoll timer: 65000
+2020/08/05 09:16:57 [debug] 24725#0: timer delta: 65038
+2020/08/05 09:16:57 [debug] 24725#0: *1 event timer del: 9: 1276233415
+2020/08/05 09:16:57 [debug] 24725#0: *1 http keepalive handler
+2020/08/05 09:16:57 [debug] 24725#0: *1 close http connection: 9
+2020/08/05 09:16:57 [debug] 24725#0: *1 reusable connection: 0
+2020/08/05 09:16:57 [debug] 24725#0: *1 free: 0000000000000000
+2020/08/05 09:16:57 [debug] 24725#0: *1 free: 00005644E1C88150, unused: 136
+2020/08/05 09:16:57 [debug] 24725#0: worker cycle
+2020/08/05 09:16:57 [debug] 24725#0: epoll timer: -1
+2020/08/05 09:17:32 [debug] 24725#0: epoll: fd:7 ev:0001 d:00007F4346ED2010
+2020/08/05 09:17:32 [debug] 24725#0: accept on 0.0.0.0:80, ready: 0
+2020/08/05 09:17:32 [debug] 24725#0: posix_memalign: 00005644E1C88150:512 @16
+2020/08/05 09:17:32 [debug] 24725#0: *2 accept: 37.150.10.218:54782 fd:9
+2020/08/05 09:17:32 [debug] 24725#0: *2 event timer add: 9: 60000:1276328723
+2020/08/05 09:17:32 [debug] 24725#0: *2 reusable connection: 1
+2020/08/05 09:17:32 [debug] 24725#0: *2 epoll add event: fd:9 op:1 ev:80002001
+2020/08/05 09:17:32 [debug] 24725#0: timer delta: 35270
+2020/08/05 09:17:32 [debug] 24725#0: worker cycle
+2020/08/05 09:17:32 [debug] 24725#0: epoll timer: 60000
+2020/08/05 09:17:32 [debug] 24725#0: epoll: fd:9 ev:0001 d:00007F4346ED22E1
+2020/08/05 09:17:32 [debug] 24725#0: *2 http wait request handler
+2020/08/05 09:17:32 [debug] 24725#0: *2 malloc: 00005644E1BE90B0:1024
+2020/08/05 09:17:32 [debug] 24725#0: *2 recv: eof:0, avail:1
+2020/08/05 09:17:32 [debug] 24725#0: *2 recv: fd:9 451 of 1024
+2020/08/05 09:17:32 [debug] 24725#0: *2 reusable connection: 0
+2020/08/05 09:17:32 [debug] 24725#0: *2 posix_memalign: 00005644E1C489F0:4096 @16
+2020/08/05 09:17:32 [debug] 24725#0: *2 http process request line
+2020/08/05 09:17:32 [debug] 24725#0: *2 http request line: "GET / HTTP/1.1"
+2020/08/05 09:17:32 [debug] 24725#0: *2 http uri: "/"
+2020/08/05 09:17:32 [debug] 24725#0: *2 http args: ""
+2020/08/05 09:17:32 [debug] 24725#0: *2 http exten: ""
+2020/08/05 09:17:32 [debug] 24725#0: *2 posix_memalign: 00005644E1C054F0:4096 @16
+2020/08/05 09:17:32 [debug] 24725#0: *2 http process request header line
+2020/08/05 09:17:32 [debug] 24725#0: *2 http header: "Host: 209.97.190.137"
+2020/08/05 09:17:32 [debug] 24725#0: *2 http header: "Connection: keep-alive"
+2020/08/05 09:17:32 [debug] 24725#0: *2 http header: "DNT: 1"
+2020/08/05 09:17:32 [debug] 24725#0: *2 http header: "Upgrade-Insecure-Requests: 1"
+2020/08/05 09:17:32 [debug] 24725#0: *2 http header: "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+2020/08/05 09:17:32 [debug] 24725#0: *2 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+2020/08/05 09:17:32 [debug] 24725#0: *2 http header: "Accept-Encoding: gzip, deflate"
+2020/08/05 09:17:32 [debug] 24725#0: *2 http header: "Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,ru;q=0.7"
+2020/08/05 09:17:32 [debug] 24725#0: *2 http header done
+2020/08/05 09:17:32 [debug] 24725#0: *2 event timer del: 9: 1276328723
+2020/08/05 09:17:32 [debug] 24725#0: *2 generic phase: 0
+2020/08/05 09:17:32 [debug] 24725#0: *2 rewrite phase: 1
+2020/08/05 09:17:32 [debug] 24725#0: *2 test location: "/"
+2020/08/05 09:17:32 [debug] 24725#0: *2 using configuration "/"
+2020/08/05 09:17:32 [debug] 24725#0: *2 http cl:-1 max:1048576
+2020/08/05 09:17:32 [debug] 24725#0: *2 rewrite phase: 3
+2020/08/05 09:17:32 [debug] 24725#0: *2 post rewrite phase: 4
+2020/08/05 09:17:32 [debug] 24725#0: *2 generic phase: 5
+2020/08/05 09:17:32 [debug] 24725#0: *2 generic phase: 6
+2020/08/05 09:17:32 [debug] 24725#0: *2 generic phase: 7
+2020/08/05 09:17:32 [debug] 24725#0: *2 generic phase: 8
+2020/08/05 09:17:32 [debug] 24725#0: *2 access phase: 9
+2020/08/05 09:17:32 [debug] 24725#0: *2 access phase: 10
+2020/08/05 09:17:32 [debug] 24725#0: *2 access phase: 11
+2020/08/05 09:17:32 [debug] 24725#0: *2 post access phase: 12
+2020/08/05 09:17:32 [debug] 24725#0: *2 generic phase: 13
+2020/08/05 09:17:32 [debug] 24725#0: *2 generic phase: 14
+2020/08/05 09:17:32 [debug] 24725#0: *2 content phase: 15
+2020/08/05 09:17:32 [debug] 24725#0: *2 http finalize request: 302, "/?" a:1, c:1
+2020/08/05 09:17:32 [debug] 24725#0: *2 http special response: 302, "/?"
+2020/08/05 09:17:32 [debug] 24725#0: *2 http set discard body
+2020/08/05 09:17:32 [debug] 24725#0: *2 xslt filter header
+2020/08/05 09:17:32 [debug] 24725#0: *2 HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.16.1
+Date: Wed, 05 Aug 2020 09:17:32 GMT
+Content-Type: text/html
+Content-Length: 145
+Connection: keep-alive
+Location: https://cybersec.kz/ru
+
+2020/08/05 09:17:32 [debug] 24725#0: *2 write new buf t:1 f:0 00005644E1C49828, pos 00005644E1C49828, size: 197 file: 0, size: 0
+2020/08/05 09:17:32 [debug] 24725#0: *2 http write filter: l:0 f:0 s:197
+2020/08/05 09:17:32 [debug] 24725#0: *2 http output filter "/?"
+2020/08/05 09:17:32 [debug] 24725#0: *2 http copy filter: "/?"
+2020/08/05 09:17:32 [debug] 24725#0: *2 image filter
+2020/08/05 09:17:32 [debug] 24725#0: *2 xslt filter body
+2020/08/05 09:17:32 [debug] 24725#0: *2 http postpone filter "/?" 00005644E1C499B0
+2020/08/05 09:17:32 [debug] 24725#0: *2 write old buf t:1 f:0 00005644E1C49828, pos 00005644E1C49828, size: 197 file: 0, size: 0
+2020/08/05 09:17:32 [debug] 24725#0: *2 write new buf t:0 f:0 0000000000000000, pos 00005644E00C28E0, size: 92 file: 0, size: 0
+2020/08/05 09:17:32 [debug] 24725#0: *2 write new buf t:0 f:0 0000000000000000, pos 00005644E00C2C40, size: 53 file: 0, size: 0
+2020/08/05 09:17:32 [debug] 24725#0: *2 http write filter: l:1 f:0 s:342
+2020/08/05 09:17:32 [debug] 24725#0: *2 http write filter limit 0
+2020/08/05 09:17:32 [debug] 24725#0: *2 writev: 342 of 342
+2020/08/05 09:17:32 [debug] 24725#0: *2 http write filter 0000000000000000
+2020/08/05 09:17:32 [debug] 24725#0: *2 http copy filter: 0 "/?"
+2020/08/05 09:17:32 [debug] 24725#0: *2 http finalize request: 0, "/?" a:1, c:1
+2020/08/05 09:17:32 [debug] 24725#0: *2 set http keepalive handler
+2020/08/05 09:17:32 [debug] 24725#0: *2 http close request
+2020/08/05 09:17:32 [debug] 24725#0: *2 http log handler
+2020/08/05 09:17:32 [debug] 24725#0: *2 free: 00005644E1C489F0, unused: 0
+2020/08/05 09:17:32 [debug] 24725#0: *2 free: 00005644E1C054F0, unused: 2760
+2020/08/05 09:17:32 [debug] 24725#0: *2 free: 00005644E1BE90B0
+2020/08/05 09:17:32 [debug] 24725#0: *2 hc free: 0000000000000000
+2020/08/05 09:17:32 [debug] 24725#0: *2 hc busy: 0000000000000000 0
+2020/08/05 09:17:32 [debug] 24725#0: *2 tcp_nodelay
+2020/08/05 09:17:32 [debug] 24725#0: *2 reusable connection: 1
+2020/08/05 09:17:32 [debug] 24725#0: *2 event timer add: 9: 65000:1276333723
+2020/08/05 09:17:32 [debug] 24725#0: timer delta: 0
+2020/08/05 09:17:32 [debug] 24725#0: worker cycle
+2020/08/05 09:17:32 [debug] 24725#0: epoll timer: 65000
+2020/08/05 09:17:37 [debug] 24725#0: epoll: fd:9 ev:0001 d:00007F4346ED22E1
+2020/08/05 09:17:37 [debug] 24725#0: *2 http keepalive handler
+2020/08/05 09:17:37 [debug] 24725#0: *2 malloc: 00005644E1BE90B0:1024
+2020/08/05 09:17:37 [debug] 24725#0: *2 recv: eof:0, avail:1
+2020/08/05 09:17:37 [debug] 24725#0: *2 recv: fd:9 453 of 1024
+2020/08/05 09:17:37 [debug] 24725#0: *2 reusable connection: 0
+2020/08/05 09:17:37 [debug] 24725#0: *2 posix_memalign: 00005644E1C489F0:4096 @16
+2020/08/05 09:17:37 [debug] 24725#0: *2 event timer del: 9: 1276333723
+2020/08/05 09:17:37 [debug] 24725#0: *2 http process request line
+2020/08/05 09:17:37 [debug] 24725#0: *2 http request line: "GET /kk HTTP/1.1"
+2020/08/05 09:17:37 [debug] 24725#0: *2 http uri: "/kk"
+2020/08/05 09:17:37 [debug] 24725#0: *2 http args: ""
+2020/08/05 09:17:37 [debug] 24725#0: *2 http exten: ""
+2020/08/05 09:17:37 [debug] 24725#0: *2 posix_memalign: 00005644E1C054F0:4096 @16
+2020/08/05 09:17:37 [debug] 24725#0: *2 http process request header line
+2020/08/05 09:17:37 [debug] 24725#0: *2 http header: "Host: 209.97.190.137"
+2020/08/05 09:17:37 [debug] 24725#0: *2 http header: "Connection: keep-alive"
+2020/08/05 09:17:37 [debug] 24725#0: *2 http header: "DNT: 1"
+2020/08/05 09:17:37 [debug] 24725#0: *2 http header: "Upgrade-Insecure-Requests: 1"
+2020/08/05 09:17:37 [debug] 24725#0: *2 http header: "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+2020/08/05 09:17:37 [debug] 24725#0: *2 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+2020/08/05 09:17:37 [debug] 24725#0: *2 http header: "Accept-Encoding: gzip, deflate"
+2020/08/05 09:17:37 [debug] 24725#0: *2 http header: "Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,ru;q=0.7"
+2020/08/05 09:17:37 [debug] 24725#0: *2 http header done
+2020/08/05 09:17:37 [debug] 24725#0: *2 generic phase: 0
+2020/08/05 09:17:37 [debug] 24725#0: *2 rewrite phase: 1
+2020/08/05 09:17:37 [debug] 24725#0: *2 test location: "/"
+2020/08/05 09:17:37 [debug] 24725#0: *2 test location: "hackers_count"
+2020/08/05 09:17:37 [debug] 24725#0: *2 test location: "security"
+2020/08/05 09:17:37 [debug] 24725#0: *2 using configuration "/"
+2020/08/05 09:17:37 [debug] 24725#0: *2 http cl:-1 max:1048576
+2020/08/05 09:17:37 [debug] 24725#0: *2 rewrite phase: 3
+2020/08/05 09:17:37 [debug] 24725#0: *2 post rewrite phase: 4
+2020/08/05 09:17:37 [debug] 24725#0: *2 generic phase: 5
+2020/08/05 09:17:37 [debug] 24725#0: *2 generic phase: 6
+2020/08/05 09:17:37 [debug] 24725#0: *2 generic phase: 7
+2020/08/05 09:17:37 [debug] 24725#0: *2 generic phase: 8
+2020/08/05 09:17:37 [debug] 24725#0: *2 access phase: 9
+2020/08/05 09:17:37 [debug] 24725#0: *2 access phase: 10
+2020/08/05 09:17:37 [debug] 24725#0: *2 access phase: 11
+2020/08/05 09:17:37 [debug] 24725#0: *2 post access phase: 12
+2020/08/05 09:17:37 [debug] 24725#0: *2 generic phase: 13
+2020/08/05 09:17:37 [debug] 24725#0: *2 generic phase: 14
+2020/08/05 09:17:37 [debug] 24725#0: *2 content phase: 15
+2020/08/05 09:17:37 [debug] 24725#0: *2 http finalize request: 302, "/kk?" a:1, c:1
+2020/08/05 09:17:37 [debug] 24725#0: *2 http special response: 302, "/kk?"
+2020/08/05 09:17:37 [debug] 24725#0: *2 http set discard body
+2020/08/05 09:17:37 [debug] 24725#0: *2 xslt filter header
+2020/08/05 09:17:37 [debug] 24725#0: *2 HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.16.1
+Date: Wed, 05 Aug 2020 09:17:37 GMT
+Content-Type: text/html
+Content-Length: 145
+Connection: keep-alive
+Location: https://cybersec.kz/ru
+
+2020/08/05 09:17:37 [debug] 24725#0: *2 write new buf t:1 f:0 00005644E1C49828, pos 00005644E1C49828, size: 197 file: 0, size: 0
+2020/08/05 09:17:37 [debug] 24725#0: *2 http write filter: l:0 f:0 s:197
+2020/08/05 09:17:37 [debug] 24725#0: *2 http output filter "/kk?"
+2020/08/05 09:17:37 [debug] 24725#0: *2 http copy filter: "/kk?"
+2020/08/05 09:17:37 [debug] 24725#0: *2 image filter
+2020/08/05 09:17:37 [debug] 24725#0: *2 xslt filter body
+2020/08/05 09:17:37 [debug] 24725#0: *2 http postpone filter "/kk?" 00005644E1C499B0
+2020/08/05 09:17:37 [debug] 24725#0: *2 write old buf t:1 f:0 00005644E1C49828, pos 00005644E1C49828, size: 197 file: 0, size: 0
+2020/08/05 09:17:37 [debug] 24725#0: *2 write new buf t:0 f:0 0000000000000000, pos 00005644E00C28E0, size: 92 file: 0, size: 0
+2020/08/05 09:17:37 [debug] 24725#0: *2 write new buf t:0 f:0 0000000000000000, pos 00005644E00C2C40, size: 53 file: 0, size: 0
+2020/08/05 09:17:37 [debug] 24725#0: *2 http write filter: l:1 f:0 s:342
+2020/08/05 09:17:37 [debug] 24725#0: *2 http write filter limit 0
+2020/08/05 09:17:37 [debug] 24725#0: *2 writev: 342 of 342
+2020/08/05 09:17:37 [debug] 24725#0: *2 http write filter 0000000000000000
+2020/08/05 09:17:37 [debug] 24725#0: *2 http copy filter: 0 "/kk?"
+2020/08/05 09:17:37 [debug] 24725#0: *2 http finalize request: 0, "/kk?" a:1, c:1
+2020/08/05 09:17:37 [debug] 24725#0: *2 set http keepalive handler
+2020/08/05 09:17:37 [debug] 24725#0: *2 http close request
+2020/08/05 09:17:37 [debug] 24725#0: *2 http log handler
+2020/08/05 09:17:37 [debug] 24725#0: *2 free: 00005644E1C489F0, unused: 0
+2020/08/05 09:17:37 [debug] 24725#0: *2 free: 00005644E1C054F0, unused: 2758
+2020/08/05 09:17:37 [debug] 24725#0: *2 free: 00005644E1BE90B0
+2020/08/05 09:17:37 [debug] 24725#0: *2 hc free: 0000000000000000
+2020/08/05 09:17:37 [debug] 24725#0: *2 hc busy: 0000000000000000 0
+2020/08/05 09:17:37 [debug] 24725#0: *2 reusable connection: 1
+2020/08/05 09:17:37 [debug] 24725#0: *2 event timer add: 9: 65000:1276338414
+2020/08/05 09:17:37 [debug] 24725#0: timer delta: 4691
+2020/08/05 09:17:37 [debug] 24725#0: worker cycle
+2020/08/05 09:17:37 [debug] 24725#0: epoll timer: 65000
+2020/08/05 09:18:42 [debug] 24725#0: timer delta: 65010
+2020/08/05 09:18:42 [debug] 24725#0: *2 event timer del: 9: 1276338414
+2020/08/05 09:18:42 [debug] 24725#0: *2 http keepalive handler
+2020/08/05 09:18:42 [debug] 24725#0: *2 close http connection: 9
+2020/08/05 09:18:42 [debug] 24725#0: *2 reusable connection: 0
+2020/08/05 09:18:42 [debug] 24725#0: *2 free: 0000000000000000
+2020/08/05 09:18:42 [debug] 24725#0: *2 free: 00005644E1C88150, unused: 136
+2020/08/05 09:18:42 [debug] 24725#0: worker cycle
+2020/08/05 09:18:42 [debug] 24725#0: epoll timer: -1
+2020/08/05 09:19:21 [debug] 24725#0: epoll: fd:7 ev:0001 d:00007F4346ED2010
+2020/08/05 09:19:21 [debug] 24725#0: accept on 0.0.0.0:80, ready: 0
+2020/08/05 09:19:21 [debug] 24725#0: posix_memalign: 00005644E1C88150:512 @16
+2020/08/05 09:19:21 [debug] 24725#0: *3 accept: 37.150.10.218:54784 fd:9
+2020/08/05 09:19:21 [debug] 24725#0: *3 event timer add: 9: 60000:1276437063
+2020/08/05 09:19:21 [debug] 24725#0: *3 reusable connection: 1
+2020/08/05 09:19:21 [debug] 24725#0: *3 epoll add event: fd:9 op:1 ev:80002001
+2020/08/05 09:19:21 [debug] 24725#0: timer delta: 38639
+2020/08/05 09:19:21 [debug] 24725#0: worker cycle
+2020/08/05 09:19:21 [debug] 24725#0: epoll timer: 60000
+2020/08/05 09:19:21 [debug] 24725#0: epoll: fd:9 ev:0001 d:00007F4346ED22E0
+2020/08/05 09:19:21 [debug] 24725#0: *3 http wait request handler
+2020/08/05 09:19:21 [debug] 24725#0: *3 malloc: 00005644E1BE90B0:1024
+2020/08/05 09:19:21 [debug] 24725#0: *3 recv: eof:0, avail:1
+2020/08/05 09:19:21 [debug] 24725#0: *3 recv: fd:9 451 of 1024
+2020/08/05 09:19:21 [debug] 24725#0: *3 reusable connection: 0
+2020/08/05 09:19:21 [debug] 24725#0: *3 posix_memalign: 00005644E1C489F0:4096 @16
+2020/08/05 09:19:21 [debug] 24725#0: *3 http process request line
+2020/08/05 09:19:21 [debug] 24725#0: *3 http request line: "GET / HTTP/1.1"
+2020/08/05 09:19:21 [debug] 24725#0: *3 http uri: "/"
+2020/08/05 09:19:21 [debug] 24725#0: *3 http args: ""
+2020/08/05 09:19:21 [debug] 24725#0: *3 http exten: ""
+2020/08/05 09:19:21 [debug] 24725#0: *3 posix_memalign: 00005644E1C054F0:4096 @16
+2020/08/05 09:19:21 [debug] 24725#0: *3 http process request header line
+2020/08/05 09:19:21 [debug] 24725#0: *3 http header: "Host: 209.97.190.137"
+2020/08/05 09:19:21 [debug] 24725#0: *3 http header: "Connection: keep-alive"
+2020/08/05 09:19:21 [debug] 24725#0: *3 http header: "DNT: 1"
+2020/08/05 09:19:21 [debug] 24725#0: *3 http header: "Upgrade-Insecure-Requests: 1"
+2020/08/05 09:19:21 [debug] 24725#0: *3 http header: "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+2020/08/05 09:19:21 [debug] 24725#0: *3 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+2020/08/05 09:19:21 [debug] 24725#0: *3 http header: "Accept-Encoding: gzip, deflate"
+2020/08/05 09:19:21 [debug] 24725#0: *3 http header: "Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,ru;q=0.7"
+2020/08/05 09:19:21 [debug] 24725#0: *3 http header done
+2020/08/05 09:19:21 [debug] 24725#0: *3 event timer del: 9: 1276437063
+2020/08/05 09:19:21 [debug] 24725#0: *3 generic phase: 0
+2020/08/05 09:19:21 [debug] 24725#0: *3 rewrite phase: 1
+2020/08/05 09:19:21 [debug] 24725#0: *3 test location: "/"
+2020/08/05 09:19:21 [debug] 24725#0: *3 using configuration "/"
+2020/08/05 09:19:21 [debug] 24725#0: *3 http cl:-1 max:1048576
+2020/08/05 09:19:21 [debug] 24725#0: *3 rewrite phase: 3
+2020/08/05 09:19:21 [debug] 24725#0: *3 post rewrite phase: 4
+2020/08/05 09:19:21 [debug] 24725#0: *3 generic phase: 5
+2020/08/05 09:19:21 [debug] 24725#0: *3 generic phase: 6
+2020/08/05 09:19:21 [debug] 24725#0: *3 generic phase: 7
+2020/08/05 09:19:21 [debug] 24725#0: *3 generic phase: 8
+2020/08/05 09:19:21 [debug] 24725#0: *3 access phase: 9
+2020/08/05 09:19:21 [debug] 24725#0: *3 access phase: 10
+2020/08/05 09:19:21 [debug] 24725#0: *3 access phase: 11
+2020/08/05 09:19:21 [debug] 24725#0: *3 post access phase: 12
+2020/08/05 09:19:21 [debug] 24725#0: *3 generic phase: 13
+2020/08/05 09:19:21 [debug] 24725#0: *3 generic phase: 14
+2020/08/05 09:19:21 [debug] 24725#0: *3 content phase: 15
+2020/08/05 09:19:21 [debug] 24725#0: *3 http finalize request: 302, "/?" a:1, c:1
+2020/08/05 09:19:21 [debug] 24725#0: *3 http special response: 302, "/?"
+2020/08/05 09:19:21 [debug] 24725#0: *3 http set discard body
+2020/08/05 09:19:21 [debug] 24725#0: *3 xslt filter header
+2020/08/05 09:19:21 [debug] 24725#0: *3 HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.16.1
+Date: Wed, 05 Aug 2020 09:19:21 GMT
+Content-Type: text/html
+Content-Length: 145
+Connection: keep-alive
+Location: https://cybersec.kz/ru
+
+2020/08/05 09:19:21 [debug] 24725#0: *3 write new buf t:1 f:0 00005644E1C49828, pos 00005644E1C49828, size: 197 file: 0, size: 0
+2020/08/05 09:19:21 [debug] 24725#0: *3 http write filter: l:0 f:0 s:197
+2020/08/05 09:19:21 [debug] 24725#0: *3 http output filter "/?"
+2020/08/05 09:19:21 [debug] 24725#0: *3 http copy filter: "/?"
+2020/08/05 09:19:21 [debug] 24725#0: *3 image filter
+2020/08/05 09:19:21 [debug] 24725#0: *3 xslt filter body
+2020/08/05 09:19:21 [debug] 24725#0: *3 http postpone filter "/?" 00005644E1C499B0
+2020/08/05 09:19:21 [debug] 24725#0: *3 write old buf t:1 f:0 00005644E1C49828, pos 00005644E1C49828, size: 197 file: 0, size: 0
+2020/08/05 09:19:21 [debug] 24725#0: *3 write new buf t:0 f:0 0000000000000000, pos 00005644E00C28E0, size: 92 file: 0, size: 0
+2020/08/05 09:19:21 [debug] 24725#0: *3 write new buf t:0 f:0 0000000000000000, pos 00005644E00C2C40, size: 53 file: 0, size: 0
+2020/08/05 09:19:21 [debug] 24725#0: *3 http write filter: l:1 f:0 s:342
+2020/08/05 09:19:21 [debug] 24725#0: *3 http write filter limit 0
+2020/08/05 09:19:21 [debug] 24725#0: *3 writev: 342 of 342
+2020/08/05 09:19:21 [debug] 24725#0: *3 http write filter 0000000000000000
+2020/08/05 09:19:21 [debug] 24725#0: *3 http copy filter: 0 "/?"
+2020/08/05 09:19:21 [debug] 24725#0: *3 http finalize request: 0, "/?" a:1, c:1
+2020/08/05 09:19:21 [debug] 24725#0: *3 set http keepalive handler
+2020/08/05 09:19:21 [debug] 24725#0: *3 http close request
+2020/08/05 09:19:21 [debug] 24725#0: *3 http log handler
+2020/08/05 09:19:21 [debug] 24725#0: *3 free: 00005644E1C489F0, unused: 0
+2020/08/05 09:19:21 [debug] 24725#0: *3 free: 00005644E1C054F0, unused: 2760
+2020/08/05 09:19:21 [debug] 24725#0: *3 free: 00005644E1BE90B0
+2020/08/05 09:19:21 [debug] 24725#0: *3 hc free: 0000000000000000
+2020/08/05 09:19:21 [debug] 24725#0: *3 hc busy: 0000000000000000 0
+2020/08/05 09:19:21 [debug] 24725#0: *3 tcp_nodelay
+2020/08/05 09:19:21 [debug] 24725#0: *3 reusable connection: 1
+2020/08/05 09:19:21 [debug] 24725#0: *3 event timer add: 9: 65000:1276442064
+2020/08/05 09:19:21 [debug] 24725#0: timer delta: 1
+2020/08/05 09:19:21 [debug] 24725#0: worker cycle
+2020/08/05 09:19:21 [debug] 24725#0: epoll timer: 65000
+2020/08/05 09:20:26 [debug] 24725#0: timer delta: 65008
+2020/08/05 09:20:26 [debug] 24725#0: *3 event timer del: 9: 1276442064
+2020/08/05 09:20:26 [debug] 24725#0: *3 http keepalive handler
+2020/08/05 09:20:26 [debug] 24725#0: *3 close http connection: 9
+2020/08/05 09:20:26 [debug] 24725#0: *3 reusable connection: 0
+2020/08/05 09:20:26 [debug] 24725#0: *3 free: 0000000000000000
+2020/08/05 09:20:26 [debug] 24725#0: *3 free: 00005644E1C88150, unused: 136
+2020/08/05 09:20:26 [debug] 24725#0: worker cycle
+2020/08/05 09:20:26 [debug] 24725#0: epoll timer: -1
