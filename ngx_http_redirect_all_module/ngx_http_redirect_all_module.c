@@ -58,6 +58,9 @@ static redirect_module_counter key_words_search(ngx_str_t line, redirect_module_
 	if(counter.i_found > 0 && counter.am_found > 0 && counter.hacker_found > 0)
 	{
 		counter.all_found = 1;
+		counter.i_found = 0;
+		counter.am_found = 0;
+		counter.hacker_found = 0;
 	}
         return counter;
 }
@@ -82,6 +85,10 @@ static ngx_int_t ngx_http_redirect_all_handler(ngx_http_request_t *r)
 	static redirect_module_counter counter;
 	counter = key_words_search(r->uri, counter);
 
+	fprintf(stderr, "starting proccessingrequest in redirect module;\n");
+	fprintf(stderr, "counter stats are: i = %d, am = %d, hacker = %d.\n", counter.i_found, counter.am_found, counter.hacker_found);
+	fprintf(stderr, "request uri is %s\n", r->uri.data);
+
 	if(counter.all_found == 1)
 	{
 		ngx_table_elt_t *location;
@@ -96,13 +103,10 @@ static ngx_int_t ngx_http_redirect_all_handler(ngx_http_request_t *r)
 		conf->requestnum++;
 
 		fprintf(stderr, "detected %zd redirections to cybersec\n", conf->requestnum);
+		counter.all_found = 0;
 
 		return NGX_HTTP_MOVED_TEMPORARILY;
 	}
-
-	counter.i_found = 0;
-	counter.am_found = 0;
-	counter.hacker_found = 0;
 
 	return NGX_DECLINED;
 }
