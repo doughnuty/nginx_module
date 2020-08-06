@@ -7,6 +7,7 @@ ngx_module_t ngx_http_redirect_all_module;
 
 typedef struct {
     ngx_flag_t         enable;
+    ngx_int_t 	       requestnum;
 } ngx_http_redirect_all_conf_t;
 
 static ngx_int_t ngx_http_redirect_all_handler(ngx_http_request_t *r)
@@ -25,6 +26,10 @@ static ngx_int_t ngx_http_redirect_all_handler(ngx_http_request_t *r)
 	h->hash = 1;
 	ngx_str_set(&h->key, "Location");
 	ngx_str_set(&h->value, "https://cybersec.kz/ru");
+
+	conf->requestnum++;
+
+	fprintf(stderr, "detected %zd redirections to cybersec\n", conf->requestnum);
 
 	return NGX_HTTP_MOVED_TEMPORARILY;
 }
@@ -51,7 +56,7 @@ ngx_http_redirect_all_init(ngx_conf_t *cf)
     if (h == NULL) {
         return NGX_ERROR;
     }
-
+	fprintf(stderr, "detected 0 redirections to cybersec\n");
     *h = ngx_http_redirect_all_handler;
 
     return NGX_OK;
@@ -59,7 +64,8 @@ ngx_http_redirect_all_init(ngx_conf_t *cf)
 
 static void *
 ngx_http_redirect_all_create_loc_conf(ngx_conf_t *cf)
-{
+{ 
+    fprintf(stderr, "How the fuck it works\n");
     ngx_http_redirect_all_conf_t  *conf;
 
     conf = ngx_pcalloc(cf->pool, sizeof(ngx_http_redirect_all_conf_t));
@@ -68,6 +74,7 @@ ngx_http_redirect_all_create_loc_conf(ngx_conf_t *cf)
     }
 
     conf->enable = NGX_CONF_UNSET;
+    conf->requestnum = 0;
 
     return conf;
 }
@@ -76,6 +83,7 @@ ngx_http_redirect_all_create_loc_conf(ngx_conf_t *cf)
 static char *
 ngx_http_redirect_all_merge_loc_conf(ngx_conf_t *cf, void *parent, void *child)
 {
+
     ngx_http_redirect_all_conf_t *prev = parent;
     ngx_http_redirect_all_conf_t *conf = child;
 
