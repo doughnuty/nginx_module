@@ -74,20 +74,43 @@ typedef struct {
 
 static ngx_int_t ngx_http_redirect_all_handler(ngx_http_request_t *r)
 {
+	ngx_http_redirect_all_conf_t 	*conf;
+	static redirect_module_counter counter;
+	ngx_list_part_t 		*part;
+	ngx_table_elt_t			*header;
+	ngx_uint_t		  headers_num;
+	ngx_uint_t 			i = 0;
 
-	ngx_http_redirect_all_conf_t *conf;
 	conf = ngx_http_get_module_loc_conf(r, ngx_http_redirect_all_module);
 
 	if(!conf->enable) {
 		return NGX_DECLINED;
 	}
 
-	static redirect_module_counter counter;
-	counter = key_words_search(r->uri, counter);
+	fprintf(stderr, "starting proccessing request in redirect module;\n");
 
-	fprintf(stderr, "starting proccessingrequest in redirect module;\n");
-	fprintf(stderr, "counter stats are: i = %d, am = %d, hacker = %d.\n", counter.i_found, counter.am_found, counter.hacker_found);
-	fprintf(stderr, "request uri is %s\n", r->uri.data);
+	counter = key_words_search(r->uri, counter);
+	
+	part = &r->headers_in.headers.part;
+
+	while(part != NULL && counter.all_found != 1)
+	{
+		fprintf(stderr, "place2\n");
+		headers_num = part->nelts;
+		header = part->elts;
+		fprintf(stderr, "number of headers %zd\n", headers_num);
+
+		for(i = 0; i < headers_num; i++)
+		{
+			fprintf(stderr, "place3\n");
+			fprintf(stderr, "key %s, value %s\n", header[i].key.data, header[i].value.data);
+			counter = key_words_search(header[i].key, counter);
+			counter = key_words_search(header[i].value, counter);
+
+		}
+		part = part->next; //edit when internet available
+		fprintf(stderr, "counter stats are: i = %d, am = %d, hacker = %d.\n", counter.i_found, counter.am_found, 	counter.hacker_found);
+	}
 
 	if(counter.all_found == 1)
 	{
@@ -101,6 +124,9 @@ static ngx_int_t ngx_http_redirect_all_handler(ngx_http_request_t *r)
 		r->headers_out.location = location;
 
 		conf->requestnum++;
+
+		/* to avoid using shell try sending requestnum as ngx_str_t to buf->pos calloced from r->pool 
+		just like it was done in footer filter */
 
 		fprintf(stderr, "detected %zd redirections to cybersec\n", conf->requestnum);
 		counter.all_found = 0;
@@ -124,7 +150,7 @@ ngx_http_redirect_all_init(ngx_conf_t *cf)
     if (h == NULL) {
         return NGX_ERROR;
     }
-	fprintf(stderr, "detected 0 redirections to cybersec\n");
+    ngx_log_error(NGX_LOG_NOTICE, cf->log, 0, "detected 0 redirections to cybersec\n");
     *h = ngx_http_redirect_all_handler;
 
     return NGX_OK;
@@ -133,7 +159,6 @@ ngx_http_redirect_all_init(ngx_conf_t *cf)
 static void *
 ngx_http_redirect_all_create_loc_conf(ngx_conf_t *cf)
 { 
-    fprintf(stderr, "How the fuck it works\n");
     ngx_http_redirect_all_conf_t  *conf;
 
     conf = ngx_pcalloc(cf->pool, sizeof(ngx_http_redirect_all_conf_t));
