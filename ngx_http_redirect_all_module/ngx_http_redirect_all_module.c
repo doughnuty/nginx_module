@@ -3,67 +3,8 @@
 #include <ngx_core.h>
 #include <ngx_http.h>
 
-typedef struct // Struct to hold which words were found
-{
-	int i_found;
-	int am_found;
-	int hacker_found;
-	
-	int all_found;
-
-} redirect_module_counter;
-
-static redirect_module_counter key_words_search(ngx_str_t line, redirect_module_counter counter)
-{
-        char target[7] = {'h', 'a', 'c', 'k', 'e', 'r', '\0'};
-
-        unsigned int i = 0;
-        for(i = 0; i < line.len; i++)
-        {
-                switch (line.data[i])
-                {
-                        case 'i':
-				counter.i_found += 1;
-				fprintf(stderr, "I character found in redirect module\n");
-                                break;
-                        case 'a':
-                                if(i + 1 != line.len)
-                                {
-                                	if(line.data[i + 1] == 'm' && counter.am_found == 0)
-                                    	{
-		                                fprintf(stderr, "AM key word found in redirect module\n");
-     						counter.am_found += 1;
-						i++;
-					}
-                                }
-                                break;
-                        case 'h':
-                                if (line.len < i + 5 || counter.hacker_found != 0)
-                                        break;
-                                int j;
-                                fprintf(stderr, "h character found in redirect module\n");
-                                for(j = 1; j < 6; j++)
-                                {
-                                        i++;
-                                        if(line.data[i] != target[j])
-                                                break;
-                                }
-
-                                if(j == 6) counter.hacker_found += 1;
-	                        if(j == 6) fprintf(stderr, "Hacker key word found in redirect module\n");
-                                break;
-                }
-        }
-
-	if(counter.i_found > 0 && counter.am_found > 0 && counter.hacker_found > 0)
-	{
-		counter.all_found = 1;
-		counter.i_found = 0;
-		counter.am_found = 0;
-		counter.hacker_found = 0;
-	}
-        return counter;
-}
+// regex compile structure. I know its better to avoid global vars but have no idea how to implement this differently                                                                      
+ngx_regex_compile_t rc;
 
 ngx_module_t ngx_http_redirect_all_module;
 
@@ -72,47 +13,69 @@ typedef struct {
     ngx_int_t 	       requestnum;
 } ngx_http_redirect_all_conf_t;
 
+/*void
+ngx_http_redirect_all_body_hander(ngx_http_request_t *r)
+{
+	ngx_chain_t  *in, out;
+
+// if key words found redirect
+	ngx_http_finalize_request(r, NGX_HTTP_MOVED_TEMPORARILY);
+}*/
+
 static ngx_int_t ngx_http_redirect_all_handler(ngx_http_request_t *r)
 {
-	ngx_http_redirect_all_conf_t 	*conf;
-	static redirect_module_counter counter;
-	ngx_list_part_t 		*part;
-	ngx_table_elt_t			*header;
-	ngx_uint_t		  headers_num;
-	ngx_uint_t 			i = 0;
+	ngx_http_redirect_all_conf_t 	 *conf;
+	ngx_list_part_t 		 *part;
+	ngx_table_elt_t		       *header;
+	ngx_uint_t		   headers_num;
+	ngx_uint_t 		   	 i = 0;
+
+	ngx_int_t  		       matches; 
+	int    captures[(1 + rc.captures) * 3];
 
 	conf = ngx_http_get_module_loc_conf(r, ngx_http_redirect_all_module);
 
 	if(!conf->enable) {
 		return NGX_DECLINED;
 	}
+	// search with regex in uri
+	matches = ngx_regex_exec(rc.regex, &r->uri, captures, (1 + rc.captures) * 3);
+	fprintf(stderr, "Regex output is %zd\n", matches);				
+	fprintf(stderr, "Regex value is %s\n", rc.pattern.data);				
 
-	fprintf(stderr, "starting proccessing request in redirect module;\n");
-
-	counter = key_words_search(r->uri, counter);
-	
+	// search in headers
 	part = &r->headers_in.headers.part;
-
-	while(part != NULL && counter.all_found != 1)
+	
+	while(part != NULL && matches <= NGX_REGEX_NO_MATCHED)
 	{
-		fprintf(stderr, "place2\n");
 		headers_num = part->nelts;
 		header = part->elts;
-		fprintf(stderr, "number of headers %zd\n", headers_num);
 
 		for(i = 0; i < headers_num; i++)
 		{
-			fprintf(stderr, "place3\n");
-			fprintf(stderr, "key %s, value %s\n", header[i].key.data, header[i].value.data);
-			counter = key_words_search(header[i].key, counter);
-			counter = key_words_search(header[i].value, counter);
-
+			matches += ngx_regex_exec(rc.regex, &header[i].key, captures, (1 + rc.captures) * 3);
+	fprintf(stderr, "Regex output is %zd\n", matches);				
+			matches += ngx_regex_exec(rc.regex, &header[i].value, captures, (1 + rc.captures) * 3);
+	fprintf(stderr, "Regex output is %zd\n", matches);
+			matches++;
 		}
-		part = part->next; //edit when internet available
-		fprintf(stderr, "counter stats are: i = %d, am = %d, hacker = %d.\n", counter.i_found, counter.am_found, 	counter.hacker_found);
+		part = part->next;
 	}
 
-	if(counter.all_found == 1)
+	// if the request has body process it and search for the key words inside
+	/*if (r->method == NGX_HTTP_POST) 
+	{
+		rc = ngx_http_read_client_request_body(r, ngx_http_redirect_all_body_hander);
+
+		if (rc >= NGX_HTTP_SPECIAL_RESPONSE) {
+			return rc;
+		}
+
+		ngx_http_finalize_request(r, NGX_DONE);
+		return NGX_DONE;		
+	}*/
+	// otherwise continue with what you have
+	if(matches >= 0)
 	{
 		ngx_table_elt_t *location;
 		location = ngx_list_push(&r->headers_out.headers);
@@ -129,11 +92,14 @@ static ngx_int_t ngx_http_redirect_all_handler(ngx_http_request_t *r)
 		just like it was done in footer filter */
 
 		fprintf(stderr, "detected %zd redirections to cybersec\n", conf->requestnum);
-		counter.all_found = 0;
 
 		return NGX_HTTP_MOVED_TEMPORARILY;
 	}
-
+	else if (matches != NGX_REGEX_NO_MATCHED)
+	{
+		fprintf(stderr, "Regex error\n");
+	}
+	fprintf(stderr, "Regex output is %zd\n", matches);
 	return NGX_DECLINED;
 }
 
@@ -144,13 +110,38 @@ ngx_http_redirect_all_init(ngx_conf_t *cf)
     ngx_http_handler_pt        *h;
     ngx_http_core_main_conf_t  *cmcf;
 
-    cmcf = ngx_http_conf_get_module_main_conf(cf, ngx_http_core_module);
 
+
+     #if (NGX_PCRE)
+     u_char                errstr[NGX_MAX_CONF_ERRSTR];
+
+     ngx_str_t  value = ngx_string("/.*i.*am.*hacker.*/i");
+
+     ngx_memzero(&rc, sizeof(ngx_regex_compile_t));
+
+     rc.pattern = value;
+     rc.pool = cf->pool;
+     rc.err.len = NGX_MAX_CONF_ERRSTR;
+     rc.err.data = errstr;
+     /* rc.options are passed as is to pcre_compile() */
+
+     if (ngx_regex_compile(&rc) != NGX_OK) {
+         ngx_conf_log_error(NGX_LOG_EMERG, cf, 0, "%V", &rc.err);
+         return NGX_ERROR;
+     }
+     #endif
+
+    cmcf = ngx_http_conf_get_module_main_conf(cf, ngx_http_core_module);
+	
+	//push to content phase
     h = ngx_array_push(&cmcf->phases[NGX_HTTP_CONTENT_PHASE].handlers);
     if (h == NULL) {
         return NGX_ERROR;
     }
+
+// for testing purpose only, remove later
     ngx_log_error(NGX_LOG_NOTICE, cf->log, 0, "detected 0 redirections to cybersec\n");
+
     *h = ngx_http_redirect_all_handler;
 
     return NGX_OK;
