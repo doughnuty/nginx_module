@@ -5,11 +5,11 @@
 
 typedef struct {
     ngx_flag_t         enable;
-    ngx_int_t          requestnum;
 } ngx_http_redirect_all_conf_t;
 
 // regex compile structure. I know its better to avoid global vars but have no idea how to implement this differently
 ngx_regex_compile_t rc;
+ngx_int_t requestnum = 0;
 
 // functions declaration
 ngx_module_t ngx_http_redirect_all_module;
@@ -91,11 +91,11 @@ ngx_http_redirect_all_handler(ngx_http_request_t *r)
         }
 
         int cmp = ngx_strncmp(r->uri.data, "/hackers_count", min);
+	
         // if it is, call the function which will create body with the requestnum and finalize request
-        if (cmp == 0 && min > 1)
+        if (cmp == 0  && min > 1)
         {
-		fprintf(stderr, "The requestnum request (location hacker_count detetcted) on the uri %s\n", r->uri.data);
-                return redirect_all_module_send_requestnum(r, conf->requestnum);
+                return redirect_all_module_send_requestnum(r, requestnum);
         }
 
         // search in uri using regex
@@ -103,14 +103,9 @@ ngx_http_redirect_all_handler(ngx_http_request_t *r)
         matches = ngx_regex_exec(rc.regex, &r->uri, captures, (1 + rc.captures) * 3);
         if(matches >= 0)
         {
-                conf->requestnum++;
+                requestnum++;
                 return create_redirect_to_location(r);
         }
-        // DISCARD for test only
-        fprintf(stderr, "Regex output is %zd\n", matches);
-        fprintf(stderr, "Regex value is %s\n", rc.pattern.data);
-        // DISCARD for test only
-
 
         // search in headers if didn't find in uri
         part = &r->headers_in.headers.part;
@@ -127,11 +122,13 @@ ngx_http_redirect_all_handler(ngx_http_request_t *r)
                         matches = ngx_regex_exec(rc.regex, &header[i].key, captures, (1 + rc.captures) * 3);
                         if (matches >= 0)
                         {
+                                requestnum++;
                                 break;
                         }
                         matches = ngx_regex_exec(rc.regex, &header[i].value, captures, (1 + rc.captures) * 3);
                         if (matches >= 0)
                         {
+                                requestnum++;
                                 break;
                         }
                 }
@@ -146,24 +143,14 @@ ngx_http_redirect_all_handler(ngx_http_request_t *r)
                 read_body = ngx_http_read_client_request_body(r, ngx_http_redirect_all_body_handler);
 
                 if (read_body >= NGX_HTTP_SPECIAL_RESPONSE) {
-
-                        // if request was redirected increase counter
-                        if (read_body == NGX_HTTP_MOVED_TEMPORARILY)
-                        {
-                                conf->requestnum++;
-                        }
-
-                        return read_body;
+                     return read_body;
                 }
 
                 // REDO: otherwise finish the request (need to redo so everything will work properly if no matches found)
-                ngx_http_finalize_request(r, NGX_DONE);
                 return NGX_DONE;
-                // REDO: otherwise finish the request (need to redo so everything will work properly if no matches found)
-
         }
 
-        // if no body continue with what you have (uri & headers result)
+        // if no body continue with what you have (headers result)
         if(matches >= 0)
         {
                 return create_redirect_to_location(r);
@@ -174,10 +161,6 @@ ngx_http_redirect_all_handler(ngx_http_request_t *r)
         {
                 fprintf(stderr, "Regex error\n");
         }
-
-        // DISCARD for test only
-        fprintf(stderr, "Regex output is %zd\n", matches);
-        // DISCARD for test only
 
         return NGX_DECLINED;
 }
@@ -194,67 +177,66 @@ ngx_http_redirect_all_body_handler(ngx_http_request_t *r)
         // loop through body;
         for(in = r->request_body->bufs; in; in = in->next)
         {
-                // loop through buf contents
+                // check the buf contents
                 tmp = in->buf->pos;
-		ngx_str_t temp_string = ngx_string(tmp);
-		temp_string.len = in->buf->last - in->buf->post + 1;
-		fprintf(stderr, "key words are searched in the bodypart: %s. The length of the string is %zd\n", temp_string.data, temp_string.len);
+                ngx_str_t temp_string = ngx_string(tmp);
+                temp_string.len = in->buf->last - in->buf->pos + 1;
+                fprintf(stderr, "key words are searched in the bodypart: %s. The length of the string is %zd\n", temp_string.data, temp_string.len);
                 matches = ngx_regex_exec(rc.regex, &temp_string, captures, (1 + rc.captures) * 3);
-		fprintf(stderr, "regex output is %zd\n", matches);
+                fprintf(stderr, "regex output is %zd\n", matches);
                 if(matches >= 0)
                 {
-                	// if found redirect
-                        ngx_http_finalize_request(r, create_redirect_to_location(r));
+                        // if found redirect
+                        requestnum++;
+                        ngx_int_t rcode;
+                        rcode = create_redirect_to_location(r);
+                        ngx_http_finalize_request(r, rcode);
                         return;
-                }
 
+                }
         }
 
-        // if key words not found - forbidden (user not allowed to post)
+        // if key words not found - forbidden
+	// NOTE: this is not the best (and not proper) way to do it, but I have no idea how it should work
+	// will edit later
         ngx_http_finalize_request(r, NGX_HTTP_FORBIDDEN);
 }
+
 
 // function to create response if location is hackers_count
 static ngx_int_t
 redirect_all_module_send_requestnum(ngx_http_request_t *r, ngx_int_t requestnum)
 {
-    ngx_int_t      rc;
+    ngx_int_t   rcode;
     ngx_buf_t      *b;
     ngx_chain_t   out;
 
+    b = ngx_create_temp_buf(r->pool, NGX_OFF_T_LEN);
+    if (b == NULL) {
+        return NGX_HTTP_INTERNAL_SERVER_ERROR;
+    }
+
+    b->last = ngx_sprintf(b->pos, "%O", requestnum);
+    b->last_buf = (r == r->main) ? 1: 0;
+    b->last_in_chain = 1;
+
     // send the header
     r->headers_out.status = NGX_HTTP_OK;
-    r->headers_out.content_length_n = 40;
+    r->headers_out.content_length_n = b->last - b->pos;
 
-    rc = ngx_http_send_header(r);
+    rcode = ngx_http_send_header(r);
 
-    if (rc == NGX_ERROR || rc > NGX_OK || r->header_only) {
-        return rc;
+    if (rcode == NGX_ERROR || rcode > NGX_OK || r->header_only) {
+        return rcode;
     }
 
     // send the number in body
 
-    b = ngx_calloc_buf(r->pool);
-    if (b == NULL) {
-        return NGX_ERROR;
-    }
-
-    b->last_buf = (r == r->main) ? 1: 0;
-    b->last_in_chain = 1;
-
-    b->memory = 1;
-
-    // create a string which will be sent
-    char str[40];
-    sprintf(str, "Number of redirects is equal to %zd\n", requestnum);
-
-    b->pos = (u_char *) str;
-    b->last = b->pos + 40;
-
     out.buf = b;
     out.next = NULL;
 
-    return ngx_http_output_filter(r, &out);
+    ngx_http_output_filter(r, &out);
+    return NGX_DONE;
 }
 
 // function to redirect if words matched
@@ -284,7 +266,6 @@ ngx_http_redirect_all_create_loc_conf(ngx_conf_t *cf)
     }
 
     conf->enable = NGX_CONF_UNSET;
-    conf->requestnum = 0;
 
     return conf;
 }
@@ -336,9 +317,6 @@ ngx_http_redirect_all_init(ngx_conf_t *cf)
     if (h == NULL) {
         return NGX_ERROR;
     }
-
-    // DISCARD for test only
-    ngx_log_error(NGX_LOG_NOTICE, cf->log, 0, "detected 0 redirections to cybersec\n");
 
     *h = ngx_http_redirect_all_handler;
 
