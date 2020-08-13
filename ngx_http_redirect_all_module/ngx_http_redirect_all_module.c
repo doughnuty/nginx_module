@@ -307,11 +307,12 @@ ngx_http_redirect_all_init(ngx_conf_t *cf)
      #if (NGX_PCRE)
      u_char                errstr[NGX_MAX_CONF_ERRSTR];
 
-     ngx_str_t  value = ngx_string("/.*i.*am.*hacker.*/i");
+     ngx_str_t  value = ngx_string(".*i.*am.*hacker.*");
 
      ngx_memzero(&rc, sizeof(ngx_regex_compile_t));
 
      rc.pattern = value;
+     rc.options = NGX_REGEX_CASELESS;
      rc.pool = cf->pool;
      rc.err.len = NGX_MAX_CONF_ERRSTR;
      rc.err.data = errstr;
