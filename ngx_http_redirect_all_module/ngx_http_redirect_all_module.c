@@ -25,7 +25,7 @@ static char * ngx_http_redirect_all_merge_loc_conf(ngx_conf_t *cf, void *parent,
 static ngx_command_t  ngx_http_redirect_all_commands[] = {
 
     { ngx_string("redirect_all"),
-      NGX_HTTP_MAIN_CONF|NGX_HTTP_SRV_CONF|NGX_HTTP_LOC_CONF|NGX_CONF_FLAG,
+     NGX_HTTP_MAIN_CONF|NGX_HTTP_SRV_CONF|NGX_HTTP_LOC_CONF|NGX_CONF_FLAG,
       ngx_conf_set_flag_slot,
       NGX_HTTP_LOC_CONF_OFFSET,
       offsetof(ngx_http_redirect_all_conf_t, enable),
@@ -92,15 +92,20 @@ ngx_http_redirect_all_handler(ngx_http_request_t *r)
 
         int cmp = ngx_strncmp(r->uri.data, "/hackers_count", min);
         // if it is, call the function which will create body with the requestnum and finalize request
-        if (cmp == 0)
+        if (cmp == 0 && min > 1)
         {
+		fprintf(stderr, "The requestnum request (location hacker_count detetcted) on the uri %s\n", r->uri.data);
                 return redirect_all_module_send_requestnum(r, conf->requestnum);
         }
 
         // search in uri using regex
 
         matches = ngx_regex_exec(rc.regex, &r->uri, captures, (1 + rc.captures) * 3);
-
+        if(matches >= 0)
+        {
+                conf->requestnum++;
+                return create_redirect_to_location(r);
+        }
         // DISCARD for test only
         fprintf(stderr, "Regex output is %zd\n", matches);
         fprintf(stderr, "Regex value is %s\n", rc.pattern.data);
@@ -119,12 +124,12 @@ ngx_http_redirect_all_handler(ngx_http_request_t *r)
                 for(i = 0; i < headers_num; i++)
                 {
                         // search in header, ugly, needs improvement
-                        matches += ngx_regex_exec(rc.regex, &header[i].key, captures, (1 + rc.captures) * 3);
+                        matches = ngx_regex_exec(rc.regex, &header[i].key, captures, (1 + rc.captures) * 3);
                         if (matches >= 0)
                         {
                                 break;
                         }
-                        matches += ngx_regex_exec(rc.regex, &header[i].value, captures, (1 + rc.captures) * 3);
+                        matches = ngx_regex_exec(rc.regex, &header[i].value, captures, (1 + rc.captures) * 3);
                         if (matches >= 0)
                         {
                                 break;
