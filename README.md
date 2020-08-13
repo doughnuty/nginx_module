@@ -2,6 +2,7 @@
 
 A simple nginx module which `<ideally have to>` redirect unwanted requests to the given website. 
 Last version can be found in redirect_all directory, but the final one will be renamed and moved to the security task module
+**UPD** - pcre now works properly
 
 ## Synopsis
 ```nginx
@@ -37,7 +38,7 @@ Although it does not support body proccessing and requires a shell file to enabl
 As for the following commit (in redirect_all directory), it has several changes in multiple aspects which are listed bellow
 
 ## Changes
-* Self-made algorithm completely removed and changed to PCRE regex. Though latest test has shown that script_exec does not produce required output, returning -1 (NGX_REGEX_NO_MATCHED) when the match has clearly occured. Most probably typo in the ngx_regex_compile related proccess.
+* Self-made algorithm completely removed and changed to PCRE regex.
 * Body proccessing added but has not been tested yet, may need to add memcpy functions. Also not sure about the request finalization process in case if no matches were found. *QUESTION: should I finalize with NGX_DONE or I can somehow DECLINE handler. If not, how to manage all the internal redirects (ex. 404) or they will be managed automaticly?* 
 * If the request uri is hackers_count create a response, body of which will tell how much redirects have been made, and return status code 200 (NGX_HTTP_OK). 
 * Code refactoring to make the module look more like a module (compared to the previous versions) and some comments to ease the navigation
