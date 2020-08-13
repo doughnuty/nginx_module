@@ -139,7 +139,7 @@ ngx_http_redirect_all_handler(ngx_http_request_t *r)
         }
 
         // if the request has body, process it and search for the key words inside
-        if (r->request_body != NULL)
+        if (r->method == NGX_HTTP_POST)
         {
                 ngx_int_t  read_body;
                 // access the body
@@ -196,24 +196,22 @@ ngx_http_redirect_all_body_handler(ngx_http_request_t *r)
         {
                 // loop through buf contents
                 tmp = in->buf->pos;
-                while(tmp <= in->buf->last)
+		ngx_str_t temp_string = ngx_string(tmp);
+		temp_string.len = in->buf->last - in->buf->post + 1;
+		fprintf(stderr, "key words are searched in the bodypart: %s. The length of the string is %zd\n", temp_string.data, temp_string.len);
+                matches = ngx_regex_exec(rc.regex, &temp_string, captures, (1 + rc.captures) * 3);
+		fprintf(stderr, "regex output is %zd\n", matches);
+                if(matches >= 0)
                 {
-                        // check for matches with regex
-                        ngx_str_t temp_string = ngx_string(tmp);
-                        matches = ngx_regex_exec(rc.regex, &temp_string, captures, (1 + rc.captures) * 3);
-                        if(matches >= 0)
-                        {
-                                // if found redirect
-                                ngx_http_finalize_request(r, create_redirect_to_location(r));
-                                return;
-                        }
-                        // else continue
-                        tmp++;
+                	// if found redirect
+                        ngx_http_finalize_request(r, create_redirect_to_location(r));
+                        return;
                 }
+
         }
 
-        // if key words not found - DONE
-        ngx_http_finalize_request(r, NGX_DONE);
+        // if key words not found - forbidden (user not allowed to post)
+        ngx_http_finalize_request(r, NGX_HTTP_FORBIDDEN);
 }
 
 // function to create response if location is hackers_count
