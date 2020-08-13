@@ -5,10 +5,10 @@
 
 typedef struct {
     ngx_flag_t         enable;
-    ngx_int_t 	       requestnum;
+    ngx_int_t          requestnum;
 } ngx_http_redirect_all_conf_t;
 
-// regex compile structure. I know its better to avoid global vars but have no idea how to implement this differently         
+// regex compile structure. I know its better to avoid global vars but have no idea how to implement this differently
 ngx_regex_compile_t rc;
 
 // functions declaration
@@ -61,160 +61,162 @@ ngx_module_t ngx_http_redirect_all_module = {
   NGX_MODULE_V1_PADDING
 };
 
-static ngx_int_t 
+static ngx_int_t
 ngx_http_redirect_all_handler(ngx_http_request_t *r)
 {
-	ngx_http_redirect_all_conf_t 	 *conf;
-	ngx_list_part_t 		 *part;
-	ngx_table_elt_t		       *header;
-	ngx_uint_t		   headers_num;
-	ngx_uint_t 		   	 i = 0;
+        ngx_http_redirect_all_conf_t     *conf;
+        ngx_list_part_t                  *part;
+        ngx_table_elt_t                *header;
+        ngx_uint_t                 headers_num;
+        ngx_uint_t                       i = 0;
 
-	ngx_int_t  		       matches; 
-	int    captures[(1 + rc.captures) * 3];
+        ngx_int_t                      matches;
+        int    captures[(1 + rc.captures) * 3];
 
-	// get module configuration
-	conf = ngx_http_get_module_loc_conf(r, ngx_http_redirect_all_module);
+        // get module configuration
+        conf = ngx_http_get_module_loc_conf(r, ngx_http_redirect_all_module);
 
-	// quit if unabled
-	if(!conf->enable) {
-		return NGX_DECLINED;
-	}
+        // quit if unabled
+        if(!conf->enable) {
+                return NGX_DECLINED;
+        }
 
-	// check if the uri is hackers_count
+        // check if the uri is hackers_count
 
-	// check which is shorter
-	int min = ngx_strlen("/hackers_count");
-	if(r->uri.len < ngx_strlen("/hackers_count"))
-	{
-		min = r->uri.len;
-	}
+        // check which is shorter
+        int min = ngx_strlen("/hackers_count");
+        if(r->uri.len < ngx_strlen("/hackers_count"))
+        {
+                min = r->uri.len;
+        }
 
-	int cmp = ngx_strncmp(r->uri.data, "/hackers_count", min);
-	// if it is, call the function which will create body with the requestnum and finalize request
-	if (cmp	== 0)
-	{
-		return redirect_all_module_send_requestnum(r, conf->requestnum);
-	}
+        int cmp = ngx_strncmp(r->uri.data, "/hackers_count", min);
+        // if it is, call the function which will create body with the requestnum and finalize request
+        if (cmp == 0)
+        {
+                return redirect_all_module_send_requestnum(r, conf->requestnum);
+        }
 
-	// search in uri using regex
+        // search in uri using regex
 
-	matches = ngx_regex_exec(rc.regex, &r->uri, captures, (1 + rc.captures) * 3);
+        matches = ngx_regex_exec(rc.regex, &r->uri, captures, (1 + rc.captures) * 3);
 
-	// DISCARD for test only
-	fprintf(stderr, "Regex output is %zd\n", matches);				
-	fprintf(stderr, "Regex value is %s\n", rc.pattern.data);				
-	// DISCARD for test only
+        // DISCARD for test only
+        fprintf(stderr, "Regex output is %zd\n", matches);
+        fprintf(stderr, "Regex value is %s\n", rc.pattern.data);
+        // DISCARD for test only
 
 
-	// search in headers if didn't find in uri
-	part = &r->headers_in.headers.part;
-	
-	while(part != NULL && matches <= NGX_REGEX_NO_MATCHED)
-	{
-		headers_num = part->nelts;
-		header = part->elts;
+        // search in headers if didn't find in uri
+        part = &r->headers_in.headers.part;
 
-		// loop through headers
-		for(i = 0; i < headers_num; i++)
-		{
-			// search in header, ugly, needs improvement 
-			matches += ngx_regex_exec(rc.regex, &header[i].key, captures, (1 + rc.captures) * 3);
-			if (matches >= 0)
-			{
-				break;
-			}
-			matches += ngx_regex_exec(rc.regex, &header[i].value, captures, (1 + rc.captures) * 3);
-			if (matches >= 0)
-			{
-				break;
-			}	
-		}
-		part = part->next;
-	}
+        while(part != NULL && matches <= NGX_REGEX_NO_MATCHED)
+        {
+                headers_num = part->nelts;
+                header = part->elts;
 
-	// if the request has body, process it and search for the key words inside
-	if (r->request_body != NULL) 
-	{
-		// access the body
-		rc = ngx_http_read_client_request_body(r, ngx_http_redirect_all_body_handler);
+                // loop through headers
+                for(i = 0; i < headers_num; i++)
+                {
+                        // search in header, ugly, needs improvement
+                        matches += ngx_regex_exec(rc.regex, &header[i].key, captures, (1 + rc.captures) * 3);
+                        if (matches >= 0)
+                        {
+                                break;
+                        }
+                        matches += ngx_regex_exec(rc.regex, &header[i].value, captures, (1 + rc.captures) * 3);
+                        if (matches >= 0)
+                        {
+                                break;
+                        }
+                }
+                part = part->next;
+        }
 
-		if (rc >= NGX_HTTP_SPECIAL_RESPONSE) {
+        // if the request has body, process it and search for the key words inside
+        if (r->request_body != NULL)
+        {
+                ngx_int_t  read_body;
+                // access the body
+                read_body = ngx_http_read_client_request_body(r, ngx_http_redirect_all_body_handler);
 
-			// if request was redirected increase counter
-			if (rc == NGX_HTTP_MOVED_TEMPORARILY)
-			{
-				conf->requestnum++;
-			}
+                if (read_body >= NGX_HTTP_SPECIAL_RESPONSE) {
 
-			return rc;
-		}
+                        // if request was redirected increase counter
+                        if (read_body == NGX_HTTP_MOVED_TEMPORARILY)
+                        {
+                                conf->requestnum++;
+                        }
 
-		// REDO: otherwise finish the request (need to redo so everything will work properly if no matches found)
-		ngx_http_finalize_request(r, NGX_DONE);
-		return NGX_DONE;		
-		// REDO: otherwise finish the request (need to redo so everything will work properly if no matches found)
+                        return read_body;
+                }
 
-	}
+                // REDO: otherwise finish the request (need to redo so everything will work properly if no matches found)
+                ngx_http_finalize_request(r, NGX_DONE);
+                return NGX_DONE;
+                // REDO: otherwise finish the request (need to redo so everything will work properly if no matches found)
 
-	// if no body continue with what you have (uri & headers result)
-	if(matches >= 0)
-	{
-		return create_redirect_to_location(r, conf);
-	}
+        }
 
-	// no matches exit handler
-	else if (matches != NGX_REGEX_NO_MATCHED)
-	{
-		fprintf(stderr, "Regex error\n");
-	}
+        // if no body continue with what you have (uri & headers result)
+        if(matches >= 0)
+        {
+                return create_redirect_to_location(r);
+        }
 
-	// DISCARD for test only
-	fprintf(stderr, "Regex output is %zd\n", matches);
-	// DISCARD for test only
+        // no matches exit handler
+        else if (matches != NGX_REGEX_NO_MATCHED)
+        {
+                fprintf(stderr, "Regex error\n");
+        }
 
-	return NGX_DECLINED;
+        // DISCARD for test only
+        fprintf(stderr, "Regex output is %zd\n", matches);
+        // DISCARD for test only
+
+        return NGX_DECLINED;
 }
 
 // function to handle the body
 void
 ngx_http_redirect_all_body_handler(ngx_http_request_t *r)
 {
-	ngx_chain_t  *in, out;
-	u_char		 *tmp;
-	ngx_int_t     matches;
-	int    captures[(1 + rc.captures) * 3];
+        ngx_chain_t       *in;
+        u_char           *tmp;
+        ngx_int_t     matches;
+        int    captures[(1 + rc.captures) * 3];
 
-	// loop through body;
-	for(in = request->request_body->bufs; in; in = in->next)
-	{
-		// loop through buf contents
-		tmp = in->buf->pos;
-		while(tmp <= last)
-		{
-			// check for matches with regex
-			matches = ngx_regex_exec(rc->regex, &ngx_string(tmp), captures, (1 + rc.captures) * 3);
-			if(matches >= 0)
-			{
-				// if found redirect
-				ngx_http_finalize_request(r, create_redirect_to_location(r));
-				return;
-			}
-			// else continue
-			tmp++;
-		}
-	}
+        // loop through body;
+        for(in = r->request_body->bufs; in; in = in->next)
+        {
+                // loop through buf contents
+                tmp = in->buf->pos;
+                while(tmp <= in->buf->last)
+                {
+                        // check for matches with regex
+                        ngx_str_t temp_string = ngx_string(tmp);
+                        matches = ngx_regex_exec(rc.regex, &temp_string, captures, (1 + rc.captures) * 3);
+                        if(matches >= 0)
+                        {
+                                // if found redirect
+                                ngx_http_finalize_request(r, create_redirect_to_location(r));
+                                return;
+                        }
+                        // else continue
+                        tmp++;
+                }
+        }
 
-	// if key words not found - DONE
-	ngx_http_finalize_request(r, NGX_DONE);
+        // if key words not found - DONE
+        ngx_http_finalize_request(r, NGX_DONE);
 }
 
 // function to create response if location is hackers_count
 static ngx_int_t
 redirect_all_module_send_requestnum(ngx_http_request_t *r, ngx_int_t requestnum)
 {
-    ngx_int_t     rc;
-    ngx_buf_t    *b;
+    ngx_int_t      rc;
+    ngx_buf_t      *b;
     ngx_chain_t   out;
 
     // send the header
@@ -239,8 +241,8 @@ redirect_all_module_send_requestnum(ngx_http_request_t *r, ngx_int_t requestnum)
 
     b->memory = 1;
 
-    // create a string which will be sent 
-    u_char str[40];
+    // create a string which will be sent
+    char str[40];
     sprintf(str, "Number of redirects is equal to %zd\n", requestnum);
 
     b->pos = (u_char *) str;
@@ -253,24 +255,24 @@ redirect_all_module_send_requestnum(ngx_http_request_t *r, ngx_int_t requestnum)
 }
 
 // function to redirect if words matched
-static ngx_int_t 
+static ngx_int_t
 create_redirect_to_location(ngx_http_request_t *r)
 {
-	ngx_table_elt_t *location;
-	location = ngx_list_push(&r->headers_out.headers);
-	location->hash = 1;
-	ngx_str_set(&location->key, "Location");
-	ngx_str_set(&location->value, "https://cybersec.kz/ru");
+        ngx_table_elt_t *location;
+        location = ngx_list_push(&r->headers_out.headers);
+        location->hash = 1;
+        ngx_str_set(&location->key, "Location");
+        ngx_str_set(&location->value, "https://cybersec.kz/ru");
 
-	ngx_http_clear_location(r);
-	r->headers_out.location = location;
+        ngx_http_clear_location(r);
+        r->headers_out.location = location;
 
-	return NGX_HTTP_MOVED_TEMPORARILY;
+        return NGX_HTTP_MOVED_TEMPORARILY;
 }
 
 static void *
 ngx_http_redirect_all_create_loc_conf(ngx_conf_t *cf)
-{ 
+{
     ngx_http_redirect_all_conf_t  *conf;
 
     conf = ngx_pcalloc(cf->pool, sizeof(ngx_http_redirect_all_conf_t));
@@ -325,8 +327,8 @@ ngx_http_redirect_all_init(ngx_conf_t *cf)
      #endif
 
     cmcf = ngx_http_conf_get_module_main_conf(cf, ngx_http_core_module);
-	
-	//push to content phase
+
+        //push to content phase
     h = ngx_array_push(&cmcf->phases[NGX_HTTP_CONTENT_PHASE].handlers);
     if (h == NULL) {
         return NGX_ERROR;
